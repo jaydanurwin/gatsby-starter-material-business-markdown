@@ -100,6 +100,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 # TODO's
 
+- [X] add favicon
 - [ ] get MDC React working
 - [ ] style out home page
 - [ ] style out about page
