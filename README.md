@@ -95,4 +95,15 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
 # anoun-static
+
+# TODO's
+
+- [ ] get MDC React working
+- [ ] style out home page
+- [ ] style out about page
+- [ ] add reset styles
+- [ ] add typography styles(MDC maybe?)
+- [ ] add SEO features from ghost-starter and prismic-starter
+- [ ] add manifest file
