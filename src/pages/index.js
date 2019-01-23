@@ -1,5 +1,5 @@
 import React from "react";
-import footerProfile from "../../static/images/footer-profile-image.png";
+import footerProfile from "../../static/images/footer-profile.png";
 import instagramOutlineLightTheme from "../../static/images/instagram-logo-outline--lightTheme.svg";
 import idahoOutlineLightTheme from "../../static/images/idaho-outline--lightTheme.svg";
 
