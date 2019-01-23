@@ -17,7 +17,16 @@ const Index = ({}) => (
                 about it. We don't cut corners and we don't ship anything half
                 baked or incomplete.
             </p>
-            <h4>Made in Idaho</h4>
+            <h4>
+                Made in
+                <img
+                    src="./images/idaho-outline--lightTheme.svg"
+                    width="24px"
+                    height="auto"
+                    id="idahoImage"
+                    alt="idaho-state-vector-outline-svg"
+                />
+            </h4>
             <p>
                 Although I currently call Nampa, Idaho home I can meet anywhere
                 in Boise or Meridian (as long as the coffee ☕️ is good). If
@@ -36,21 +45,20 @@ const Index = ({}) => (
                 <p>
                     founder of <span class="anoun-title">ANOUN</span>
                 </p>
-                
-                    <p class="mdc-typography--body">(208) 807-9333</p>
-        
-                    <p class="mdc-typography--body">jaydan.urwin@gmail.com</p>
 
- 
-                    <p class="mdc-typography--body">
-                        Instagram
-                        <img
-                            src="/images/instagram-logo-outline--lightTheme.svg"
-                            id="igLogo"
-                            width="14px"
-                            alt="instagram-logo-vector-svg"
-                        />
-                    </p>
+                <p class="mdc-typography--body">(208) 807-9333</p>
+
+                <p class="mdc-typography--body">jaydan.urwin@gmail.com</p>
+
+                <p class="mdc-typography--body">
+                    Instagram
+                    <img
+                        src="/images/instagram-logo-outline--lightTheme.svg"
+                        id="igLogo"
+                        width="14px"
+                        alt="instagram-logo-vector-svg"
+                    />
+                </p>
             </div>
         </section>
     </>
