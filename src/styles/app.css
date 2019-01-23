@@ -52,6 +52,7 @@
 html,
 body {
   height: 100vh;
+  margin: 0;
   padding: 1rem;
   background-color: var(--color-bg);
   color: var(--color-on-bg);
