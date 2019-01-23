@@ -103,11 +103,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [X] add favicon
 - [ ] get home page moved over (no CMS)
   - [ ] [use React Helmet for Google Fonts](https://www.gatsbyjs.org/tutorial/part-eight/#add-page-metadata)
-  - [ ] add Typography styles 
+  - [ ] add Typography styles
 - [ ] get MDC React working
-- [ ] style out home page
 - [ ] style out about page
-- [ ] add reset styles
-- [ ] add typography styles(MDC maybe?)
+- [X] add reset styles
 - [ ] add SEO features from ghost-starter and prismic-starter
 - [ ] add manifest file
