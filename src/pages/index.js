@@ -1,4 +1,7 @@
 import React from "react";
+import footerProfile from "../../static/images/footer-profile-image.png";
+import instagramOutlineLightTheme from "../../static/images/instagram-logo-outline--lightTheme.svg";
+import idahoOutlineLightTheme from "../../static/images/idaho-outline--lightTheme.svg";
 
 // Styles
 import "../styles/app.css";
@@ -22,7 +25,7 @@ export default () => (
         <h4>
             Made in{" "}
             <img
-                src="./images/idaho-outline--lightTheme.svg"
+                src={idahoOutlineLightTheme}
                 width="24px"
                 height="auto"
                 id="idahoImage"
@@ -41,7 +44,7 @@ export default () => (
         </p>
         <div class="anoun-footer-container">
             <img
-                src="/images/footer-profile-image.png"
+                src={footerProfile}
                 class="anoun-footer-profile__img"
                 width="75px"
                 alt="ANOUN-founder-profile"
@@ -58,7 +61,7 @@ export default () => (
             <p class="mdc-typography--body">
                 Instagram
                 <img
-                    src="/images/instagram-logo-outline--lightTheme.svg"
+                    src={instagramOutlineLightTheme}
                     id="igLogo"
                     width="14px"
                     alt="instagram-logo-vector-svg"
