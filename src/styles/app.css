@@ -49,6 +49,14 @@
 
 /* GLOBAL CLASSES */
 
+html,
+body {
+  height: 100vh;
+  padding: 1rem;
+  background-color: var(--color-bg);
+  color: var(--color-on-bg);
+}
+
 a {
   text-decoration: none;
   color: inherit;
