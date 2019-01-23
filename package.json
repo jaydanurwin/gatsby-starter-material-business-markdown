@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "gatsby": "^2.0.76",
+    "gatsby-source-filesystem": "^2.0.16",
     "gatsby-source-prismic": "^2.2.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
