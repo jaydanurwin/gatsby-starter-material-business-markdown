@@ -14,13 +14,11 @@ module.exports = {
                 linkResolver: ({ node, key, value }) => post => `/${post.uid}`
             }
         },
-        // Setup for optimised images.
-        // See https://www.gatsbyjs.org/packages/gatsby-image/
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                path: path.join(__dirname, `src`, `images`),
-                name: `images`
+                name: `images`,
+                path: `${__dirname}/src/images/`
             }
         },
     ]
