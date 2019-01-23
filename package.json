@@ -12,11 +12,19 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "@material/react-button": "^0.8.0",
+    "@types/classnames": "^2.2.7",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
     "gatsby": "^2.0.76",
+    "gatsby-plugin-sass": "^2.0.7",
     "gatsby-source-prismic": "^2.2.0",
+    "node-sass": "^4.11.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "typescript": "^3.2.4"
   },
   "repository": {
     "type": "git",

@@ -5,14 +5,20 @@ require("dotenv").config({
 })
 
 module.exports = {
-    plugins: [
-        {
-            resolve: `gatsby-source-prismic`,
-            options: {
-                repositoryName: `anoun`,
-                accessToken: `${process.env.API_KEY}`,
-                linkResolver: ({ node, key, value }) => post => `/${post.uid}`
-            }
-        },
-    ]
+  plugins: [
+    {
+      resolve: `gatsby-source-prismic`,
+      options: {
+        repositoryName: `anoun`,
+        accessToken: `${process.env.API_KEY}`,
+        linkResolver: ({ node, key, value }) => post => `/${post.uid}`
+      }
+    },
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        includePaths: ["./node_modules"]
+      }
+    }
+  ]
 };
