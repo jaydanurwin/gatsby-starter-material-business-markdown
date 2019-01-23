@@ -4,7 +4,7 @@ import instagramOutlineLightTheme from "../../static/images/instagram-logo-outli
 import idahoOutlineLightTheme from "../../static/images/idaho-outline--lightTheme.svg";
 
 // Styles
-import "../styles/app.css";
+import "../styles/app.scss";
 
 export default () => (
     <section className="anoun-hero-section">
