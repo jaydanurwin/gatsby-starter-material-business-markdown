@@ -1,28 +1,59 @@
-import React from "react"
-import { graphql, Link } from "gatsby"
+import React from "react";
 
-const Index = ({ data: { prismicHomepage } }) => (
-    <React.Fragment>
-        <h1>{prismicHomepage.data.title.text}</h1>
-        <div
-            dangerouslySetInnerHTML={{ __html: prismicHomepage.data.content.html }}
-        />
-    </React.Fragment>
-)
+// Styles
+import "../styles/app.css";
 
-export default Index
+const Index = ({}) => (
+    <>
+        <section className="anoun-hero-section">
+            <h3>
+                Hello, we're <span className="anoun-title">ANOUN</span>.
+            </h3>
+            <h4>We believe this.</h4>
+            <p>
+                We believe design is in everything. Whether it's a person,
+                place, thing or idea. We believe design should be done right
+                from the largest to the smallest detail. No if's, and's, or 🍑's
+                about it. We don't cut corners and we don't ship anything half
+                baked or incomplete.
+            </p>
+            <h4>Made in Idaho</h4>
+            <p>
+                Although I currently call Nampa, Idaho home I can meet anywhere
+                in Boise or Meridian (as long as the coffee ☕️ is good). If
+                none of those places are near you no problem! Shoot me a text,
+                email, or message me on Instagram and we can set up a time for a
+                video call!
+            </p>
+            <div class="anoun-footer-container">
+                <img
+                    src="/images/footer-profile-image.png"
+                    class="anoun-footer-profile__img"
+                    width="75px"
+                    alt="ANOUN-founder-profile-image"
+                />
+                <h5 id="footer-name">Jaydan Urwin</h5>
+                <p>
+                    founder of <span class="anoun-title">ANOUN</span>
+                </p>
+                
+                    <p class="mdc-typography--body">(208) 807-9333</p>
+        
+                    <p class="mdc-typography--body">jaydan.urwin@gmail.com</p>
 
-export const pageQuery = graphql`
-  query IndexQuery {
-    prismicHomepage {
-      data {
-        title {
-          text
-        }
-        content {
-          html
-        }
-      }
-    }
-  }
-`
+ 
+                    <p class="mdc-typography--body">
+                        Instagram
+                        <img
+                            src="/images/instagram-logo-outline--lightTheme.svg"
+                            id="igLogo"
+                            width="14px"
+                            alt="instagram-logo-vector-svg"
+                        />
+                    </p>
+            </div>
+        </section>
+    </>
+);
+
+export default Index;
