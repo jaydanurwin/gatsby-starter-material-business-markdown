@@ -1,5 +1,6 @@
 //App.scss
-
+$mdc-typography-font-family: "Helvetica, serif";
+@import '@material/react-typography/index.scss';
 @import "@material/react-button/index.scss";
 
 // # Table of Contents
