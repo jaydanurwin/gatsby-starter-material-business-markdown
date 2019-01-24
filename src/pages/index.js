@@ -23,9 +23,9 @@ import "../styles/app.scss";
 
 export default () => (
     <section className="anoun-hero-section">
-        <Headline3>
+        <Headline1>
             Hello, we're <span className="anoun-title">ANOUN</span>.
-        </Headline3>
+        </Headline1>
         <Headline4>We believe this.</Headline4>
         <Body1>
             We believe design is in everything. Whether it's a person, place,

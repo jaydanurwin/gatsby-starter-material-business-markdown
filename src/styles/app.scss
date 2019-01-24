@@ -1,19 +1,20 @@
-//App.scss
-$mdc-typography-font-family: "Helvetica, serif";
-@import '@material/react-typography/index.scss';
-@import "@material/react-button/index.scss";
+//app.scss
 
 // # Table of Contents
 
-// - VARS
+// - VARS @ IMPORTS
 // - RESET
 // - GLOBAL CLASSES
 // - FOOTER
 // - TINY PHONE STYLES
 // - WIDE LAYOUT STYLES (DESKTOP)
 
-
 // VARIABLES
+
+$mdc-typography-font-family: "Helvetica, serif";
+@import '@material/react-typography/index.scss';
+@import "@material/react-button/index.scss";
+
 
 :root {
 
@@ -25,20 +26,6 @@ $mdc-typography-font-family: "Helvetica, serif";
     --color-on-secondary: #ffffff;
     --color-bg: #ffffff;
     --color-on-bg: #000000;
-
-    /* Fonts */
-    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    --font-serif: Georgia, Times, serif;
-    --font-mono: Menlo, Courier, monospace;
-    --font-light: 100;
-    --font-normal: 400;
-    --font-bold: 700;
-    --font-heavy: 800;
-
-    /* Sizes */
-    --height: 4rem;
-    --margin: 2rem;
-    --radius: 50px;
 
 }
 
