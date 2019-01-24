@@ -17,14 +17,14 @@
 
 :root {
 
-    /* Colours */
-    --color-primary: #000000;
-    --color-on-primary: #ffffff;
-    --color-base: #ffffff;
-    --color-secondary: #000000;
-    --color-on-secondary: #ffffff;
-    --color-bg: #ffffff;
-    --color-on-bg: #000000;
+    /* Colors */
+    --theme-primary: #000000;
+    --theme-on-primary: #ffffff;
+    --theme-base: #ffffff;
+    --theme-secondary: #000000;
+    --theme-on-secondary: #ffffff;
+    --theme-bg: #ffffff;
+    --theme-on-bg: #000000;
 
 }
 
@@ -41,8 +41,8 @@ body {
   height: 100vh;
   margin: 0;
   padding: 1rem;
-  background-color: var(--color-bg);
-  color: var(--color-on-bg);
+  background-color: var(--theme-bg);
+  color: var(--theme-on-bg);
 }
 
 a {
