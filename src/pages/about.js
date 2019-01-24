@@ -1,6 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 
+// Styles
+import "../styles/app.scss";
+
 const About = ({ data: { prismicAboutpage } }) => (
     <React.Fragment>
         <h1>{prismicAboutpage.data.title.text}</h1>
