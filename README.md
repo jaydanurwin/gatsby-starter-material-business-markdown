@@ -1,3 +1,17 @@
+# anoun-static
+
+# TODO's
+
+- [X] add favicon
+- [ ] [use React Helmet for Google Fonts](https://www.gatsbyjs.org/tutorial/part-eight/#add-page-metadata)
+- [ ] get home page moved over (no CMS)
+  - [ ] add Typography styles
+- [X] get MDC React working
+- [X] style out about page
+- [X] add reset styles
+- [ ] add SEO features from ghost-starter and prismic-starter
+- [ ] add manifest file
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -23,7 +37,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     npx gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -32,7 +46,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
@@ -96,16 +110,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-# anoun-static
-
-# TODO's
-
-- [X] add favicon
-- [ ] get home page moved over (no CMS)
-  - [ ] [use React Helmet for Google Fonts](https://www.gatsbyjs.org/tutorial/part-eight/#add-page-metadata)
-  - [ ] add Typography styles
-- [ ] get MDC React working
-- [ ] style out about page
-- [X] add reset styles
-- [ ] add SEO features from ghost-starter and prismic-starter
-- [ ] add manifest file
