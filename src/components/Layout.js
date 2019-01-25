@@ -7,7 +7,7 @@ import styles from "../styles/components/layout.module.scss";
 const Layout = ({ children }) => {
   return (
     <>
-    <MetaData />
+      <MetaData />
           {/* The main header section on top of the screen */}
           <header>
               <nav>
