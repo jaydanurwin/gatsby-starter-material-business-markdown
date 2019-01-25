@@ -19,6 +19,7 @@ module.exports = {
       options: {
         includePaths: ["./node_modules"]
       }
-    }
+    },
+    `gatsby-plugin-react-helmet`,
   ]
 };
