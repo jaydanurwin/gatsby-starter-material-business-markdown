@@ -6,6 +6,7 @@ require("dotenv").config({
 
 module.exports = {
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-prismic`,
       options: {
@@ -19,7 +20,6 @@ module.exports = {
       options: {
         includePaths: ["./node_modules"]
       }
-    },
-    `gatsby-plugin-react-helmet`,
+    }
   ]
 };
