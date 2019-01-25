@@ -1,3 +1,3 @@
-import WebsiteMeta from "./WebsiteMeta";
+import MetaData from "./WebsiteMeta.js";
 
 export default MetaData;

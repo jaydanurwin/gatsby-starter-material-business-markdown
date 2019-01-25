@@ -2,15 +2,17 @@ import React from "react";
 import Helmet from "react-helmet";
 import config from "../../../config/website.js";
 
-const WebsiteMeta = () => {
-    const title = config.title;
-    const description = config.description;
-  return <>
+const MetaData = () => {
+  const title = config.title;
+  const description = config.description;
+  return (
+    <>
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-    </>;
+    </>
+  );
 };
 
-export default WebsiteMeta;
+export default MetaData;
