@@ -2,24 +2,13 @@
 
 // # Table of Contents
 
-// - VARS @ IMPORTS
+// - @IMPORTS
 // - GLOBAL CLASSES
 // - FOOTER
 // - TINY PHONE STYLES
 // - WIDE LAYOUT STYLES (DESKTOP)
 
-// VARIABLES
-
-:root {
-  /* Colors */
-  --theme-primary: #000000;
-  --theme-on-primary: #ffffff;
-  --theme-base: #ffffff;
-  --theme-secondary: #000000;
-  --theme-on-secondary: #ffffff;
-  --theme-bg: #ffffff;
-  --theme-on-bg: #000000;
-}
+@import "./theme.scss";
 
 /* GLOBAL CLASSES */
 
@@ -30,22 +19,6 @@ body {
   padding: 1rem;
   background-color: var(--theme-bg);
   color: var(--theme-on-bg);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
 }
 
 /* ANOUN STYLES */
