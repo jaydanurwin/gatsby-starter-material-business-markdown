@@ -53,7 +53,7 @@ export default () => (
       />
       <h5 id="footer-name">Jaydan Urwin</h5>
       <p>
-        founder of <span class="anoun-title">ANOUN</span>
+        founder of <b class="anoun-title">ANOUN</b>
       </p>
 
       <p class="mdc-typography--body">(208) 807-9333</p>
