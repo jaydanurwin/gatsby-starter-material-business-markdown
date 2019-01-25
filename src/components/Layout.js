@@ -1,4 +1,5 @@
 import React from "react";
+import MetaData from "./meta/index.js";
 
 // Styles
 import styles from "../styles/components/layout.module.scss";
@@ -6,6 +7,7 @@ import styles from "../styles/components/layout.module.scss";
 const Layout = ({ children }) => {
   return (
     <>
+    <MetaData />
           {/* The main header section on top of the screen */}
           <header className="site-head">
               <nav>
