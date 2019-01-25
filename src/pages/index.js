@@ -1,4 +1,5 @@
 import React from "react";
+import Layout from "../components/Layout.js";
 import footerProfile from "../images/footer-profile.png";
 import instagramOutlineLightTheme from "../../static/images/icons/instagram-logo-outline--lightTheme.svg";
 import idahoOutlineLightTheme from "../../static/images/icons/idaho-outline--lightTheme.svg";
@@ -7,7 +8,7 @@ import idahoOutlineLightTheme from "../../static/images/icons/idaho-outline--lig
 import "../styles/app.scss";
 
 export default () => (
-  <section className="anoun-hero-section">
+  <Layout>
     <h1>
       Hello, we're <span className="anoun-title">ANOUN</span>.
     </h1>
@@ -69,5 +70,5 @@ export default () => (
         />
       </p>
     </div>
-  </section>
+  </Layout>
 );
