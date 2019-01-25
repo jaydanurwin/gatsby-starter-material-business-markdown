@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <>
     <MetaData />
           {/* The main header section on top of the screen */}
-          <header className="site-head">
+          <header>
               <nav>
               </nav>
           </header>
@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
             {children}
           </main>
           {/* The footer at the very bottom of the screen */}
-          <footer className="site-foot">
+          <footer>
           </footer>
     </>
   );
