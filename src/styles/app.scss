@@ -11,16 +11,14 @@
 // VARIABLES
 
 :root {
-
-    /* Colors */
-    --theme-primary: #000000;
-    --theme-on-primary: #ffffff;
-    --theme-base: #ffffff;
-    --theme-secondary: #000000;
-    --theme-on-secondary: #ffffff;
-    --theme-bg: #ffffff;
-    --theme-on-bg: #000000;
-
+  /* Colors */
+  --theme-primary: #000000;
+  --theme-on-primary: #ffffff;
+  --theme-base: #ffffff;
+  --theme-secondary: #000000;
+  --theme-on-secondary: #ffffff;
+  --theme-bg: #ffffff;
+  --theme-on-bg: #000000;
 }
 
 /* GLOBAL CLASSES */
@@ -71,7 +69,7 @@ h6 {
 }
 
 .anoun-hero-section > p {
-  margin:1rem 0;
+  margin: 1rem 0;
 }
 
 /* BUTTONS */
@@ -85,7 +83,7 @@ h6 {
 }
 
 .anoun-hero-container--buttons > a > button {
- flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .anoun-hero-container--buttons > a > button {
@@ -101,11 +99,11 @@ h6 {
 
 .anoun-hero-link--text {
   display: inline-block;
-  margin: .5rem 0 .5rem .25rem;
+  margin: 0.5rem 0 0.5rem 0.25rem;
 }
 
 .anoun-hero-link--link {
-  margin:-8px 0 0 2px;
+  margin: -8px 0 0 2px;
   vertical-align: middle;
 }
 
@@ -114,7 +112,7 @@ h6 {
 .anoun-footer-container {
   margin: 3rem 0 0 0;
   border-top: 1px #bfbfbf solid;
-  padding: .5rem .5rem .5rem 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
 .anoun-footer-container > p:first-of-type {
@@ -122,25 +120,24 @@ h6 {
 }
 
 #footer-name {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .anoun-footer-profile__img {
-  margin: .5rem 0 0 0;
+  margin: 0.5rem 0 0 0;
   border-radius: 50%;
 }
 
 #igLogo {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-
 
 /* TINY PHONE STYLES */
 
 @media screen and (max-width: 320px) {
-  .anoun-hero-container--buttons>a>button {
+  .anoun-hero-container--buttons > a > button {
     font-size: 9px;
-}
+  }
 }
 
 /* WIDE LAYOUT STYLES */
