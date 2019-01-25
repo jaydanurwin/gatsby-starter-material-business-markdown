@@ -20,12 +20,15 @@
     "gatsby": "^2.0.76",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sass": "^2.0.7",
+    "gatsby-plugin-typography": "^2.2.5",
     "gatsby-source-prismic": "^2.2.0",
     "node-sass": "^4.11.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
-    "typescript": "^3.2.4"
+    "react-typography": "^0.16.18",
+    "typescript": "^3.2.4",
+    "typography": "^0.16.18"
   },
   "repository": {
     "type": "git",

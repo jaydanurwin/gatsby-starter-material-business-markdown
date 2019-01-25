@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import config from "../../../config/website.js";
+import config from "../../utils/website.js";
 
 const MetaData = () => {
   const title = config.title;
