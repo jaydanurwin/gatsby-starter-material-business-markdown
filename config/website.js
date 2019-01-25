@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
-  title: 'Gatsby Starter - Prismic.io', // Navigation and Site Title
-  titleAlt: 'Gatsby Prismic.io', // Title for JSONLD
-  description: 'A typography-heavy & light-themed Gatsby Starter which uses the Headless CMS Prismic.',
+  title: 'ANOUN | Website & App Design Agency in Boise, ID', // Navigation and Site Title
+  titleAlt: 'ANOUN', // Title for JSONLD
+  description: 'ANOUN is a website and app design agency based in Boise, Idaho. We take a people-first approach designing experiences through websites, iPhone apps, and Android apps. We aim to deliver the best design services in Boise, Meridian, and Nampa, Idaho. Contact us to learn more!',
   headline: 'Writing and publishing content for LekoArts', // Headline for schema.org JSONLD
-  url: 'https://prismic.lekoarts.de', // Domain of your site. No trailing slash!
+  url: 'https://anoun-gatsby', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  logo: '/logos/logo-1024.png', // Used for SEO
+  logo: '/static/images/', // Used for SEO
   ogLanguage: 'en_US', // Facebook Language
 
   // JSONLD / Manifest
