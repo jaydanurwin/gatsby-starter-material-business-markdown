@@ -10,7 +10,7 @@ import "../styles/app.scss";
 export default () => (
   <Layout>
     <h1>
-      Hello, we're <span className="anoun-title">ANOUN</span>.
+      Hello, we're <b className="anoun-title">ANOUN</b>.
     </h1>
     <h4>We believe this.</h4>
     <p>
