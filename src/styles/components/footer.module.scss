@@ -1,20 +1,20 @@
 /* FOOTER */
 
-.anoun-footer-container {
+.anounFooterContainer {
   margin: 3rem 0 0 0;
   border-top: 1px #bfbfbf solid;
   padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
-.anoun-footer-container > p:first-of-type {
-  margin: 0 0 1rem 0;
+.anounFooterContainer > h4, .anounFooterContainer > p    {
+  margin: 0;
 }
 
-#footer-name {
-  font-family: "Playfair Display", serif;
+.anounFooterContainer > p:first-of-type {
+  margin: 0 0 .5rem 0;
 }
 
-.anoun-footer-profile__img {
+.anounFooterProfile{
   margin: 0.5rem 0 0 0;
   border-radius: 50%;
 }

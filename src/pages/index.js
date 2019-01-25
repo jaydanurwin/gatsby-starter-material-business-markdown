@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout.js";
-import footerProfile from "../images/footer-profile.png";
-import instagramOutlineLightTheme from "../../static/images/icons/instagram-logo-outline--lightTheme.svg";
+import Footer from "../components/Footer.js";
 import idahoOutlineLightTheme from "../../static/images/icons/idaho-outline--lightTheme.svg";
 
 // Styles
@@ -12,7 +11,7 @@ export default () => (
     <h1>
       Hello, we're <b className="anoun-title">ANOUN</b>.
     </h1>
-    <h4>We believe this.</h4>
+    <h3>We believe this.</h3>
     <p>
       We believe design is in everything. Whether it's a person, place, thing or
       idea. We believe design should be done right from the largest to the
@@ -23,7 +22,7 @@ export default () => (
       's about it. We don't cut corners and we don't ship anything half baked or
       incomplete.
     </p>
-    <h4>
+    <h3>
       Made in{" "}
       <img
         src={idahoOutlineLightTheme}
@@ -32,7 +31,7 @@ export default () => (
         id="idahoImage"
         alt="idaho-state-vector-outline-svg"
       />
-    </h4>
+    </h3>
     <p>
       Although I currently call Nampa, Idaho home I can meet anywhere in Boise
       or Meridian (as long as the coffee{" "}
@@ -43,32 +42,7 @@ export default () => (
       text, email, or message me on Instagram and we can set up a time for a
       video call!
     </p>
-
-    <div class="anoun-footer-container">
-      <img
-        src={footerProfile}
-        class="anoun-footer-profile__img"
-        width="75px"
-        alt="ANOUN-founder-profile"
-      />
-      <h5 id="footer-name">Jaydan Urwin</h5>
-      <p>
-        founder of <b class="anoun-title">ANOUN</b>
-      </p>
-
-      <p class="mdc-typography--body">(208) 807-9333</p>
-
-      <p class="mdc-typography--body">jaydan.urwin@gmail.com</p>
-
-      <p class="mdc-typography--body">
-        Instagram{" "}
-        <img
-          src={instagramOutlineLightTheme}
-          id="igLogo"
-          width="14px"
-          alt="instagram-logo-vector-svg"
-        />
-      </p>
-    </div>
+    <Footer></Footer>
   </Layout>
+  
 );

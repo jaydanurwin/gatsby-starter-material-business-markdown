@@ -9,7 +9,6 @@
 // - WIDE LAYOUT STYLES (DESKTOP)
 
 @import "./theme.scss";
-@import "./components/footer.module.scss";
 
 /* GLOBAL CLASSES */
 
@@ -20,6 +19,10 @@ body {
   padding: 1rem;
   background-color: var(--theme-bg);
   color: var(--theme-on-bg);
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
 }
 
 /* ANOUN STYLES */
