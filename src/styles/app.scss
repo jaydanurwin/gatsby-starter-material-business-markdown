@@ -9,6 +9,7 @@
 // - WIDE LAYOUT STYLES (DESKTOP)
 
 @import "./theme.scss";
+@import "./components/footer.module.scss";
 
 /* GLOBAL CLASSES */
 
@@ -79,30 +80,7 @@ body {
   vertical-align: middle;
 }
 
-/* FOOTER */
 
-.anoun-footer-container {
-  margin: 3rem 0 0 0;
-  border-top: 1px #bfbfbf solid;
-  padding: 0.5rem 0.5rem 0.5rem 0;
-}
-
-.anoun-footer-container > p:first-of-type {
-  margin: 0 0 1rem 0;
-}
-
-#footer-name {
-  font-family: "Playfair Display", serif;
-}
-
-.anoun-footer-profile__img {
-  margin: 0.5rem 0 0 0;
-  border-radius: 50%;
-}
-
-#igLogo {
-  vertical-align: middle;
-}
 
 /* TINY PHONE STYLES */
 
