@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/29d22732-24ee-4a0d-bbfe-ecf91b35268e/deploy-status)](https://app.netlify.com/sites/epic-mcclintock-44b06a/deploys)
+
 # anoun-static
 
 # TODO's
