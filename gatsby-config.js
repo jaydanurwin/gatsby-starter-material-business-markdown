@@ -20,12 +20,6 @@ module.exports = {
       options: {
         includePaths: ["./node_modules"]
       }
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography.js`
-      }
-    },
+    }
   ]
 };

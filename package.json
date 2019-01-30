@@ -26,9 +26,7 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
-    "react-typography": "^0.16.18",
-    "typescript": "^3.2.4",
-    "typography": "^0.16.18"
+    "typescript": "^3.2.4"
   },
   "repository": {
     "type": "git",
