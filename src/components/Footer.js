@@ -1,6 +1,6 @@
 import React from "react";
 import footerProfile from "../images/footer-profile.png";
-import instagramOutlineLightTheme from "../../static/images/icons/instagram-logo-outline--lightTheme.svg";
+import instagramOutlineLightTheme from "../images/icons/instagram-logo-outline--lightTheme.svg";
 
 // Styles
 import styles from "./footer.module.scss";

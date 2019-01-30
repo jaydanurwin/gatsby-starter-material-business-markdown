@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout.js";
 import Footer from "../components/Footer.js";
-import idahoOutlineLightTheme from "../../static/images/icons/idaho-outline--lightTheme.svg";
+import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg";
 
 // Styles
 import "../styles/app.scss";
