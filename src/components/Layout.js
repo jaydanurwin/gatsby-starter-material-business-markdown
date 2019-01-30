@@ -2,7 +2,7 @@ import React from "react";
 import MetaData from "./meta/index.js";
 
 // Styles
-import styles from "../styles/components/layout.module.scss";
+import styles from "./layout.module.scss";
 
 const Layout = ({ children }) => {
   return (

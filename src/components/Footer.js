@@ -3,7 +3,7 @@ import footerProfile from "../images/footer-profile.png";
 import instagramOutlineLightTheme from "../../static/images/icons/instagram-logo-outline--lightTheme.svg";
 
 // Styles
-import styles from "../styles/components/footer.module.scss";
+import styles from "./footer.module.scss";
 
 const Footer = () => {
   return (
@@ -16,9 +16,9 @@ const Footer = () => {
           alt="ANOUN-founder-profile"
         />
         <h4>Jaydan Urwin</h4>
-        <p>
+        <h4>
           founder of <b>ANOUN</b>
-        </p>
+        </h4>
 
         <p>(208) 807-9333</p>
 

@@ -6,12 +6,16 @@
   padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
-.anounFooterContainer > h4, .anounFooterContainer > p    {
+.anounFooterContainer > h4    {
   margin: 0;
 }
 
 .anounFooterContainer > p:first-of-type {
-  margin: 0 0 .5rem 0;
+  margin: .5rem 0 0 0;
+}
+
+.anounFooterContainer > p {
+  margin: 0;
 }
 
 .anounFooterProfile{
