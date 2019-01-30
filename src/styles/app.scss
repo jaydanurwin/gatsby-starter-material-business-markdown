@@ -9,6 +9,7 @@
 // - WIDE LAYOUT STYLES (DESKTOP)
 
 @import "./theme.scss";
+@import "./typography.scss";
 
 /* GLOBAL CLASSES */
 
@@ -21,7 +22,13 @@ body {
   color: var(--theme-on-bg);
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -75,8 +82,6 @@ h1,h2,h3,h4,h5,h6,p {
   margin: -8px 0 0 2px;
   vertical-align: middle;
 }
-
-
 
 /* TINY PHONE STYLES */
 
