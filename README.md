@@ -2,13 +2,14 @@
 
 # TODO's
 
-- [X] add favicon
+- [x] add favicon
 - [ ] [use React Helmet for Google Fonts](https://www.gatsbyjs.org/tutorial/part-eight/#add-page-metadata)
 - [ ] get home page moved over (no CMS)
+  - [ ] add CSS Fluid for typography
   - [ ] add Typography styles
-- [X] get MDC React working
-- [X] style out about page
-- [X] add reset styles
+- [x] get MDC React working
+- [x] style out about page
+- [x] add reset styles
 - [ ] add SEO features from ghost-starter and prismic-starter
 - [ ] add manifest file
 
@@ -106,7 +107,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://gitlab.com/jaydan.urwin/anoun-gatsby.git)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
