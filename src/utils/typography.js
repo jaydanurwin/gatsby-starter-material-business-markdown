@@ -5,7 +5,7 @@ import Typography from "typography";
 
 const typography = new Typography({
   title: "ANOUN Typography",
-  baseFontSize: "20px",
+  baseFontSize: "18px",
   baseLineHeight: 1.45,
   headerFontFamily: [
     "Playfair Display",
