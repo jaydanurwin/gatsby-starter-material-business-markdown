@@ -22,7 +22,6 @@ export default () => (
       's about it. We don't cut corners and we don't ship anything half baked or
       incomplete.
     </p>
-    <h2>We Made These</h2>
     <h2>
       Made in{" "}
       <img
