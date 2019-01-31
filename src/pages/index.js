@@ -11,7 +11,7 @@ export default () => (
     <h1>
       Hello, we're <b className="anoun-title">ANOUN</b>.
     </h1>
-    <h3>We believe this.</h3>
+    <h2>We believe this.</h2>
     <p>
       We believe design is in everything. Whether it's a person, place, thing or
       idea. We believe design should be done right from the largest to the
@@ -22,7 +22,8 @@ export default () => (
       's about it. We don't cut corners and we don't ship anything half baked or
       incomplete.
     </p>
-    <h3>
+    <h2>We Made These</h2>
+    <h2>
       Made in{" "}
       <img
         src={idahoOutlineLightTheme}
@@ -31,7 +32,7 @@ export default () => (
         id="idahoImage"
         alt="idaho-state-vector-outline-svg"
       />
-    </h3>
+    </h2>
     <p>
       Although I currently call Nampa, Idaho home I can meet anywhere in Boise
       or Meridian (as long as the coffee{" "}

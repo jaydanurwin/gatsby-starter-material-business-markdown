@@ -24,14 +24,19 @@
 }
 
 $min_width: 320px;
-$max_width: 1500px;
+$max_width: 1000px;
 $min_font: 16px;
-$max_font: 22px;
+$max_font: 20px;
 
 html {
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Lato',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
 }

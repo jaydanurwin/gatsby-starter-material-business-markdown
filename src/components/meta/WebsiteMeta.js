@@ -14,14 +14,14 @@ const MetaData = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        {/* <link
+        <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         />
         <link
           href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,900"
           rel="stylesheet"
-        /> */}
+        />
       </Helmet>
     </>
   );
