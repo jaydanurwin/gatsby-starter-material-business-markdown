@@ -14,8 +14,8 @@
   "dependencies": {
     "@material/react-button": "^0.8.0",
     "@types/classnames": "^2.2.7",
-    "@types/node": "^10.12.18",
-    "@types/react": "^16.7.20",
+    "@types/node": "^10.12.20",
+    "@types/react": "^16.7.22",
     "@types/react-dom": "^16.0.11",
     "gatsby": "^2.0.76",
     "gatsby-plugin-react-helmet": "^3.0.5",
