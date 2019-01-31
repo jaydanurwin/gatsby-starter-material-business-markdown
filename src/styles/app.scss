@@ -2,8 +2,7 @@
 
 // # Table of Contents
 
-// - @IMPORTS
-// - GLOBAL CLASSES
+// - GLOBAL STYLES
 // - FOOTER
 // - TINY PHONE STYLES
 // - WIDE LAYOUT STYLES (DESKTOP)
@@ -11,7 +10,10 @@
 @import "./theme.scss";
 @import "./typography.scss";
 
-/* GLOBAL CLASSES */
+// MDC WEB
+@import "@material/theme/mdc-theme";
+
+/* GLOBAL STYLES */
 
 html,
 body {
@@ -28,15 +30,6 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-.anoun-hero-section {
-  margin: 50px 0 20px 0;
-  width: auto;
-  max-width: 500px;
-}
-
-.anoun-hero-section > p {
-  margin: 1rem 0;
-}
 
 /* BUTTONS */
 

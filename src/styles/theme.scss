@@ -1,11 +1,10 @@
 // theme.scss
 
 :root {
-  /* Colors */
-  --theme-primary: #000000;
-  --theme-on-primary: #ffffff;
-  --theme-secondary: #000000;
-  --theme-on-secondary: #ffffff;
-  --theme-bg: #ffffff;
-  --theme-on-bg: #000000;
+  --mdc-theme-primary: #212121;
+  --mdc-theme-on-primary: #ffffff;
+  --mdc-theme-secondary: #221122;
+  --mdc-theme-on-secondary: #ffffff;
+  --mdc-theme-background: #ffffff;
+  --mdc-theme-on-background: #212121;
 }
