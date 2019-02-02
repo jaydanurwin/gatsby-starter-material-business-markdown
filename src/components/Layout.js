@@ -18,9 +18,6 @@ const Layout = ({ children }) => {
             {/* All the main content gets inserted here, index.js, post.js */}
             {children}
           </main>
-          {/* The footer at the very bottom of the screen */}
-          <footer>
-          </footer>
     </>
   );
 };
