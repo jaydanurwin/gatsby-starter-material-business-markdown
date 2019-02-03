@@ -1,18 +1,15 @@
-image: rambabusaravanan/firebase
+image: node:latest
 
-stages:
-  - deploy
+cache:
+  paths:
+    - node_modules/
 
-cache:                  
-  paths:                
-    - node_modules/     
-  key: "$CI_BUILD_REPO" 
-
-deploy-prod:
+deploy_production:
   stage: deploy
+  environment: Production
   only:
     - master
   script:
-    - npm i
-    - npm run build
+    - npm install -g firebase-tools
+    - npm install
     - firebase deploy --token "$FIREBASE_TOKEN"
