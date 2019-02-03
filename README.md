@@ -22,19 +22,24 @@
 - [ ] add manifest file
 
 ### Clone
+
 `git clone`
 
 ### Install Node Modules
+
 `npm install`
 
 ### Develop
-`npm run develop`
 
-### Build Locally
-`npm run build`
+`npm run start`
 
 ### Deploy
+
 `npm run gitlab:deploy`
+
+### Build Locally
+
+`npm run build`
 
 ### Known Issues
 
