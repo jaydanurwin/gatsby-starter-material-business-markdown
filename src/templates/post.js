@@ -2,6 +2,9 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout.js";
 
+// Styles
+import "../styles/app.scss";
+
 const Post = ({ data: { prismicPost } }) => {
     const { data } = prismicPost
     return (
