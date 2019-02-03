@@ -9,11 +9,12 @@
 
 ## TODO's
 
-- [x] add favicon
-- [ ] [use React Helmet for Google Fonts](https://www.gatsbyjs.org/tutorial/part-eight/#add-page-metadata)
+- [X] add favicon
+- [X] [use React Helmet for Google Fonts](https://www.gatsbyjs.org/tutorial/part-eight/#add-page-metadata)
+- [X] New CI build process/image
 - [ ] get home page moved over (no CMS)
-  - [ ] add CSS Fluid for typography
-  - [ ] add Typography styles
+  - [X] add CSS Fluid for typography
+  - [X] add Typography styles
 - [x] get MDC React working
 - [x] style out about page
 - [x] add reset styles
