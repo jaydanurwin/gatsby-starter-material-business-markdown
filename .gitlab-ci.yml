@@ -12,4 +12,5 @@ deploy_production:
   script:
     - npm install -g firebase-tools
     - npm install
+    - npm run build
     - firebase deploy --token "$FIREBASE_TOKEN"
