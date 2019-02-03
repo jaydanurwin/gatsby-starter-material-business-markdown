@@ -10,16 +10,13 @@
 @import "./theme.scss";
 @import "./typography.scss";
 
-// MDC WEB
-@import "@material/theme/mdc-theme";
-
 /* GLOBAL STYLES */
 
 html,
 body {
   height: 100vh;
   margin: 0;
-  padding: 1rem;
+  padding: 0;
   background-color: var(--theme-bg);
   color: var(--theme-on-bg);
 }
