@@ -54,7 +54,6 @@ $max_font: 20px;
   font-weight: 400;
   src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format('woff2');
 }
-
 html {
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
@@ -74,4 +73,5 @@ h4,
 h5,
 h6 {
     font-family: 'Playfair Display', serif;
+    font-weight: 400;
 }
