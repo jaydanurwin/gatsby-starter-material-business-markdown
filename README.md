@@ -1,11 +1,13 @@
+[![pipeline status](https://gitlab.com/jaydan.urwin/anoun-gatsby/badges/master/pipeline.svg)](https://gitlab.com/jaydan.urwin/anoun-gatsby/commits/master)
+
 <p align="center">
   <a href="https://anoun.design">
     <img alt="ANOUN" src="https://anoun.design/seo/anoun-share-image.png" width="300" />
   </a>
 </p>
-<h1 align="center">
-  ANOUN'S Gatsby Website
-</h1>
+
+# ANOUN'S Gatsby Website
+
 
 ## TODO's
 
