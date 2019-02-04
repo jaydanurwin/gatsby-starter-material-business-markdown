@@ -15,10 +15,6 @@ const MetaLinks = () => {
                     rel="stylesheet"
                     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
                 />
-                <link
-                    href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,900"
-                    rel="stylesheet"
-                />
             </Helmet>
         </>
     )
