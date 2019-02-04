@@ -12,11 +12,10 @@
 
 /* GLOBAL STYLES */
 
-html,
 body {
-    height: 100vh;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     background-color: var(--theme-bg);
     color: var(--theme-on-bg);
 }

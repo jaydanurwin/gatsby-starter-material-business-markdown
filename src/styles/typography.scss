@@ -36,14 +36,35 @@ $max_width: 1000px;
 $min_font: 16px;
 $max_font: 20px;
 
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+     src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+    /* The browser draws the text immediately in the fallback font if the font
+              isn't loaded, then swaps it with the webfont when it eventually loads
+              See: https://developers.google.com/web/updates/2016/02/font-display
+            */
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format('woff2');
+}
+
 html {
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
 
 body {
-    font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-        Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol';
+    font-family: 'Lato',Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol';
+    line-height: 1.5;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -53,5 +74,4 @@ h4,
 h5,
 h6 {
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
 }
