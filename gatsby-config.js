@@ -1,25 +1,25 @@
-const path = require(`path`);
+const path = require(`path`)
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`
-});
+require('dotenv').config({
+    path: `.env.${process.env.NODE_ENV}`
+})
 
 module.exports = {
-  plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-prismic`,
-      options: {
-        repositoryName: `anoun`,
-        accessToken: `${process.env.API_KEY}`,
-        linkResolver: ({ node, key, value }) => post => `/${post.uid}`
-      }
-    },
-    {
-      resolve: "gatsby-plugin-sass",
-      options: {
-        includePaths: ["./node_modules"]
-      }
-    }
-  ]
-};
+    plugins: [
+        `gatsby-plugin-react-helmet`,
+        {
+            resolve: `gatsby-source-prismic`,
+            options: {
+                repositoryName: `anoun`,
+                accessToken: `${process.env.API_KEY}`,
+                linkResolver: ({ node, key, value }) => post => `/${post.uid}`
+            }
+        },
+        {
+            resolve: 'gatsby-plugin-sass',
+            options: {
+                includePaths: ['./node_modules']
+            }
+        }
+    ]
+}
