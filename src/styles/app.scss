@@ -7,78 +7,77 @@
 // - TINY PHONE STYLES
 // - WIDE LAYOUT STYLES (DESKTOP)
 
-@import "./theme.scss";
-@import "./typography.scss";
+@import './theme.scss';
+@import './typography.scss';
 
 /* GLOBAL STYLES */
 
 html,
 body {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-color: var(--theme-bg);
-  color: var(--theme-on-bg);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--theme-bg);
+    color: var(--theme-on-bg);
 }
 
 /* ANOUN STYLES */
 
 .anoun-title {
-  font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
 }
-
 
 /* BUTTONS */
 
 .anoun-hero-container--buttons {
-  margin: 1.5rem 0 2rem 0;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+    margin: 1.5rem 0 2rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .anoun-hero-container--buttons > a > button {
-  flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 .anoun-hero-container--buttons > a > button {
-  margin-right: 4px;
-  border-radius: 25px;
+    margin-right: 4px;
+    border-radius: 25px;
 }
 
 /* LINK CONTAINER */
 
 .anoun-hero-link-container {
-  display: block;
+    display: block;
 }
 
 .anoun-hero-link--text {
-  display: inline-block;
-  margin: 0.5rem 0 0.5rem 0.25rem;
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 0.25rem;
 }
 
 .anoun-hero-link--link {
-  margin: -8px 0 0 2px;
-  vertical-align: middle;
+    margin: -8px 0 0 2px;
+    vertical-align: middle;
 }
 
 /* TINY PHONE STYLES */
 
 @media screen and (max-width: 320px) {
-  .anoun-hero-container--buttons > a > button {
-    font-size: 9px;
-  }
+    .anoun-hero-container--buttons > a > button {
+        font-size: 9px;
+    }
 }
 
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
-  .anoun-hero-section {
-    max-width: 756px;
-    margin: 50px auto 20px auto;
-  }
+    .anoun-hero-section {
+        max-width: 756px;
+        margin: 50px auto 20px auto;
+    }
 
-  .anoun-hero-container--buttons > a > button {
-    margin-right: 8px;
-  }
+    .anoun-hero-container--buttons > a > button {
+        margin-right: 8px;
+    }
 }
