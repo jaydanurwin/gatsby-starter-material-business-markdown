@@ -1,4 +1,6 @@
 import React from 'react'
+import SEO from '../components/meta/SEO'
+import MetaLinks from '../components/meta/MetaLinks'
 import Layout from '../components/Layout.js'
 import Footer from '../components/Footer.js'
 import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
@@ -8,6 +10,8 @@ import '../styles/app.scss'
 
 export default () => (
     <Layout>
+        <MetaLinks />
+        <SEO />
         <h1>
             Hello, we're <b className="anoun-title">ANOUN</b>.
         </h1>

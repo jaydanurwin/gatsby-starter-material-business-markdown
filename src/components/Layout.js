@@ -1,5 +1,4 @@
 import React from 'react'
-import MetaData from './meta/index.js'
 
 // Styles
 import styles from './layout.module.scss'
@@ -7,7 +6,6 @@ import styles from './layout.module.scss'
 const Layout = ({ children }) => {
     return (
         <>
-            <MetaData />
             {/* The main header section on top of the screen */}
             <header>
                 <nav />

@@ -1,11 +1,16 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
+import SEO from '../components/meta/SEO'
+import MetaLinks from '../components/meta/MetaLinks'
 // Styles
 import '../styles/app.scss'
 
 const About = ({ data: { prismicAboutpage } }) => (
+    
     <Layout>
+        <MetaLinks />
+        <SEO />
         <h1>{prismicAboutpage.data.title.text}</h1>
         <div
             dangerouslySetInnerHTML={{
