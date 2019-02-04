@@ -13,7 +13,7 @@ export default () => (
         <MetaLinks />
         <SEO />
         <h1>
-            Hello, we're <b className="anoun-title">ANOUN</b>.
+            Hello, we're <b>ANOUN</b>.
         </h1>
         <h2>We believe this.</h2>
         <p>

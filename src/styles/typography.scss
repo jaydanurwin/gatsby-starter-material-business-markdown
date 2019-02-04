@@ -1,3 +1,5 @@
+
+
 @function strip-unit($value) {
     @return $value / ($value * 0 + 1);
 }
@@ -56,6 +58,13 @@ $max_font: 20px;
 }
 html {
     @include fluid-type($min_width, $max_width, $min_font, $max_font);
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Playfair Display Black'), local('PlayfairDisplay-Black'), url(https://fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBb__lW4e5j5hNKc.woff2) format('woff2');
 }
 
 body {
