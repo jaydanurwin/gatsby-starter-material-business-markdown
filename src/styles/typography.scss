@@ -1,5 +1,4 @@
-
-
+// CSS Fluid Mixin from https://css-tricks.com/snippets/css/fluid-typography/
 @function strip-unit($value) {
     @return $value / ($value * 0 + 1);
 }
@@ -38,6 +37,7 @@ $max_width: 1000px;
 $min_font: 16px;
 $max_font: 20px;
 
+// Lato font-face
 @font-face {
     font-family: 'Lato';
     font-style: normal;
@@ -49,22 +49,23 @@ $max_font: 20px;
             */
     font-display: swap;
 }
-
+// Playfair Display font-face
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format('woff2');
 }
-html {
-    @include fluid-type($min_width, $max_width, $min_font, $max_font);
-}
-
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 900;
   src: local('Playfair Display Black'), local('PlayfairDisplay-Black'), url(https://fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBb__lW4e5j5hNKc.woff2) format('woff2');
+}
+
+
+html {
+    @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
 
 body {
