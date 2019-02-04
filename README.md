@@ -1,4 +1,4 @@
-[![pipeline status](https://gitlab.com/jaydan.urwin/anoun-gatsby/badges/master/pipeline.svg)](https://gitlab.com/jaydan.urwin/anoun-gatsby/commits/master)
+[![pipeline status](https://gitlab.com/jaydan.urwin/anoun-gatsby/badges/master/pipeline.svg)](https://gitlab.com/jaydan.urwin/anoun-gatsby/pipelines)
 
 <p align="center">
   <a href="https://anoun.design">
