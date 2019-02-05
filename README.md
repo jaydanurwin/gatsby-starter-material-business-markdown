@@ -32,7 +32,6 @@
 - [ ] RSS Feed
 - [ ] add manifest plugin (PWA)
 
-
 ### Clone
 
 `git clone`
