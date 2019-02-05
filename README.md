@@ -22,16 +22,15 @@
 - [X] add about page
 - [X] get MDC Web wrapped components working
 - [X] SEO Sitemap
-- [ ] Attempt using Typography.js again
 - [ ] Header Component
 - [ ] New Homepage Design
 - [ ] Blog Page w/ cards
 - [ ] About Page Photo
 - [ ] Dynamic SEO (title & description)
+- [ ] Attempt using Typography.js again
 - [ ] JSON LD Content
 - [ ] RSS Feed
-- [ ] add SEO features from ghost-starter and prismic-starter
-- [ ] add manifest file
+- [ ] add manifest plugin (PWA)
 
 
 ### Clone
