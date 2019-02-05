@@ -21,6 +21,7 @@
 - [X] add font styles with swap
 - [X] add about page
 - [X] get MDC Web wrapped components working
+- [X] SEO Sitemap
 - [ ] Header Component
 - [ ] New Homepage Design
 - [ ] Blog Page w/ cards

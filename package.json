@@ -16,6 +16,7 @@
     "gatsby": "^2.0.76",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sass": "^2.0.8",
+    "gatsby-plugin-sitemap": "^2.0.5",
     "gatsby-source-prismic": "^2.2.0",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
