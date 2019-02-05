@@ -1,8 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout.js'
-import SEO from '../components/meta/SEO'
 import MetaLinks from '../components/meta/MetaLinks'
+import SEO from '../components/meta/SEO'
+
 // Styles
 import '../styles/app.scss'
 
