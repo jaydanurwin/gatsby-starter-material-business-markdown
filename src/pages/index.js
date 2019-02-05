@@ -16,7 +16,11 @@ export default () => (
             Hello, we're <b>ANOUN</b>.
         </h1>
         <div className="anoun-hero-container--buttons">
-            <a href="tel:+12088079333" target="_blank">
+            <a
+                href="tel:+12088079333"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <RoundButton>
                     <i
                         className="material-icons mdc-button__icon"
@@ -27,7 +31,11 @@ export default () => (
                     Call
                 </RoundButton>
             </a>
-            <a href="sms:+12088079333" target="_blank">
+            <a
+                href="sms:+12088079333"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <RoundButton>
                     <i
                         className="material-icons mdc-button__icon"
@@ -41,6 +49,7 @@ export default () => (
             <a
                 href="mailto:jaydan.urwin@gmail.com?subject=Let's build something great!"
                 target="_blank"
+                rel="noopener noreferrer"
             >
                 <RoundButton>
                     <i
