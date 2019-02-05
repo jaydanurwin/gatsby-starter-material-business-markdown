@@ -17,10 +17,18 @@
 - [ ] get home page moved over (no CMS)
   - [X] add CSS Fluid for typography
   - [X] add Typography styles
-- [x] get MDC React working
 - [x] style out about page
 - [x] add reset styles locally
 - [X] add font styles with swap
+- [X] add about page
+- [X] get MDC Web wrapped components working
+- [ ] Header Component
+- [ ] New Homepage Design
+- [ ] Blog Page w/ cards
+- [ ] About Page Photo
+- [ ] Dynamic SEO (title & description)
+- [ ] JSON LD Content
+- [ ] RSS Feed
 - [ ] add SEO features from ghost-starter and prismic-starter
 - [ ] add manifest file
 
