@@ -2,7 +2,7 @@ require('dotenv').config({
     path: `.env.${process.env.NODE_ENV}`
 })
 
-const website = require('src/utils/website')
+const website = require('./src/utils/website')
 const pathPrefix = website.pathPrefix === '/' ? '' : website.pathPrefix
 
 module.exports = {
