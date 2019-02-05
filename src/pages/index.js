@@ -86,5 +86,6 @@ export default () => (
             a text, email, or message me on Instagram and we can set up a time
             for a video call!
         </p>
+        <Footer/>
     </Layout>
 )
