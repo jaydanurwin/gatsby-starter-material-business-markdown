@@ -2,13 +2,13 @@ import React from 'react'
 import instagramOutlineLightTheme from '../images/icons/instagram-logo-outline--lightTheme.svg'
 
 // Styles
-import styles from './footer.module.scss'
+import './footer.scss'
 import { Link } from 'gatsby';
 
 const Footer = () => {
     return (
         <>
-            <div className={styles.footerProfileContainer}>
+            <div className="footerProfileContainer">
                 <a
                     href="https://www.instagram.com/anoun.design"
                     target="_blank"
