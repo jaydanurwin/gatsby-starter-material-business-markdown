@@ -1,10 +1,8 @@
-const path = require(`path`)
-
 require('dotenv').config({
     path: `.env.${process.env.NODE_ENV}`
 })
 
-const website = require('./src/utils/website')
+const website = require('src/utils/website')
 const pathPrefix = website.pathPrefix === '/' ? '' : website.pathPrefix
 
 module.exports = {
@@ -36,7 +34,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-sass',
             options: {
-                includePaths: ['./node_modules']
+                includePaths: ['node_modules']
             }
         },
         `gatsby-plugin-sitemap`
