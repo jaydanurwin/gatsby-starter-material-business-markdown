@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout.js'
 import SEO from '../components/meta/SEO'
 import MetaLinks from '../components/meta/MetaLinks'
-import RoundButton from '../components/RoundButton'
+import MDCRoundButton from '../components/MDCRoundButton'
 import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
 
 // Styles
@@ -21,7 +21,7 @@ export default () => (
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <RoundButton>
+                <MDCRoundButton>
                     <i
                         className="material-icons mdc-button__icon"
                         aria-hidden="true"
@@ -29,14 +29,14 @@ export default () => (
                         call
                     </i>
                     Call
-                </RoundButton>
+                </MDCRoundButton>
             </a>
             <a
                 href="sms:+12088079333"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <RoundButton>
+                <MDCRoundButton>
                     <i
                         className="material-icons mdc-button__icon"
                         aria-hidden="true"
@@ -44,14 +44,14 @@ export default () => (
                         message
                     </i>
                     Text
-                </RoundButton>
+                </MDCRoundButton>
             </a>
             <a
                 href="mailto:jaydan.urwin@gmail.com?subject=Let's build something great!"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <RoundButton>
+                <MDCRoundButton>
                     <i
                         className="material-icons mdc-button__icon"
                         aria-hidden="true"
@@ -59,7 +59,7 @@ export default () => (
                         email
                     </i>
                     Email
-                </RoundButton>
+                </MDCRoundButton>
             </a>
         </div>
 
