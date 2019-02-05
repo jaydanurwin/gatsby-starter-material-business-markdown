@@ -8,7 +8,6 @@
 
 # ANOUN'S Gatsby Website
 
-
 ## TODO's
 
 - [X] add favicon
