@@ -6,6 +6,9 @@ import SEO from '../components/meta/SEO'
 import '../components/MDCButton'
 import MDCButton from '../components/MDCButton';
 
+// Styles
+import '../styles/app.scss'
+
 const NotFoundPage = () => (
     <Layout>
         <MetaLinks />
