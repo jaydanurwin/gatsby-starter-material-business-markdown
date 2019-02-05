@@ -1,16 +1,17 @@
-image: node:latest
+image: rambabusaravanan/firebase
 variables:
   DOCKER_DRIVER: overlay2
-cache:
-  paths:
-    - node_modules/
-deploy_production:
+stages:
+  - deploy
+cache:                  
+  paths:                
+    - node_modules/     
+  key: "$CI_BUILD_REPO" 
+deploy-prod:
   stage: deploy
-  environment: Production
   only:
     - master
   script:
-    - npm install -g firebase-tools
     - npm install
     - npm run build
     - firebase deploy --token "$FIREBASE_TOKEN"
