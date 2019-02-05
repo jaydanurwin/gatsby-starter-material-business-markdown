@@ -1,11 +1,9 @@
 image: node:latest
-
+variables:
+  DOCKER_DRIVER: overlay2
 cache:
   paths:
     - node_modules/
-variables:
-  DOCKER_DRIVER: overlay2
-  
 deploy_production:
   stage: deploy
   environment: Production
