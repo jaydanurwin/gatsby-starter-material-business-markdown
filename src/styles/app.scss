@@ -16,14 +16,17 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: var(--theme-bg);
-    color: var(--theme-on-bg);
+    background-color: var(--mdc-theme-background);
+    color: var(--mdc-theme-on-background);
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
+
+::-moz-selection { background: var(--mdc-theme-secondary); }
+::selection { background: var(--mdc-theme-secondary); }
 
 /* BUTTONS */
 
