@@ -3,6 +3,7 @@ import SEO from '../components/meta/SEO'
 import MetaLinks from '../components/meta/MetaLinks'
 import Layout from '../components/Layout.js'
 import Footer from '../components/Footer.js'
+import RoundButton from '../components/RoundButton'
 import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
 
 // Styles
@@ -15,6 +16,45 @@ export default () => (
         <h1>
             Hello, we're <b>ANOUN</b>.
         </h1>
+        <div className="anoun-hero-container--buttons">
+            <a href="tel:+12088079333" target="_blank">
+                <RoundButton>
+                    <i
+                        className="material-icons mdc-button__icon"
+                        aria-hidden="true"
+                    >
+                        call
+                    </i>
+                    Call
+                </RoundButton>
+            </a>
+            <a href="sms:+12088079333" target="_blank">
+                <RoundButton>
+                    <i
+                        class="material-icons mdc-button__icon"
+                        aria-hidden="true"
+                    >
+                        message
+                    </i>
+                    Text
+                </RoundButton>
+            </a>
+            <a
+                href="mailto:jaydan.urwin@gmail.com?subject=Let's build something great!"
+                target="_blank"
+            >
+                <RoundButton>
+                    <i
+                        class="material-icons mdc-button__icon"
+                        aria-hidden="true"
+                    >
+                        email
+                    </i>
+                    Email
+                </RoundButton>
+            </a>
+        </div>
+
         <h2>We believe this.</h2>
         <p>
             We believe design is in everything. Whether it's a person, place,

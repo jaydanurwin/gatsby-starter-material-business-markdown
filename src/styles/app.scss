@@ -20,10 +20,14 @@ body {
     color: var(--theme-on-bg);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* BUTTONS */
 
 .anoun-hero-container--buttons {
-    margin: 1.5rem 0 2rem 0;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -35,8 +39,7 @@ body {
 }
 
 .anoun-hero-container--buttons > a > button {
-    margin-right: 4px;
-    border-radius: 25px;
+    margin-right: .25rem;
 }
 
 /* LINK CONTAINER */

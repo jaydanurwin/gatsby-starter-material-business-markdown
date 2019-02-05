@@ -15,6 +15,10 @@ const MetaLinks = () => {
                     rel="stylesheet"
                     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
                 />
+                <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+                />
             </Helmet>
         </>
     )
