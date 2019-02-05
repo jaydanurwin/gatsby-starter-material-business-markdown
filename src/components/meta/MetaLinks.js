@@ -5,6 +5,17 @@ const MetaLinks = () => {
     return (
         <>
             <Helmet>
+                <html lang="en" />
+                <meta charset="utf-8" />
+                <meta
+                    name="viewport"
+                    content="initial-scale=1, width=device-width"
+                />
+                <meta
+                    http-equiv="X-UA-Compatible"
+                    content="IE=edge,chrome=1"
+                />
+                <meta name="theme-color" content="#503732" />
                 {/* Performance tip: hint to the browser to start the handshake for the fonts site */}
                 <link
                     rel="preconnect"
