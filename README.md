@@ -1,7 +1,7 @@
 [![pipeline status](https://gitlab.com/jaydan.urwin/anoun-gatsby/badges/master/pipeline.svg)](https://gitlab.com/jaydan.urwin/anoun-gatsby/pipelines)
 
 <p align="center">
-  <a href="https://anoun.design">
+  <a href="https://anoun-gatsby-website.firebaseapp.com">
     <img alt="ANOUN" src="https://anoun.design/seo/anoun-share-image.png" width="300" />
   </a>
 </p>
@@ -22,6 +22,7 @@
 - [X] add about page
 - [X] get MDC Web wrapped components working
 - [X] SEO Sitemap
+- [X] custom 404 page
 - [ ] Header Component
 - [ ] New Homepage Design
 - [ ] Blog Page w/ cards
