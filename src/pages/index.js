@@ -1,8 +1,7 @@
 import React from 'react'
+import Layout from '../components/Layout.js'
 import SEO from '../components/meta/SEO'
 import MetaLinks from '../components/meta/MetaLinks'
-import Layout from '../components/Layout.js'
-import Footer from '../components/Footer.js'
 import RoundButton from '../components/RoundButton'
 import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
 
@@ -86,6 +85,5 @@ export default () => (
             a text, email, or message me on Instagram and we can set up a time
             for a video call!
         </p>
-        <Footer/>
     </Layout>
 )
