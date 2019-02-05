@@ -14,4 +14,5 @@ deploy-prod:
   script:
     - npm install
     - npm run build
-    - firebase deploy --token "$FIREBASE_TOKEN"
+    - firebase use anoun-gatsby-website --token $FIREBASE_TOKEN
+    - firebase deploy --only hosting -m "Pipe $CI_PIPELINE_ID Build $CI_BUILD_ID" --token $FIREBASE_TOKEN
