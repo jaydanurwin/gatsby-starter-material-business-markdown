@@ -5,8 +5,7 @@ stages:
   - deploy
 cache:                  
   paths:                
-    - node_modules/     
-  key: "$CI_BUILD_REPO" 
+    - node_modules/
 deploy-prod:
   stage: deploy
   only:
