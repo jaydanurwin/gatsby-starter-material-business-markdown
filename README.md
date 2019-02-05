@@ -26,7 +26,7 @@
 - [ ] New Homepage Design
 - [ ] Blog Page w/ cards
 - [ ] About Page Photo
-- [ ] Dynamic SEO (title & description)
+- [ ] Dynamic SEO (titles & descriptions)
 - [ ] Attempt using Typography.js again
 - [ ] JSON LD Content
 - [ ] RSS Feed
@@ -34,7 +34,7 @@
 
 ### Clone
 
-`git clone`
+`git clone https://gitlab.com/jaydan.urwin/anoun-gatsby.git`
 
 ### Install Node Modules
 
@@ -44,9 +44,30 @@
 
 `npm run start`
 
-### Deploy
+### Featureset
 
-`npm run gitlab:deploy`
+- MDC Web Vanilla Components (MDC React is coming)
+- MDC Theming
+- Gitlab CI/CD
+- Firebase Hosting
+- Basic SEO (Robots.txt, Sitemap, title, description)
+- Footer component
+- Layout component
+- Prettier config (VS Code Plugin support)
+- Prismic.io Headless CMS integration
+- CSS Fluid Typography
+
+### Coming Soon
+
+- Header Component
+- New Homepage Design
+- Blog Page w/ card grid
+- About Page Photo
+- Dynamic SEO (title & description)
+- JSON LD Content
+- RSS Feed
+- PWA Support (theme and manifest)
+- Instructions for Setup (Blog post and video)
 
 ### Build Locally
 
