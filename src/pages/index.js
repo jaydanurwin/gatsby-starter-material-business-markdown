@@ -31,7 +31,7 @@ export default () => (
             <a href="sms:+12088079333" target="_blank">
                 <RoundButton>
                     <i
-                        class="material-icons mdc-button__icon"
+                        className="material-icons mdc-button__icon"
                         aria-hidden="true"
                     >
                         message
@@ -45,7 +45,7 @@ export default () => (
             >
                 <RoundButton>
                     <i
-                        class="material-icons mdc-button__icon"
+                        className="material-icons mdc-button__icon"
                         aria-hidden="true"
                     >
                         email
@@ -86,6 +86,5 @@ export default () => (
             a text, email, or message me on Instagram and we can set up a time
             for a video call!
         </p>
-        <Footer />
     </Layout>
 )

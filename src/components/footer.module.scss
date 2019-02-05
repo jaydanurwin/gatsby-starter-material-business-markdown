@@ -1,26 +1,22 @@
 /* FOOTER */
 
-.anounFooterContainer {
+h5, p {
+    margin: 0;
+}
+
+.footerProfileContainer {
     margin: 3rem 0 0 0;
     border-top: 1px #bfbfbf solid;
     padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
-.anounFooterContainer > h4 {
-    margin: 0;
-}
-
-.anounFooterContainer > p:first-of-type {
-    margin: 0.5rem 0 0 0;
-}
-
-.anounFooterContainer > p {
-    margin: 0;
-}
-
-.anounFooterProfile {
+.footerProfileImage {
     margin: 0.5rem 0 0 0;
     border-radius: 50%;
+}
+
+.footerLinkContainer {
+    margin: .25rem 0 0 0;
 }
 
 #igLogo {
