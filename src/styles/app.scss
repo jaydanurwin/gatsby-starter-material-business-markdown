@@ -44,6 +44,29 @@ a {
     margin-right: .25rem;
 }
 
+// WORK CARD
+
+.anoun-work__container {
+  margin: 1.5rem 0 2rem 0;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.anoun-work__container > div {
+  width: 320px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.anoun-work-card__media {
+  width: inherit;
+}
+
 /* LINK CONTAINER */
 
 .anoun-hero-link-container {
