@@ -77,3 +77,4 @@
 ### Known Issues
 
 - Any MDC React Component using the ripple component is not currently compatible with Gatsby
+  - Waiting on this milestone in the MDC Web Repo (https://github.com/material-components/material-components-web/milestone/18)
