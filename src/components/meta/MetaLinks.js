@@ -15,16 +15,14 @@ const MetaLinks = () => {
                     http-equiv="X-UA-Compatible"
                     content="IE=edge,chrome=1"
                 />
+                {/* added refresh meta suggested by Lighthouse */}
+                <meta http-equiv="refresh" />
                 <meta name="theme-color" content="#503732" />
                 {/* Performance tip: hint to the browser to start the handshake for the fonts site */}
                 <link
                     rel="preconnect"
                     href="https://fonts.gstatic.com/"
                     crossorigin
-                />
-                <link
-                    rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
                 />
                 <link
                     rel="stylesheet"
