@@ -1,4 +1,4 @@
-[![pipeline status](https://gitlab.com/jaydan.urwin/anoun-gatsby/badges/master/pipeline.svg)](https://gitlab.com/jaydan.urwin/anoun-gatsby/pipelines)
+[![pipeline status](https://gitlab.com/anoun/anoun-gatsby/badges/master/pipeline.svg)](https://gitlab.com/anoun/anoun-gatsby/pipelines)
 
 <p align="center">
   <a href="https://anoun-gatsby-website.firebaseapp.com">
@@ -35,7 +35,7 @@
 
 ### Clone
 
-`git clone https://gitlab.com/jaydan.urwin/anoun-gatsby.git`
+`git clone https://gitlab.com/anoun/anoun-gatsby.git`
 
 ### Install Node Modules
 
