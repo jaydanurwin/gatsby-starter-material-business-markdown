@@ -6,7 +6,7 @@ import './mdcRoundButton.scss'
 const MDCRoundButton = ({ children }) => {
     return (
         <>
-            <button className="mdc-button mdc-button--outlined roundButton">
+            <button className="mdc-button mdc-button--raised roundButton">
                 {children}
             </button>
         </>
