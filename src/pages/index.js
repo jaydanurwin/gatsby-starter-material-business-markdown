@@ -81,7 +81,7 @@ export default () => (
                 <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
                 <div class="anoun-work-content__container">
                     <h4>McFate's Heating & Cooling</h4>
-                    <a href="https://mcfatesheatingandcooling.com" target="_blank" rel="noopener">
+                    <a href="https://mcfatesheatingandcooling.com" target="_blank" rel="noopener noreferrer">
                         <button class="mdc-button">
                             <i class="material-icons anoun-work-button--back">launch</i>
                             visit site
@@ -93,7 +93,7 @@ export default () => (
                 <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
                 <div class="anoun-work-content__container">
                     <h4>TUF Flooring</h4>
-                    <a href="https://mcfatesheatingandcooling.com" target="_blank" rel="noopener">
+                    <a href="https://tufflooring.com" target="_blank" rel="noopener noreferrer">
                         <button class="mdc-button">
                             <i class="material-icons anoun-work-button--back">launch</i>
                             visit site
@@ -105,7 +105,7 @@ export default () => (
                 <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
                 <div class="anoun-work-content__container">
                     <h4>Moto One KTM</h4>
-                    <a href="https://mcfatesheatingandcooling.com" target="_blank" rel="noopener">
+                    <a href="https://motoonektm.com" target="_blank" rel="noopener noreferrer">
                         <button class="mdc-button">
                             <i class="material-icons anoun-work-button--back">launch</i>
                             visit site
