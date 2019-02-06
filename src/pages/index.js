@@ -3,7 +3,9 @@ import Layout from '../components/Layout.js'
 import SEO from '../components/meta/SEO'
 import MetaLinks from '../components/meta/MetaLinks'
 import MDCRoundButton from '../components/MDCRoundButton'
+import MDCCard from '../components/MDCCard'
 import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
+import anounShareImage from '../images/anoun-share-image.png'
 
 // Styles
 import '../styles/app.scss'
@@ -62,7 +64,6 @@ export default () => (
                 </MDCRoundButton>
             </a>
         </div>
-
         <h2>We believe this.</h2>
         <p>
             We believe design is in everything. Whether it's a person, place,
@@ -74,6 +75,45 @@ export default () => (
             's about it. We don't cut corners and we don't ship anything half
             baked or incomplete.
         </p>
+        <h2>We made these.</h2>
+        <div class="anoun-work__container">
+            <MDCCard>
+                <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
+                <div class="anoun-work-content__container">
+                    <h4>McFate's Heating & Cooling</h4>
+                    <a href="https://mcfatesheatingandcooling.com" target="_blank" rel="noopener">
+                        <button class="mdc-button">
+                            <i class="material-icons anoun-work-button--back">launch</i>
+                            visit site
+                        </button>
+                    </a>
+                </div>
+            </MDCCard>
+            <MDCCard>
+                <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
+                <div class="anoun-work-content__container">
+                    <h4>TUF Flooring</h4>
+                    <a href="https://mcfatesheatingandcooling.com" target="_blank" rel="noopener">
+                        <button class="mdc-button">
+                            <i class="material-icons anoun-work-button--back">launch</i>
+                            visit site
+                        </button>
+                    </a>
+                </div>
+            </MDCCard>
+            <MDCCard>
+                <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
+                <div class="anoun-work-content__container">
+                    <h4>Moto One KTM</h4>
+                    <a href="https://mcfatesheatingandcooling.com" target="_blank" rel="noopener">
+                        <button class="mdc-button">
+                            <i class="material-icons anoun-work-button--back">launch</i>
+                            visit site
+                        </button>
+                    </a>
+                </div>
+            </MDCCard>
+        </div>
         <h2>
             Made in{' '}
             <img
