@@ -13,7 +13,7 @@
 - [X] add favicon
 - [X] [use React Helmet for Google Fonts](https://www.gatsbyjs.org/tutorial/part-eight/#add-page-metadata)
 - [X] New CI build process/image
-- [ ] get home page moved over (no CMS)
+- [X] get home page moved over (no CMS)
   - [X] add CSS Fluid for typography
   - [X] add Typography styles
 - [x] style out about page
@@ -23,8 +23,9 @@
 - [X] get MDC Web wrapped components working
 - [X] SEO Sitemap
 - [X] custom 404 page
+- [X] New Homepage Design w/ work cards
+- [ ] Add sharp image support
 - [ ] Header Component
-- [ ] New Homepage Design
 - [ ] Blog Page w/ cards
 - [ ] About Page Photo
 - [ ] Dynamic SEO (titles & descriptions)
@@ -57,11 +58,11 @@
 - Prettier config (VS Code Plugin support)
 - Prismic.io Headless CMS integration
 - CSS Fluid Typography
+- Homepage Design w/ work cards
 
 ### Coming Soon
 
 - Header Component
-- New Homepage Design
 - Blog Page w/ card grid
 - About Page Photo
 - Dynamic SEO (title & description)
