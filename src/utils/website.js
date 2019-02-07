@@ -7,7 +7,7 @@ module.exports = {
     headline: 'Writing and publishing content for LekoArts', // Headline for schema.org JSONLD
     url: 'https://anoun-gatsby-website.firebaseapp.com', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element
-    logo: '/static/images/', // Used for SEO
+    ogImage: '/static/images/anoun-share-image.png', // Used for SEO
     ogLanguage: 'en_US', // Facebook Language
 
     // JSONLD / Manifest
