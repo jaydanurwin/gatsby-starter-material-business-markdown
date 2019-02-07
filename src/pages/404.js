@@ -17,7 +17,7 @@ const NotFoundPage = () => (
         <p>
             Uh oh! It looks like the place you were looking for is no longer
             here or there's a typo. Please check the URL for mistakes and try
-            again. 😉
+            again.{' '}<span role="img" aria-label="wink">😉</span>
         </p>
         <Link to="/">
             <MDCButton>
