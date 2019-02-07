@@ -1,5 +1,6 @@
-@import "@material/card/mdc-card";
+@import '@material/card/mdc-card';
 
 .mdc-card {
-    
+    @include mdc-card-shape-radius(8px);
+    @include mdc-elevation(6);
 }
