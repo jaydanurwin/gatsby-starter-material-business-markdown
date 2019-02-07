@@ -3,3 +3,9 @@
     max-width: 860px;
     padding: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .siteMain {
+        max-width: 960px;
+    }
+}
