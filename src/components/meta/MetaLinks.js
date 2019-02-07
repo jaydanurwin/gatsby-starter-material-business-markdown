@@ -17,7 +17,6 @@ const MetaLinks = () => {
                 />
                 {/* added refresh meta suggested by Lighthouse */}
                 <meta http-equiv="refresh" />
-                <meta name="theme-color" content="#503732" />
                 {/* Performance tip: hint to the browser to start the handshake for the fonts site */}
                 <link
                     rel="preconnect"
