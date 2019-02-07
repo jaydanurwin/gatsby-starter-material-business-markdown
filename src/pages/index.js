@@ -78,38 +78,61 @@ export default () => (
         <h2>We made these.</h2>
         <div class="anoun-work__container">
             <MDCCard>
-                <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
-                <div class="anoun-work-content__container">
+                <img
+                    class="mdc-card__media"
+                    src={anounShareImage}
+                />
+                <div>
                     <h4>McFate's Heating & Cooling</h4>
-                    <a href="https://mcfatesheatingandcooling.com" target="_blank" rel="noopener noreferrer">
-                        <button class="mdc-button">
-                            <i class="material-icons anoun-work-button--back">launch</i>
-                            visit site
-                        </button>
+                    <p>Branding, Web Design</p>
+                    <a
+                        href="https://mcfatesheatingandcooling.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="anoun-work-link"
+                    >
+                        visit site
+                        <i class="material-icons">
+                            launch
+                        </i>
                     </a>
                 </div>
             </MDCCard>
             <MDCCard>
-                <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
-                <div class="anoun-work-content__container">
+                <img
+                    class="mdc-card__media"
+                    src={anounShareImage}
+                />
+                <div>
                     <h4>TUF Flooring</h4>
-                    <a href="https://tufflooring.com" target="_blank" rel="noopener noreferrer">
-                        <button class="mdc-button">
-                            <i class="material-icons anoun-work-button--back">launch</i>
-                            visit site
-                        </button>
+                    <p>Web Design</p>
+                    <a
+                        href="https://tufflooring.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        visit site
+                        <i class="material-icons">
+                            launch
+                        </i>
                     </a>
                 </div>
             </MDCCard>
             <MDCCard>
-                <img class="mdc-card__media anoun-work-card__media" src={anounShareImage} />
-                <div class="anoun-work-content__container">
+                <img
+                    class="mdc-card__media"
+                    src={anounShareImage}
+                />
+                <div>
                     <h4>Moto One KTM</h4>
-                    <a href="https://motoonektm.com" target="_blank" rel="noopener noreferrer">
-                        <button class="mdc-button">
-                            <i class="material-icons anoun-work-button--back">launch</i>
-                            visit site
-                        </button>
+                    <p>Web Design</p>
+                    <a
+                        href="https://motoonektm.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        visit site
+                        <i class="material-icons">launch</i>
                     </a>
                 </div>
             </MDCCard>
