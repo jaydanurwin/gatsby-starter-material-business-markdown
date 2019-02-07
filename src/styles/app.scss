@@ -21,12 +21,9 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
-
-::-moz-selection { background: var(--mdc-theme-primary); }
-::selection { background: var(--mdc-theme-primary); }
 
 /* BUTTONS */
 
@@ -41,46 +38,34 @@ a {
 }
 
 .anoun-hero-container--buttons > a > button {
-    margin-right: .25rem;
+    margin-right: 0.25rem;
 }
 
 // WORK CARD
 
 .anoun-work__container {
-  margin: 1.5rem 0 2rem 0;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  &::-webkit-scrollbar {
-    display: none;
-  }
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .anoun-work__container > div {
-  width: 320px;
-  text-align: center;
-  margin: 1rem;
-}
+    text-align: center;
+    margin: 1rem auto;
+    padding-bottom: .5rem;
 
-.anoun-work-card__media {
-  width: inherit;
-}
+    .material-icons {
+        margin-left: 0.5px;
+        vertical-align: middle;
+    }
 
-/* LINK CONTAINER */
-
-.anoun-hero-link-container {
-    display: block;
-}
-
-.anoun-hero-link--text {
-    display: inline-block;
-    margin: 0.5rem 0 0.5rem 0.25rem;
-}
-
-.anoun-hero-link--link {
-    margin: -8px 0 0 2px;
-    vertical-align: middle;
+    h4 {
+        margin: 1rem 0 0 0;
+    }
+    
+    p {
+        margin: 0 0 .5rem 0;
+        font-size: .8rem
+    }
 }
 
 /* TINY PHONE STYLES */
@@ -90,14 +75,8 @@ a {
         font-size: 9px;
     }
 }
-
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
-    .anoun-hero-section {
-        max-width: 756px;
-        margin: 50px auto 20px auto;
-    }
-
     .anoun-hero-container--buttons > a > button {
         margin-right: 8px;
     }
