@@ -4,8 +4,11 @@ import SEO from '../components/meta/SEO'
 import MetaLinks from '../components/meta/MetaLinks'
 import MDCRoundButton from '../components/MDCRoundButton'
 import MDCCard from '../components/MDCCard'
+
 import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
-import anounShareImage from '../images/anoun-share-image.png'
+import mcfatesImage from '../images/mcfatesheatingandcooling.png'
+import motooneImage from '../images/motoonektm.png'
+import tufImage from '../images/tufflooring.png'
 
 // Styles
 import '../styles/app.scss'
@@ -80,7 +83,8 @@ export default () => (
             <MDCCard>
                 <img
                     class="mdc-card__media"
-                    src={anounShareImage}
+                    src={mcfatesImage}
+                    alt="McFate's Heating & Cooling"
                 />
                 <div>
                     <h4>McFate's Heating & Cooling</h4>
@@ -101,7 +105,8 @@ export default () => (
             <MDCCard>
                 <img
                     class="mdc-card__media"
-                    src={anounShareImage}
+                    src={tufImage}
+                    alt="TUF Flooring"
                 />
                 <div>
                     <h4>TUF Flooring</h4>
@@ -121,7 +126,8 @@ export default () => (
             <MDCCard>
                 <img
                     class="mdc-card__media"
-                    src={anounShareImage}
+                    src={motooneImage}
+                    alt="Moto One KTM"
                 />
                 <div>
                     <h4>Moto One KTM</h4>
