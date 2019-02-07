@@ -25,6 +25,16 @@ a {
     color: inherit;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: var(--mdc-theme-on-primary);
+  background: var(--mdc-theme-primary);
+}
+
+::selection {
+  color: var(--mdc-theme-on-primary);
+  background: var(--mdc-theme-primary);
+}
+
 /* BUTTONS */
 
 .anoun-hero-container--buttons {
