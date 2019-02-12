@@ -2,5 +2,9 @@
 
 .mdc-card {
     @include mdc-card-shape-radius(8px);
-    @include mdc-elevation(6);
+    @include mdc-elevation(2);
+    &:hover {
+        @include mdc-elevation(6);
+        cursor: pointer;
+    }
 }
