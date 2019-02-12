@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "anoun-gatsby-website"
+    "default": "anoun-gatsby-website",
+    "staging": "anoun-staging"
   }
 }

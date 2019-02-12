@@ -6,13 +6,30 @@ stages:
 cache:                  
   paths:                
     - node_modules/     
-  key: "$CI_BUILD_REPO" 
-deploy-prod:
+  key: "$CI_BUILD_REPO"
+deploy_staging:
   stage: deploy
-  only:
-    - master
   script:
+    - echo "Deploy to staging site"
+    - npm install
+    - npm run build
+    - firebase use staging --token $FIREBASE_TOKEN
+    - firebase deploy --only hosting -m "Pipe $CI_PIPELINE_ID Build $CI_BUILD_ID" --token $FIREBASE_TOKEN
+  environment:
+    name: staging
+    url: https://anoun-staging.firebaseapp.com     
+deploy_prod:
+  stage: deploy
+  script:
+    - echo "Deploy to production site"
     - npm install
     - npm run build
     - firebase use default --token $FIREBASE_TOKEN
     - firebase deploy --only hosting -m "Pipe $CI_PIPELINE_ID Build $CI_BUILD_ID" --token $FIREBASE_TOKEN
+  environment:
+    name: production
+    url: https://anoun.design
+  when: manual
+  only:
+  - master
+
