@@ -5,7 +5,7 @@ module.exports = {
     description:
         'ANOUN is a website and app design agency based in Boise, Idaho. We take a people-first approach designing experiences through websites, iPhone apps, and Android apps. We aim to deliver the best design services in Boise, Meridian, and Nampa, Idaho. Contact us to learn more!',
     headline: 'Writing and publishing content for LekoArts', // Headline for schema.org JSONLD
-    url: 'https://anoun-gatsby-website.firebaseapp.com', // Domain of your site. No trailing slash!
+    url: 'https://anoun.design', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element
     ogImage: '/static/images/anoun-share-image.png', // Used for SEO
     ogLanguage: 'en_US', // Facebook Language
