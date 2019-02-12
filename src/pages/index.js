@@ -80,68 +80,70 @@ export default () => (
         </p>
         <h2>We made these.</h2>
         <div class="anoun-work__container">
-            <MDCCard>
-                <img
-                    class="mdc-card__media"
-                    src={mcfatesImage}
-                    alt="McFate's Heating & Cooling"
-                />
-                <div>
-                    <h4>McFate's Heating & Cooling</h4>
-                    <p>Branding, Web Design</p>
-                    <a
-                        href="https://mcfatesheatingandcooling.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="anoun-work-link"
-                    >
-                        visit site
-                        <i class="material-icons">
-                            launch
-                        </i>
-                    </a>
-                </div>
-            </MDCCard>
-            <MDCCard>
-                <img
-                    class="mdc-card__media"
-                    src={tufImage}
-                    alt="TUF Flooring"
-                />
-                <div>
-                    <h4>TUF Flooring</h4>
-                    <p>Web Design</p>
-                    <a
-                        href="https://tufflooring.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        visit site
-                        <i class="material-icons">
-                            launch
-                        </i>
-                    </a>
-                </div>
-            </MDCCard>
-            <MDCCard>
-                <img
-                    class="mdc-card__media"
-                    src={motooneImage}
-                    alt="Moto One KTM"
-                />
-                <div>
-                    <h4>Moto One KTM</h4>
-                    <p>Web Design</p>
-                    <a
-                        href="https://motoonektm.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        visit site
-                        <i class="material-icons">launch</i>
-                    </a>
-                </div>
-            </MDCCard>
+            {/* McFate's Card */}
+            <a
+                href="https://mcfatesheatingandcooling.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="anoun-work-link"
+            >
+                <MDCCard>
+                    <img
+                        class="mdc-card__media"
+                        src={mcfatesImage}
+                        alt="McFate's Heating & Cooling"
+                    />
+                    <div class="anoun-work-card-content__container">
+                        <h4>McFate's Heating & Cooling</h4>
+                        <p>Branding, Web Design</p>
+                        <p>
+                            visit site<i class="material-icons">launch</i>
+                        </p>
+                    </div>
+                </MDCCard>
+            </a>
+            {/* TUF Card */}
+            <a
+                href="https://tufflooring.com"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <MDCCard>
+                    <img
+                        class="mdc-card__media"
+                        src={tufImage}
+                        alt="TUF Flooring"
+                    />
+                    <div class="anoun-work-card-content__container">
+                        <h4>TUF Flooring</h4>
+                        <p>Web Design</p>
+                        <p>
+                            visit site <i class="material-icons">launch</i>
+                        </p>
+                    </div>
+                </MDCCard>
+            </a>
+            {/* Moto One Card */}
+            <a
+                href="https://motoonektm.com"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <MDCCard>
+                    <img
+                        class="mdc-card__media"
+                        src={motooneImage}
+                        alt="Moto One KTM"
+                    />
+                    <div class="anoun-work-card-content__container">
+                        <h4>Moto One KTM</h4>
+                        <p>Web Design</p>
+                        <p>
+                            visit site<i class="material-icons">launch</i>
+                        </p>
+                    </div>
+                </MDCCard>
+            </a>
         </div>
         <h2>
             Made in{' '}

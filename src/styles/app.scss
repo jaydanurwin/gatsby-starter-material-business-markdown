@@ -58,11 +58,14 @@ a {
     flex-wrap: wrap;
 }
 
-.anoun-work__container > div {
-    text-align: center;
+.anoun-work__container > a {
     margin: 1rem auto;
     padding-bottom: .5rem;
+}
 
+.anoun-work-card-content__container {
+    text-align: center;
+    
     .material-icons {
         margin-left: 0.5px;
         vertical-align: middle;
