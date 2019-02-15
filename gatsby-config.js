@@ -37,6 +37,12 @@ module.exports = {
                 includePaths: ['node_modules']
             }
         },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: `UA-122654359-2`,
+            },
+        },
         `gatsby-plugin-sitemap`
     ]
 }

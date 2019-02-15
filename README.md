@@ -24,7 +24,7 @@
 - [X] SEO Sitemap
 - [X] custom 404 page
 - [X] New Homepage Design w/ work cards
-- [ ] Add Google Analytics
+- [X] Add Google Analytics
 
 ### Clone
 
