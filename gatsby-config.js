@@ -28,7 +28,6 @@ module.exports = {
             options: {
                 repositoryName: `anoun`,
                 accessToken: `${process.env.API_KEY}`,
-                linkResolver: ({ node, key, value }) => post => `/${post.uid}`
             }
         },
         {
@@ -40,8 +39,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: `UA-122654359-2`
-            }
+                trackingId: `UA-122654359-2`,
+            },
         },
         `gatsby-plugin-sitemap`
     ]
