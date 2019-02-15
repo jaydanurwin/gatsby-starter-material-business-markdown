@@ -24,15 +24,7 @@
 - [X] SEO Sitemap
 - [X] custom 404 page
 - [X] New Homepage Design w/ work cards
-- [ ] Add sharp image support
-- [ ] Header Component
-- [ ] Blog Page w/ cards
-- [ ] About Page Photo
-- [ ] Dynamic SEO (titles & descriptions)
-- [ ] Attempt using Typography.js again
-- [ ] JSON LD Content
-- [ ] RSS Feed
-- [ ] add manifest plugin (PWA)
+- [ ] Add Google Analytics
 
 ### Clone
 
