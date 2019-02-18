@@ -52,7 +52,7 @@ export default () => (
                 </MDCRoundButton>
             </a>
             <a
-                href="mailto:jaydan.urwin@gmail.com?subject=Let's build something great!"
+                href="mailto:hello@anoun.design?subject=Let's build something great!"
                 target="_blank"
                 rel="noopener noreferrer"
             >
