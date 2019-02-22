@@ -23,8 +23,6 @@ export default () => (
         <div className="anoun-hero-container--buttons">
             <a
                 href="tel:+12088079333"
-                target="_blank"
-                rel="noopener noreferrer"
             >
                 <MDCRoundButton>
                     <i
@@ -38,8 +36,6 @@ export default () => (
             </a>
             <a
                 href="sms:+12088079333"
-                target="_blank"
-                rel="noopener noreferrer"
             >
                 <MDCRoundButton>
                     <i
@@ -53,8 +49,6 @@ export default () => (
             </a>
             <a
                 href="mailto:hello@anoun.design?subject=Let's build something great!"
-                target="_blank"
-                rel="noopener noreferrer"
             >
                 <MDCRoundButton>
                     <i
