@@ -21,7 +21,7 @@ const SEO = () => {
                 />
                 <meta
                     property="og:image"
-                    content={ogImage}
+                    content="https://anoun.design/images/anoun-share-image.png"
                 />
             </Helmet>
         </>
