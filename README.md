@@ -15,7 +15,7 @@
 - Dynamic SEO (titles change)
 - Layout component
 - Prettier config (VS Code Plugin support)
-- Sanity.io Headless CMS integration
+- Prismic Headless CMS integration
 - CSS Fluid Typography
 - About Page
 - Blog

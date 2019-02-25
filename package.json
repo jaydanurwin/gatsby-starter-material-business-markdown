@@ -14,15 +14,15 @@
   "dependencies": {
     "@material/button": "^0.44.0",
     "@material/card": "^0.44.0",
-    "gatsby": "^2.0.76",
+    "gatsby": "^2.1.17",
     "gatsby-plugin-google-analytics": "^2.0.14",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sass": "^2.0.8",
     "gatsby-plugin-sitemap": "^2.0.5",
     "gatsby-source-prismic": "^2.2.0",
     "node-sass": "^4.11.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
     "react-helmet": "^5.2.0"
   },
   "repository": {
