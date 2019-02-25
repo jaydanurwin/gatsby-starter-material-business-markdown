@@ -2,29 +2,11 @@
 
 <p align="center">
   <a href="https://anoun-gatsby-website.firebaseapp.com">
-    <img alt="ANOUN" src="https://anoun.design/images/anoun-share-image.png" width="300" />
+    <img alt="ANOUN" src="https://anoun.design/images/anoun-share-image.png" width="600" />
   </a>
 </p>
 
 # ANOUN'S Gatsby Website
-
-## TODO's
-
-- [X] add favicon
-- [X] [use React Helmet for Google Fonts](https://www.gatsbyjs.org/tutorial/part-eight/#add-page-metadata)
-- [X] New CI build process/image
-- [X] get home page moved over (no CMS)
-  - [X] add CSS Fluid for typography
-  - [X] add Typography styles
-- [x] style out about page
-- [x] add reset styles locally
-- [X] add font styles with swap
-- [X] add about page
-- [X] get MDC Web wrapped components working
-- [X] SEO Sitemap
-- [X] custom 404 page
-- [X] New Homepage Design w/ work cards
-- [X] Add Google Analytics
 
 ### Clone
 
