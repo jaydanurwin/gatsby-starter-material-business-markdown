@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from '../components/layout'
 import SEO from '../components/meta/SEO'
 import MetaLinks from '../components/meta/MetaLinks'
+import Layout from '../components/layout'
 import MDCRoundButton from '../components/MDCRoundButton'
 import MDCCard from '../components/MDCCard'
 
@@ -13,7 +13,7 @@ import tufImage from '../images/tufflooring.png'
 // Styles
 import '../styles/app.scss'
 
-export default () => (
+const IndexPage = () => (
     <Layout>
       <SEO />
       <MetaLinks />
@@ -135,3 +135,5 @@ export default () => (
       </p>
     </Layout>
 )
+
+export default IndexPage
