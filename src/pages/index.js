@@ -3,7 +3,7 @@ import SEO from '../components/meta/SEO'
 import MetaLinks from '../components/meta/MetaLinks'
 import Layout from '../components/Layout'
 import MDCRoundButton from '../components/MDCRoundButton'
-import MDCCard from '../components/MDCCard'
+import MDCCardClickable from '../components/MDCCardClickable'
 
 import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
 import mcfatesImage from '../images/mcfatesheatingandcooling.png'
@@ -64,7 +64,7 @@ const IndexPage = () => (
           rel="noopener noreferrer"
           className="anoun-work-link"
         >
-          <MDCCard>
+          <MDCCardClickable>
             <img
               class="mdc-card__media anoun-work-responsive__img"
               src={mcfatesImage}
@@ -77,11 +77,11 @@ const IndexPage = () => (
                 visit site<i class="material-icons">launch</i>
               </p>
             </div>
-          </MDCCard>
+          </MDCCardClickable>
         </a>
         {/* TUF Card */}
         <a href="https://tufflooring.com" target="_blank" rel="noopener noreferrer">
-          <MDCCard>
+          <MDCCardClickable>
             <img
               class="mdc-card__media anoun-work-responsive__img"
               src={tufImage}
@@ -94,11 +94,11 @@ const IndexPage = () => (
                 visit site <i class="material-icons">launch</i>
               </p>
             </div>
-          </MDCCard>
+          </MDCCardClickable>
         </a>
         {/* Moto One Card */}
         <a href="https://motoonektm.com" target="_blank" rel="noopener noreferrer">
-          <MDCCard>
+          <MDCCardClickable>
             <img
               class="mdc-card__media anoun-work-responsive__img"
               src={motooneImage}
@@ -111,7 +111,7 @@ const IndexPage = () => (
                 visit site<i class="material-icons">launch</i>
               </p>
             </div>
-          </MDCCard>
+          </MDCCardClickable>
         </a>
       </div>
       <h2>
