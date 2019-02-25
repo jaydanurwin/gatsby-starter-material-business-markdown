@@ -10,8 +10,6 @@
 @import './theme.scss';
 @import './typography.scss';
 
-@import '@material/card/mdc-card';
-
 /* GLOBAL STYLES */
 
 * {
@@ -78,19 +76,6 @@ a {
 .anoun-work__container > a {
     margin: 1rem auto;
     padding-bottom: 0.5rem;
-}
-
-// hover animation for work cards
-.anoun-work__container > a > div {
-    transition: all ease 0.1s;
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    &:hover {
-        @include mdc-elevation(6);
-        cursor: pointer;
-    }
 }
 
 .anoun-work-responsive__img {
