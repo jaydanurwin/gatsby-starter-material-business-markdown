@@ -1,0 +1,18 @@
+@import '@material/card/mdc-card';
+
+.mdc-card {
+    @include mdc-card-shape-radius(8px);
+    @include mdc-elevation(1);
+}
+
+.mdc-card--clickable {
+    transition: all ease 0.1s;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    &:hover {
+        @include mdc-elevation(6);
+        cursor: pointer;
+    }
+}
