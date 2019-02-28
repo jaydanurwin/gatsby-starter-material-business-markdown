@@ -28,6 +28,7 @@ module.exports = {
             options: {
                 repositoryName: `anoun`,
                 accessToken: `${process.env.API_KEY}`,
+                linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
             }
         },
         {
