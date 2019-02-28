@@ -3,8 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import MetaLinks from '../components/meta/MetaLinks'
 import SEO from '../components/meta/SEO'
-import '../components/MDCButton'
-import MDCButton from '../components/MDCButton';
+import MDCButton from '../components/mdc-components/MDCButton'
 
 // Styles
 import '../styles/app.scss'
