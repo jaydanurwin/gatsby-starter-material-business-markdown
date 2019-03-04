@@ -5,10 +5,11 @@ import Layout from '../components/Layout'
 import MDCRoundButton from '../components/mdc-components/MDCRoundButton'
 import MDCCardClickable from '../components/mdc-components/MDCCardClickable'
 
-import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
+import leanaImage from '../images/leanaurwin.png'
 import mcfatesImage from '../images/mcfatesheatingandcooling.png'
 import motooneImage from '../images/motoonektm.png'
 import tufImage from '../images/tufflooring.png'
+import idahoOutlineLightTheme from '../images/icons/idaho-outline--lightTheme.svg'
 
 // Styles
 import '../styles/app.scss'
@@ -57,6 +58,23 @@ const IndexPage = () => (
       </p>
       <h2>We made these.</h2>
       <div class="anoun-work__container">
+      {/* Leana Urwin Card */}
+      <a href="https://leanaurwin.com" target="_blank" rel="noopener noreferrer">
+        <MDCCardClickable>
+          <img
+            class="mdc-card__media anoun-work-responsive__img"
+            src={leanaImage}
+            alt="Leana Urwin Website Screenshot"
+          />
+          <div class="anoun-work-card-content__container">
+            <h4>Leana Urwin</h4>
+            <p>Branding, Web Design</p>
+            <p>
+              visit site<i class="material-icons">launch</i>
+            </p>
+          </div>
+        </MDCCardClickable>
+      </a>
         {/* McFate's Card */}
         <a
           href="https://mcfatesheatingandcooling.com"
