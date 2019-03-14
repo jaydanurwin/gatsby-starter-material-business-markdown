@@ -47,19 +47,16 @@ const IndexPage = () => (
           </MDCRoundButton>
         </a>
       </div>
-      <h2>Our Services</h2>
-      <h4>Web Design</h4>
-      <h4>App Design</h4>
-      <h4>Brand Design</h4>
-      {/* <p>
+      <h2>We believe this.</h2>
+      <p>
         We believe design is in everything. Whether it's a person, place, thing or idea. We believe
         design should be done right from the largest to the smallest detail. No if's, and's, or{' '}
         <span role="img" aria-label="butts">
           🍑
         </span>
         's about it. We don't cut corners and we don't ship anything half baked or incomplete.
-      </p> */}
-      <h2>Our Work</h2>
+      </p>
+      <h2>We made these.</h2>
       <div class="anoun-work__container">
       {/* Leana Urwin Card */}
       <a href="https://leanaurwin.com" target="_blank" rel="noopener noreferrer">
