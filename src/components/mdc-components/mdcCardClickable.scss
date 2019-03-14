@@ -5,14 +5,17 @@
     @include mdc-elevation(1);
 }
 
-.mdc-card--clickable {
-    transition: all ease 0.1s;
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    &:hover {
-        @include mdc-elevation(6);
-        cursor: pointer;
+/* WIDE LAYOUT STYLES */
+@media screen and (min-width: 1024px) {
+    .mdc-card--clickable {
+        transition: all ease 0.1s;
+        transition-property: all;
+        transition-duration: 0.1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        &:hover {
+            @include mdc-elevation(6);
+            cursor: pointer;
+        }
     }
 }
