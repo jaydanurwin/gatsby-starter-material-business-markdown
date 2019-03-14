@@ -3,7 +3,7 @@ module.exports = {
     title: 'ANOUN | A Web Design Company in Boise, ID', // Navigation and Site Title
     titleAlt: 'ANOUN', // Title for JSONLD
     description:
-        'ANOUN is a design and development company based in Boise, Idaho. We take a people-first approach designing clean, efficient, modern customer experiences through websites and mobile apps. We aim to deliver the best design services in Boise, Meridian, and Nampa, Idaho. Contact us to learn more!',
+        'ANOUN is a design and development company based in Boise, Idaho. We design clean, efficient, modern customer experiences for websites and mobile apps. We aim to deliver the best design services in Boise, Meridian, and Nampa, Idaho. Contact us to learn more!',
     headline: 'Writing and publishing content for LekoArts', // Headline for schema.org JSONLD
     url: 'https://anoun.design', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element
