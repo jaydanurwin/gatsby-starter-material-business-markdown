@@ -24,13 +24,6 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         {
-            resolve: `gatsby-source-prismic`,
-            options: {
-                repositoryName: `anoun`,
-                accessToken: `${process.env.API_KEY}`,
-            }
-        },
-        {
             resolve: 'gatsby-plugin-sass',
             options: {
                 includePaths: ['node_modules']
