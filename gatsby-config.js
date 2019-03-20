@@ -2,24 +2,12 @@ require('dotenv').config({
     path: `.env.${process.env.NODE_ENV}`
 })
 
-const website = require('./src/utils/website')
-const pathPrefix = website.pathPrefix === '/' ? '' : website.pathPrefix
-
 module.exports = {
-    /* General Information */
-    pathPrefix: website.pathPrefix,
     siteMetadata: {
-        siteUrl: website.url + pathPrefix, // For gatsby-plugin-sitemap
-        pathPrefix,
-        title: website.title,
-        titleAlt: website.titleAlt,
-        description: website.description,
-        banner: website.logo,
-        headline: website.headline,
-        siteLanguage: website.siteLanguage,
-        ogLanguage: website.ogLanguage,
-        author: website.author,
-        facebook: website.facebook
+        title: `ANOUN | A Web Design Company in Boise, ID`,
+        author: `ANOUN`,
+        description: `ANOUN is a design and development company based in Boise, Idaho. We design clean, efficient, modern customer experiences for websites and mobile apps. We aim to deliver the best design services in Boise, Meridian, and Nampa, Idaho. Contact us to learn more!`,
+        siteUrl: `https://anoun-staging.firebaseapp.com/`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
