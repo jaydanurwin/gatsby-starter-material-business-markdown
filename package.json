@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -14,13 +15,12 @@
   "dependencies": {
     "@material/button": "^0.44.0",
     "@material/card": "^0.44.0",
-    "gatsby": "^2.1.17",
+    "gatsby": "^2.2.3",
     "gatsby-plugin-freshchat": "^1.0.0-rc1",
     "gatsby-plugin-google-analytics": "^2.0.14",
     "gatsby-plugin-react-helmet": "^3.0.5",
-    "gatsby-plugin-sass": "^2.0.8",
+    "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sitemap": "^2.0.5",
-    "gatsby-source-prismic": "^2.2.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -34,6 +34,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
-    "dotenv": "^6.2.0"
+    "dotenv": "^6.2.0",
+    "prettier": "1.16.4"
   }
 }

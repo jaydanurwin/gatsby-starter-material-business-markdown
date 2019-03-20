@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react"
 
 // Styles
-import './mdcButton.scss'
+import "./mdcButton.scss"
 
 const MDCButton = ({ children }) => {
-    return (
-        <>
-            <button className="mdc-button mdc-button--raised">
-                {children}
-            </button>
-        </>
-    )
+  return (
+    <>
+      <button className="mdc-button mdc-button--raised">{children}</button>
+    </>
+  )
 }
 
 export default MDCButton
