@@ -23,7 +23,8 @@ const Layout = ({ children }) => (
             alt="instagram-logo-vector-svg"
           />
         </a>{" "}
-        {/* {'•'} <Link to="/blog/">Blog</Link>  */}
+        {'•'} <Link to="/blog/">Blog</Link> 
+        {" "}
         {"•"} <Link to="/about/">About</Link>
         {/* <div className={styles.siteInfo}>
           © {new Date().getFullYear()}, Built with <a href="https://www.sanity.io">Sanity</a> &amp;
