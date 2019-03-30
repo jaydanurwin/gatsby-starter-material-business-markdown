@@ -1,54 +1,73 @@
-require('dotenv').config({
-    path: `.env.${process.env.NODE_ENV}`
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
-const website = require('./src/utils/website')
-const pathPrefix = website.pathPrefix === '/' ? '' : website.pathPrefix
-
 module.exports = {
-    /* General Information */
-    pathPrefix: website.pathPrefix,
-    siteMetadata: {
-        siteUrl: website.url + pathPrefix, // For gatsby-plugin-sitemap
-        pathPrefix,
-        title: website.title,
-        titleAlt: website.titleAlt,
-        description: website.description,
-        banner: website.logo,
-        headline: website.headline,
-        siteLanguage: website.siteLanguage,
-        ogLanguage: website.ogLanguage,
-        author: website.author,
-        facebook: website.facebook
+  siteMetadata: {
+    title: `ANOUN | A Web Design Company in Boise, ID`,
+    author: `ANOUN`,
+    description: `ANOUN is a design and development company based in Boise, Idaho. We design clean, efficient, modern customer experiences for websites and mobile apps. We aim to deliver the best design services in Boise, Meridian, and Nampa, Idaho. Contact us to learn more!`,
+    siteUrl: `https://anoun-staging.firebaseapp.com/`,
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
     },
-    plugins: [
-        `gatsby-plugin-react-helmet`,
-        {
-            resolve: `gatsby-source-prismic`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
             options: {
-                repositoryName: `anoun`,
-                accessToken: `${process.env.API_KEY}`,
-            }
-        },
-        {
-            resolve: 'gatsby-plugin-sass',
-            options: {
-                includePaths: ['node_modules']
-            }
-        },
-        {
-            resolve: `gatsby-plugin-google-analytics`,
-            options: {
-                trackingId: `UA-122654359-2`,
+              maxWidth: 590,
             },
-        },
-        {
-            resolve: `gatsby-plugin-freshchat`,
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
             options: {
-                token: "1aafc7b5-e5d7-4f09-aff0-764eadd059a0",
-                host: "https://wchat.freshchat.com",
+              wrapperStyle: `margin-bottom: 1.0725rem`,
             },
-        },
-        `gatsby-plugin-sitemap`
-    ]
+          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        includePaths: ["node_modules"],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-122654359-2`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-freshchat`,
+      options: {
+        token: "1aafc7b5-e5d7-4f09-aff0-764eadd059a0",
+        host: "https://wchat.freshchat.com",
+      },
+    },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-react-helmet`,
+  ],
 }

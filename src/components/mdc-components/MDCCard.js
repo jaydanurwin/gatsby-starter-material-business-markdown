@@ -1,17 +1,14 @@
-import React from 'react'
+import React from "react"
 
 // Styles
-import './mdcCard.scss'
+import "./mdcCard.scss"
 
 const MDCCard = ({ children }) => {
-    return (
-        <>
-            <div className="mdc-card">
-            {children}
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div className="mdc-card">{children}</div>
+    </>
+  )
 }
 
 export default MDCCard
-
