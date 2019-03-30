@@ -1,7 +1,7 @@
 import React from "react"
 import SEO from "../components/meta/SEO"
 import MetaLinks from "../components/meta/MetaLinks"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import MDCRoundButton from "../components/mdc-components/MDCRoundButton"
 import MDCCardClickable from "../components/mdc-components/MDCCardClickable"
 
