@@ -21,8 +21,7 @@ class BlogPage extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h2
-              >
+              <h2>
                 <Link style={{ textDecoration: `underline` }} to={node.fields.slug}>
                   {title}
                 </Link>
