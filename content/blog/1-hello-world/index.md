@@ -14,7 +14,7 @@ With this being our first post we really would like to do a couple things:
 
 2. Explain what kind of content we'll be posting
 
-## Doors
+## Norman Doors
 
 So first of all we're <span class="anoun-title">ANOUN</span>. We're a creative design and development agency based out of Boise, Idaho. We believe that design is in everything whether it's a person, place, thing, or idea. Some things are absolutely designed better than others and the funny thing is design *should* be a thankless job. If you had to stop and think about how something is designed it's usually because it's getting in your way. For example, have you ever pulled on a door that you're supposed to push?
 
