@@ -22,7 +22,7 @@ So first of all we're <span class="anoun-title">ANOUN</span>. We're a creative d
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yY96hTb8WgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
->*In a nutshell that's our mission. We want to find problems like those doors and fix them so it makes sense without a user manual or a big sign that says "PUSH" because it's design says otherwise.*
+>*In a nutshell that's our mission. We want to find problems like those doors and fix them so it makes sense without a user manual.*
 
 ## Words matter
 
