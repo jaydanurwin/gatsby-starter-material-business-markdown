@@ -41,8 +41,8 @@
 ### Install Node Modules & CLI's
 
 ```bash
-# if you don't have sanity cli already
-npm install -g sanity
+# if you don't have gatsby cli already
+npm install -g gatsby-cli
 # if you don't have firebase-tools already
 npm install -g firebase-tools
 # install modules
@@ -52,10 +52,6 @@ npm install
 ### Develop Locally
 
 `npm run start`
-
-### Pre-Deploy Steps
-
-#### Prismic
 
 ## Deploy Options
 
