@@ -15,16 +15,16 @@
 - Dynamic SEO (titles change)
 - Layout component
 - Prettier config (VS Code Plugin support)
-- Prismic Headless CMS integration
 - CSS Fluid Typography
 - About Page
-- Blog
+- Markdown Blog
+- MDC Web Vanilla Components
+- Homepage Design w/ work cards
 
 ## Upcoming Features
 
-- MDC Web Vanilla Components (MDC React is coming)
+- MDC React Components
 - MDC Theming
-- Homepage Design w/ work cards
 - Header Component
 - About Page Photo
 - RSS Feed
