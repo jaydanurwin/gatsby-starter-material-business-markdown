@@ -13,8 +13,8 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "@material/button": "^0.44.0",
-    "@material/card": "^0.44.0",
+    "@material/button": "^0.44.1",
+    "@material/card": "^0.44.1",
     "gatsby": "^2.3.4",
     "gatsby-image": "^2.0.35",
     "gatsby-plugin-freshchat": "^1.0.0-rc1",
