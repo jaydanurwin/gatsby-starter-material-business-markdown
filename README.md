@@ -41,7 +41,7 @@
 ### Install Node Modules & CLI's
 
 ```bash
-# if you don't have gatsby cli already
+# if you don't have gatsby-cli already
 npm install -g gatsby-cli
 # if you don't have firebase-tools already
 npm install -g firebase-tools
