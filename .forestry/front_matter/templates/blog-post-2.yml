@@ -1,8 +1,0 @@
----
-label: Blog Post 2
-hide_body: false
-fields:
-- type: text
-  name: title
-  label: title
-  description: title of the post
