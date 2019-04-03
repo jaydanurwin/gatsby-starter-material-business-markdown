@@ -9,8 +9,10 @@ import "../styles/app.scss"
 const About = () => (
   <Layout>
     <MetaLinks />
-    <SEO />
-    <h3>Why <span class="anoun-title">ANOUN</span>?</h3>
+    <SEO title="About" />
+    <h3>
+      Why <span class="anoun-title">ANOUN</span>?
+    </h3>
     <p>
       We believe that design is in everything whether it's a person, place,
       thing, or idea. Some things are absolutely designed better than others and

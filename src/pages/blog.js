@@ -22,7 +22,10 @@ class BlogPage extends React.Component {
           return (
             <div key={node.fields.slug}>
               <h2>
-                <Link style={{ textDecoration: `underline` }} to={node.fields.slug}>
+                <Link
+                  style={{ textDecoration: `underline` }}
+                  to={node.fields.slug}
+                >
                   {title}
                 </Link>
               </h2>
