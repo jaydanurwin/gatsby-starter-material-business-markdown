@@ -59,6 +59,7 @@ const About = () => (
       way forever so if you yourself are interested or you know someone who
       would be drop us a line!
       <br />
+      <br />
       "Nothing great was ever accomplished alone."
     </p>
   </Layout>
