@@ -13,7 +13,7 @@ class BlogPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="All posts"
+          title="Blog"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <h1>Posts</h1>

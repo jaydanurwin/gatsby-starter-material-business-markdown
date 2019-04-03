@@ -10,8 +10,8 @@ import "../styles/app.scss"
 
 const NotFoundPage = () => (
   <Layout>
+    <SEO title="404: Not Found" />
     <MetaLinks />
-    <SEO />
     <h1>Uh...this is awkward</h1>
     <p>
       Uh oh! It looks like the place you were looking for is no longer here or
