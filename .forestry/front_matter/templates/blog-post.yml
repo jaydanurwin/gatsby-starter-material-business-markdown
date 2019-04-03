@@ -8,3 +8,9 @@ fields:
   description: title of the post
   config:
     required: true
+- type: datetime
+  name: date
+  label: Date
+  description: date published
+  config:
+    required: true
