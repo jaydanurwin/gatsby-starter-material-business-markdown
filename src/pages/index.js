@@ -3,13 +3,10 @@ import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 import Layout from "../components/layout"
 
-import MDCRoundButton from "../components/mdc-components/MDCRoundButton"
-import MDCCardClickable from "../components/mdc-components/MDCCardClickable"
+import WorkCardGrid from "../components/work-card-grid"
 
-import leanaImage from "../images/leanaurwin.png"
-import mcfatesImage from "../images/mcfatesheatingandcooling.png"
-import motooneImage from "../images/motoonektm.png"
-import tufImage from "../images/tufflooring.png"
+import MDCRoundButton from "../components/mdc-components/MDCRoundButton"
+
 import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
 
 // Styles
