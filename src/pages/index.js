@@ -12,7 +12,7 @@ import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.sv
 // Styles
 import "../styles/app.scss"
 
-class BlogIndex extends React.Component {
+class IndexPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -62,93 +62,7 @@ class BlogIndex extends React.Component {
           baked or incomplete.
         </p>
         <h2>We made these.</h2>
-        <div class="anoun-work__container">
-          {/* Leana Urwin Card */}
-          <a
-            href="https://leanaurwin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <MDCCardClickable>
-              <img
-                class="mdc-card__media anoun-work-responsive__img"
-                src={leanaImage}
-                alt="Leana Urwin Website Screenshot"
-              />
-              <div class="anoun-work-card-content__container">
-                <h4>Leana Urwin</h4>
-                <p>Branding, Web Design</p>
-                <p>
-                  visit site<i class="material-icons">launch</i>
-                </p>
-              </div>
-            </MDCCardClickable>
-          </a>
-          {/* McFate's Card */}
-          <a
-            href="https://mcfatesheatingandcooling.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="anoun-work-link"
-          >
-            <MDCCardClickable>
-              <img
-                class="mdc-card__media anoun-work-responsive__img"
-                src={mcfatesImage}
-                alt="McFate's Heating & Cooling"
-              />
-              <div class="anoun-work-card-content__container">
-                <h4>McFate's Heating & Cooling</h4>
-                <p>Branding, Web Design</p>
-                <p>
-                  visit site<i class="material-icons">launch</i>
-                </p>
-              </div>
-            </MDCCardClickable>
-          </a>
-          {/* TUF Card */}
-          <a
-            href="https://tufflooring.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <MDCCardClickable>
-              <img
-                class="mdc-card__media anoun-work-responsive__img"
-                src={tufImage}
-                alt="TUF Flooring"
-              />
-              <div class="anoun-work-card-content__container">
-                <h4>TUF Flooring</h4>
-                <p>Web Design</p>
-                <p>
-                  visit site <i class="material-icons">launch</i>
-                </p>
-              </div>
-            </MDCCardClickable>
-          </a>
-          {/* Moto One Card */}
-          <a
-            href="https://motoonektm.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <MDCCardClickable>
-              <img
-                class="mdc-card__media anoun-work-responsive__img"
-                src={motooneImage}
-                alt="Moto One KTM"
-              />
-              <div class="anoun-work-card-content__container">
-                <h4>Moto One KTM</h4>
-                <p>Web Design</p>
-                <p>
-                  visit site<i class="material-icons">launch</i>
-                </p>
-              </div>
-            </MDCCardClickable>
-          </a>
-        </div>
+        <WorkCardGrid />
         <h2>
           Made in{" "}
           <img
@@ -174,7 +88,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default IndexPage
 
 export const pageQuery = graphql`
   query {
