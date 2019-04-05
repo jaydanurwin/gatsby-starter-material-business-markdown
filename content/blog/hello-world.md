@@ -1,8 +1,8 @@
 ---
 title: Hello World
-date: "2019-03-30"
----
+date: 2019-04-04T00:00:00-06:00
 
+---
 Hey! Welcome to our blog!
 
 With this being our first post we really would like to do a couple things:
