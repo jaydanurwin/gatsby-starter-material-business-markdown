@@ -1,9 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import Layout from "../components/layout"
+
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
-import MDCButton from "../components/mdc-components/MDCButton"
+
+import MDCReactButton from '../components/mdc-react/MDCReactButton'
 
 // Styles
 import "../styles/app.scss"
@@ -21,15 +24,10 @@ const NotFoundPage = () => (
       </span>
     </p>
     <Link to="/">
-      <MDCButton>
-        <i
-          class="material-icons anoun-404-button--back"
-          style={{ marginRight: `2px` }}
-        >
-          arrow_back
-        </i>
+    {/* // TODO add back icon */}
+      <MDCReactButton>
         Go Back Home
-      </MDCButton>
+      </MDCReactButton>
     </Link>
   </Layout>
 )
