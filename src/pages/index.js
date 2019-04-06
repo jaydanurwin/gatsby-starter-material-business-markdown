@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 
 import WorkCardGrid from "../components/work-card-grid"
 
-import MDCRoundButton from "../components/mdc-components/MDCRoundButton"
+import MDCReactRoundButton from "../components/mdc-react/MDCReactRoundButton"
 
 import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
 
@@ -26,28 +26,28 @@ class IndexPage extends React.Component {
         </h1>
         <div className="anoun-hero-container--buttons">
           <a href="tel:+12088079333">
-            <MDCRoundButton>
-              <i className="material-icons mdc-button__icon" aria-hidden="true">
+            <MDCReactRoundButton>
+              {/* <i className="material-icons mdc-button__icon" aria-hidden="true">
                 call
-              </i>
+              </i> */}
               Call
-            </MDCRoundButton>
+            </MDCReactRoundButton>
           </a>
           <a href="sms:+12088079333">
-            <MDCRoundButton>
-              <i className="material-icons mdc-button__icon" aria-hidden="true">
+            <MDCReactRoundButton>
+              {/* <i className="material-icons mdc-button__icon" aria-hidden="true">
                 message
-              </i>
+              </i> */}
               Text
-            </MDCRoundButton>
+            </MDCReactRoundButton>
           </a>
           <a href="mailto:hello@anoun.design?subject=Let's build something great!">
-            <MDCRoundButton>
-              <i className="material-icons mdc-button__icon" aria-hidden="true">
+            <MDCReactRoundButton>
+              {/* <i className="material-icons mdc-button__icon" aria-hidden="true">
                 email
-              </i>
+              </i> */}
               Email
-            </MDCRoundButton>
+            </MDCReactRoundButton>
           </a>
         </div>
         <h2>We believe this.</h2>

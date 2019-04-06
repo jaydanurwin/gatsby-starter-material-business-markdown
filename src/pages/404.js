@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 
-import MDCReactButton from '../components/mdc-react/MDCReactButton'
+import MDCReactButton from "../components/mdc-react/MDCReactButton"
 
 // Styles
 import "../styles/app.scss"
@@ -24,10 +24,8 @@ const NotFoundPage = () => (
       </span>
     </p>
     <Link to="/">
-    {/* // TODO add back icon */}
-      <MDCReactButton>
-        Go Back Home
-      </MDCReactButton>
+      {/* // TODO add back icon */}
+      <MDCReactButton>Go Back Home</MDCReactButton>
     </Link>
   </Layout>
 )

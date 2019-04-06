@@ -5,7 +5,7 @@ import mcfatesImage from "../images/mcfatesheatingandcooling.png"
 import motooneImage from "../images/motoonektm.png"
 import tufImage from "../images/tufflooring.png"
 
-import MDCCardClickable from "../components/mdc-components/MDCCardClickable"
+import MDCReactCardClickable from "../components/mdc-react/MDCReactCardClickable"
 
 // Styles
 import "../styles/app.scss"
@@ -14,7 +14,7 @@ const WorkCardGrid = () => (
   <div class="anoun-work__container">
     {/* Leana Urwin Card */}
     <a href="https://leanaurwin.com" target="_blank" rel="noopener noreferrer">
-      <MDCCardClickable>
+      <MDCReactCardClickable>
         <img
           src={leanaImage}
           class="mdc-card__media anoun-work-responsive__img"
@@ -27,7 +27,7 @@ const WorkCardGrid = () => (
             visit site<i class="material-icons">launch</i>
           </p>
         </div>
-      </MDCCardClickable>
+      </MDCReactCardClickable>
     </a>
     {/* McFate's Card */}
     <a
@@ -36,7 +36,7 @@ const WorkCardGrid = () => (
       rel="noopener noreferrer"
       className="anoun-work-link"
     >
-      <MDCCardClickable>
+      <MDCReactCardClickable>
         <img
           src={mcfatesImage}
           class="mdc-card__media anoun-work-responsive__img"
@@ -49,11 +49,11 @@ const WorkCardGrid = () => (
             visit site<i class="material-icons">launch</i>
           </p>
         </div>
-      </MDCCardClickable>
+      </MDCReactCardClickable>
     </a>
     {/* TUF Card */}
     <a href="https://tufflooring.com" target="_blank" rel="noopener noreferrer">
-      <MDCCardClickable>
+      <MDCReactCardClickable>
         <img
           src={tufImage}
           class="mdc-card__media anoun-work-responsive__img"
@@ -66,11 +66,11 @@ const WorkCardGrid = () => (
             visit site <i class="material-icons">launch</i>
           </p>
         </div>
-      </MDCCardClickable>
+      </MDCReactCardClickable>
     </a>
     {/* Moto One Card */}
     <a href="https://motoonektm.com" target="_blank" rel="noopener noreferrer">
-      <MDCCardClickable>
+      <MDCReactCardClickable>
         <img
           src={motooneImage}
           class="mdc-card__media anoun-work-responsive__img"
@@ -83,7 +83,7 @@ const WorkCardGrid = () => (
             visit site<i class="material-icons">launch</i>
           </p>
         </div>
-      </MDCCardClickable>
+      </MDCReactCardClickable>
     </a>
   </div>
 )
