@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content: `https://anoun.design/images/anoun-share-image.png`
+          content: `https://anoun.design/images/anoun-share-image.png`,
         },
         {
           name: `twitter:card`,
