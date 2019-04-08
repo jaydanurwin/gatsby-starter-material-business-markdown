@@ -43,8 +43,6 @@
 ```bash
 # if you don't have gatsby-cli already
 npm install -g gatsby-cli
-# if you don't have firebase-tools already
-npm install -g firebase-tools
 # install modules
 npm install
 ```
@@ -56,6 +54,12 @@ npm install
 ## Deploy Options
 
 ### 1. Gitlab & Firebase (our choice)
+
+# if you don't have firebase-tools already
+
+```bash
+npm install -g firebase-tools
+```
 
 ### 2. Netlify
 
