@@ -10,22 +10,22 @@
 
 ## Featureset
 
+- Homepage Design w/ work cards
+- About Page
+- MDC React Components
+- Markdown Blog
 - Gitlab CI/CD
 - Firebase Hosting
 - Dynamic SEO (titles change)
 - Layout component
 - Prettier config (VS Code Plugin support)
 - CSS Fluid Typography
-- About Page
-- Markdown Blog
-- MDC Web Vanilla Components
-- Homepage Design w/ work cards
+
 
 ## Upcoming Features
 
-- MDC React Components
-- MDC Theming
 - Header Component
+- MDC Theming
 - About Page Photo
 - RSS Feed
 - JSON LD Content
