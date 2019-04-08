@@ -55,9 +55,8 @@ npm install
 
 ### 1. Gitlab & Firebase (our choice)
 
-# if you don't have firebase-tools already
-
 ```bash
+# if you don't have firebase-tools already
 npm install -g firebase-tools
 ```
 
