@@ -7,12 +7,18 @@ cache:
   paths:                
     - node_modules/     
   key: "$CI_BUILD_REPO"
+
+build:
+  stage: build
+  script: 
+    - echo "Building the website"  
+    - npm install
+    - npm run build
+  
 deploy_staging:
   stage: deploy
   script:
     - echo "Deploy to staging site"
-    - npm install
-    - npm run build
     - firebase use staging --token $FIREBASE_TOKEN
     - firebase deploy --only hosting -m "Pipe $CI_PIPELINE_ID Build $CI_BUILD_ID" --token $FIREBASE_TOKEN
   environment:
@@ -24,8 +30,6 @@ deploy_prod:
   stage: deploy
   script:
     - echo "Deploy to production site"
-    - npm install
-    - npm run build
     - firebase use default --token $FIREBASE_TOKEN
     - firebase deploy --only hosting -m "Pipe $CI_PIPELINE_ID Build $CI_BUILD_ID" --token $FIREBASE_TOKEN
   environment:
