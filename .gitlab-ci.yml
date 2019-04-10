@@ -2,7 +2,8 @@ image: anoun/firebase
 variables:
   DOCKER_DRIVER: overlay2
 stages:
-  - deploy
+    - build
+    - deploy
 cache:                  
   paths:                
     - node_modules/     
