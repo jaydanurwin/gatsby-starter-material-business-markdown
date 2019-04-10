@@ -19,7 +19,7 @@ deploy_staging:
     name: staging
     url: https://anoun-staging.firebaseapp.com   
   only:
-  - staging
+  - master
 deploy_prod:
   stage: deploy
   script:
