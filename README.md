@@ -62,6 +62,9 @@ npm install -g firebase-tools
 
 ### 2. Netlify
 
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://gitlab.com/anoun/anoun-gatsby)
+
 ## Known Issues
 
 - CSS Modules or Sass Modules (.module.scss) files were giving me a lot of troubles with MDC due to their BEM name styling so if anyone has found a work around for CSS in JS with hyphens in class names I'm open to suggestions!
