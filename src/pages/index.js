@@ -1,7 +1,7 @@
 import React from "react"
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 import WorkCardGrid from "../components/work-card-grid"
 

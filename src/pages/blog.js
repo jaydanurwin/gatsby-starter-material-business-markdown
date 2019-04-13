@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import SEO from "../components/meta/SEO"
 
 class BlogPage extends React.Component {
@@ -16,7 +16,9 @@ class BlogPage extends React.Component {
           title="Blog"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <h1>Posts</h1>
+        <h1>
+          Posts by <span className="anoun-title">ANOUN</span>
+        </h1>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
