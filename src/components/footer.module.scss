@@ -1,0 +1,36 @@
+.siteFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background-color: var(--mdc-theme-primary);
+  color: var(--mdc-theme-on-primary);
+ 
+}
+
+.footerContainer> a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.footerContainer {
+    margin: 0 auto;
+  max-width: 860px;
+   display:grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerIcon {
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 1024px) {
+  .footerContainer {
+    max-width: 960px;
+  }
+}
