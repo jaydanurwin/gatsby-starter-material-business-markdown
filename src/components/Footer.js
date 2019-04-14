@@ -24,7 +24,7 @@ class Footer extends Component {
                 />
               </Link>
             </div>
-            <div className={styles.socialLinks}>
+            <div className={styles.footerList}>
               {/* SOCIAL */}
               <a
                 href="https://www.instagram.com/anoun.design"
@@ -54,9 +54,34 @@ class Footer extends Component {
               </a>
             </div>
           </div>
-          <div>{/* PAGES */}</div>
-          <div>{/* BLOG POSTS */}</div>
-          <div>{/* SERVICES */}</div>
+          <div>
+            <h3>Pages</h3>
+            <div className={styles.footerList}>
+              {/* PAGES */}
+
+              <Link to="/">Home</Link>
+              <Link to="/blog">Blog</Link>
+              <Link to="/about">About</Link>
+            </div>
+          </div>
+          <div>
+            <h3>Blog</h3>
+            <div className={styles.footerList}>
+              {/* PAGES */}
+
+              <Link to="/hello-world">Hello World</Link>
+            </div>
+          </div>
+          <div>
+            <h3>Services</h3>
+            <div className={styles.footerList}>
+              {/* PAGES */}
+
+              <p>Web Design</p>
+              <p>SEO</p>
+              <p>Social Media Marketing</p>
+            </div>
+          </div>
         </div>
 
         {/* <div className={styles.siteInfo}>
