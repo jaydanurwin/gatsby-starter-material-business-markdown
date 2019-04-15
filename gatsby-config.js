@@ -68,6 +68,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-react-helmet`,
   ],
 }

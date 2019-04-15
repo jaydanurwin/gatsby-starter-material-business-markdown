@@ -53,6 +53,7 @@
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
+    "gatsby-plugin-remove-trailing-slashes": "^2.0.10",
     "prettier": "1.16.4"
   }
 }
