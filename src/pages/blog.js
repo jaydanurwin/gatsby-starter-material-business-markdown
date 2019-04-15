@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/Layout"
+import BlogLayout from "../components/BlogLayout"
 import SEO from "../components/meta/SEO"
 
 class BlogPage extends React.Component {
@@ -11,7 +11,7 @@ class BlogPage extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <BlogLayout location={this.props.location} title={siteTitle}>
         <SEO
           title="Blog"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
@@ -40,7 +40,7 @@ class BlogPage extends React.Component {
             </div>
           )
         })}
-      </Layout>
+      </BlogLayout>
     )
   }
 }

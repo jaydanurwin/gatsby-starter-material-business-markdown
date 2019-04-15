@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/Layout"
+import BlogLayout from "../components/BlogLayout"
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 
@@ -7,7 +7,7 @@ import SEO from "../components/meta/SEO"
 import "../styles/app.scss"
 
 const About = () => (
-  <Layout>
+  <BlogLayout>
     <MetaLinks />
     <SEO title="About" />
     <h3>
@@ -62,7 +62,7 @@ const About = () => (
       <br />
       "Nothing great was ever accomplished alone."
     </p>
-  </Layout>
+  </BlogLayout>
 )
 
 export default About
