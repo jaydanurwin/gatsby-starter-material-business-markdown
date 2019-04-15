@@ -1,0 +1,50 @@
+.siteFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background-color: var(--mdc-theme-primary);
+  color: var(--mdc-theme-on-primary);
+}
+
+.footerContainer > a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.footerContainer {
+  margin: 0 auto;
+  max-width: 860px;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footerContainer div > h3 {
+  margin-bottom: 4px;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerIcon {
+  vertical-align: middle;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footerList > p {
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .footerContainer {
+    max-width: 960px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
