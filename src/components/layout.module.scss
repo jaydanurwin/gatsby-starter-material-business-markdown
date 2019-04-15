@@ -11,12 +11,11 @@
 .siteMain {
   min-height: 100%;
   margin: 0 auto;
-  max-width: 860px;
-  padding: 1rem;
+  // max-width: 860px;
+  // padding: 1rem;
 }
 
 .siteHeader {
-  max-width: 860px;
   margin: 1rem auto;
   font-weight: 900;
 }
@@ -42,9 +41,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .siteMain {
-    max-width: 960px;
-  }
+  // .siteMain {
+  //   max-width: 960px;
+  // }
 }
 
 .siteFooter {
