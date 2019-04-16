@@ -8,29 +8,28 @@
 
 # ANOUN'S Gatsby Website
 
-## Featureset
+### Featureset
 
-- Homepage Design w/ work cards
-- About Page
-- MDC React Components
-- Markdown Blog
-- Gitlab CI/CD
-- Firebase Hosting
-- Dynamic SEO (titles change)
-- Layout component
-- Prettier config (VS Code Plugin support)
-- CSS Fluid Typography
+* MDC React Components
+* MDC Theming
+* Gitlab CI/CD
+* Firebase Hosting
+* Full dynamic SEO
+* Footer component
+* Layout component
+* Prettier config
+* CSS Fluid Typography
+* Homepage Design w/ work cards
+* Markdown based Blog
+* Header Component
 
+### Coming Soon
 
-## Upcoming Features
-
-- Header Component
-- MDC Theming
-- About Page Photo
-- RSS Feed
-- JSON LD Content
-- PWA Support (theme and manifest)
-- Detailed Instructions for Setup (Blog post and video)
+* About Page Photo
+* JSON LD Content
+* RSS Feed
+* PWA Support (theme and manifest)
+* Instructions for Setup (Blog post and video)
 
 ## Setup
 
