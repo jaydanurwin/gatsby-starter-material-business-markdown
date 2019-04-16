@@ -10,7 +10,7 @@ import styles from "./footer.module.scss"
 class Footer extends Component {
   render() {
     return (
-      <footer className={styles.siteFooter}>
+      <div className={styles.siteFooter}>
         <div className={styles.footerContainer}>
           <div>
             <div>
@@ -89,7 +89,7 @@ class Footer extends Component {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </div> */}
-      </footer>
+      </div>
     )
   }
 }
