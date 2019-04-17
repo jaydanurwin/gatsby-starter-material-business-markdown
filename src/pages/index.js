@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 
 import WorkCardGrid from "../components/work-card-grid"
 
-// import MDCReactRoundButton from "../components/mdc-react/MDCReactRoundButton"
+import MDCReactRoundButton from "../components/mdc-react/MDCReactRoundButton"
 
 // import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
 import heroImage from "../images/undraw-hero-image.svg"
@@ -27,13 +27,18 @@ class IndexPage extends React.Component {
           <h1>
             Hi, we're <span className="anoun-title">ANOUN</span>
           </h1>
-          <img src={heroImage} alt="anoun-hero-image" />
+          <img src={heroImage} alt="anoun-hero" />
+          <MDCReactRoundButton classNames="anoun-hero__button">
+            Contact Us
+          </MDCReactRoundButton>
         </section>
         <section className="anoun-home--section2">
           <h2>We like to call ourselves a business business</h2>
           <h2>We don't just do web design</h2>
           <h2>We don't just do marketing</h2>
-          <h2>We help <strong>build</strong> your business</h2>
+          <h2>
+            We help <strong>build</strong> your business
+          </h2>
         </section>
         <section>
           <WorkCardGrid />
