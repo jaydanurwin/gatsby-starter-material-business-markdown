@@ -90,9 +90,9 @@ a {
   max-width: 300px;
 }
 
-.anoun-home--section2{
+.anoun-home--section2 {
   width: 100%;
-    min-height: 90vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   background-color: var(--mdc-theme-on-background);
@@ -101,6 +101,19 @@ a {
   justify-content: center;
 }
 
+.anoun-home--section3 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* BLOG PAGE */
+
+.blog-main__section {
+  min-height: 80vh;
+}
 
 // WORK CARD
 
@@ -140,6 +153,8 @@ a {
     font-size: 0.8rem;
   }
 }
+
+
 
 /* TINY PHONE STYLES */
 

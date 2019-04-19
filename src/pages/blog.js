@@ -19,6 +19,7 @@ class BlogPage extends React.Component {
         <h1>
           Posts by <span className="anoun-title">ANOUN</span>
         </h1>
+        <section className="blog-main__section">
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -40,6 +41,7 @@ class BlogPage extends React.Component {
             </div>
           )
         })}
+        </section>
       </BlogLayout>
     )
   }
