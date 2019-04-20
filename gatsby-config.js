@@ -60,13 +60,6 @@ module.exports = {
         trackingId: `UA-122654359-2`,
       },
     },
-    {
-      resolve: `gatsby-plugin-freshchat`,
-      options: {
-        token: "1aafc7b5-e5d7-4f09-aff0-764eadd059a0",
-        host: "https://wchat.freshchat.com",
-      },
-    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-react-helmet`,
