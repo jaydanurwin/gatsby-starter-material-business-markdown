@@ -40,7 +40,8 @@ class IndexPage extends React.Component {
             We help <strong>build</strong> your business
           </h2>
         </section>
-        <section>
+        <section className="anoun-home--section3">
+          <h2>Our Work</h2>
           <WorkCardGrid />
         </section>
       </Layout>
