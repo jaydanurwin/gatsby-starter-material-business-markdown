@@ -1,5 +1,3 @@
-[![pipeline status](https://gitlab.com/anoun/anoun-gatsby/badges/master/pipeline.svg)](https://gitlab.com/anoun/anoun-gatsby/pipelines)
-
 <p align="center">
   <a href="https://anoun-gatsby-website.firebaseapp.com">
     <img alt="ANOUN" src="https://anoun.design/images/anoun-share-image.png" width="600" />
