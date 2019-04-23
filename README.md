@@ -33,7 +33,7 @@
 
 ### Clone
 
-`git clone https://gitlab.com/anoun/anoun-website.git`
+`git clone https://github.com/jaydanurwin/anoun-gatsby-website.git`
 
 ### Install Node Modules & CLI's
 
@@ -50,17 +50,22 @@ npm install
 
 ## Deploy Options
 
-### 1. Gitlab & Firebase (our choice)
+### Firebase Hosting
 
 ```bash
 # if you don't have firebase-tools already
 npm install -g firebase-tools
 ```
 
-### 2. Netlify
+Initialize a firebase project
 
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://gitlab.com/anoun/anoun-gatsby)
+```bash
+firebase init
+```
+
+### Netlify
+
+Go to Netlify(https://www.netlify.com/)
 
 ## Known Issues
 
