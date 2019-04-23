@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 import Layout from "../components/Layout"
@@ -28,9 +28,11 @@ class IndexPage extends React.Component {
             Hi, we're <span className="anoun-title">ANOUN</span>
           </h1>
           <img src={heroImage} alt="anoun-hero" />
-          <MDCReactRoundButton classNames="anoun-hero__button">
-            Contact Us
-          </MDCReactRoundButton>
+          <Link to="/contact">
+            <MDCReactRoundButton classNames="anoun-hero__button">
+              Contact Us
+            </MDCReactRoundButton>
+          </Link>
         </section>
         <section className="anoun-home--section2">
           <h2>We like to call ourselves a business business</h2>
