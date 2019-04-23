@@ -10,6 +10,7 @@ const About = () => (
   <BlogLayout>
     <MetaLinks />
     <SEO title="About" />
+    <h1>Contact Us</h1>
     <h3>
       Why <span class="anoun-title">ANOUN</span>?
     </h3>
