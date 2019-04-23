@@ -65,7 +65,7 @@ firebase init
 
 ### Netlify
 
-Go to Netlify(https://www.netlify.com/)
+[Go to Netlify](https://www.netlify.com/)
 
 ## Known Issues
 
