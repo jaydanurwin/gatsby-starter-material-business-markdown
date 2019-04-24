@@ -64,12 +64,6 @@ npm run build
 firebase deploy:hosting
 ```
 
-Initialize a firebase project
-
-```bash
-firebase init
-```
-
 ## Known Issues
 
 - CSS Modules or Sass Modules (.module.scss) files were giving me a lot of troubles with MDC due to their BEM name styling so if anyone has found a work around for CSS in JS with hyphens in class names I'm open to suggestions!
