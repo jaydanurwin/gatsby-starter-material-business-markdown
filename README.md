@@ -48,9 +48,7 @@ npm install
 
 `npm run start`
 
-## Deploy Options
-
-### Firebase Hosting
+## Deploy
 
 ```bash
 # if you don't have firebase-tools already
@@ -58,6 +56,12 @@ npm install -g firebase-tools
 
 # authenticate firebase
 firebase login
+
+# build gatsby site
+npm run build
+
+# deploy to firebase hosting
+firebase deploy:hosting
 ```
 
 Initialize a firebase project
