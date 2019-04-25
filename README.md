@@ -46,7 +46,13 @@ npm install
 
 ### Develop Locally
 
-`npm run start`
+```bash
+npm run start
+
+# or
+
+gatsby develop
+```
 
 ## Deploy
 
