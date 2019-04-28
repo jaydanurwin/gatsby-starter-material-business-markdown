@@ -1,6 +1,7 @@
 import React from "react"
-import TextField, { HelperText, Input } from "@material/react-text-field"
+import TextField, { Input } from "@material/react-text-field"
 import MaterialIcon from "@material/react-material-icon"
+import Button from "@material/react-button"
 import BlogLayout from "../components/BlogLayout"
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
@@ -9,7 +10,26 @@ import SEO from "../components/meta/SEO"
 import "../styles/app.scss"
 
 class About extends React.Component {
-  
+  constructor(props) {
+    super(props)
+    this.state = {
+      email: "",
+      phone: "",
+      message: "",
+    }
+
+    this.handleInputChange = this.handleInputChange.bind(this)
+  }
+
+  handleInputChange(event) {
+    const target = event.target
+    const value = target.value
+    const name = target.name
+
+    this.setState({
+      [name]: value,
+    })
+  }
 
   render() {
     return (
@@ -17,10 +37,11 @@ class About extends React.Component {
         <MetaLinks />
         <SEO title="Contact Us" />
         <h1>Contact Us</h1>
-        <section className="page-main__section">
+        <section className="page-main__section about-page-main__section">
           <form
             action="https://submit-form.com/70c780b8-ef9a-4c36-ac70-bb4544542c1f"
             target="_self"
+            className="anoun-contact__form"
           >
             {/* <!-- Prevent spam without a captcha --> */}
             <input
@@ -31,31 +52,38 @@ class About extends React.Component {
               autocomplete="off"
             />
             <TextField
-              label="Dog"
-              helperText={<HelperText>Help Me!</HelperText>}
-              onTrailingIconSelect={() => this.setState({ value: "" })}
-              trailingIcon={<MaterialIcon role="button" icon="delete" />}
+              label="Email"
+              leadingIcon={<MaterialIcon icon="email" />}
             >
               <Input
-                value={this.state.value}
-                onChange={e =>
-                  this.setState({ value: e.currentTarget.value })
-                }
+                value={this.state.email}
+                name="email"
+                onChange={this.handleInputChange}
+                required
               />
             </TextField>
             <TextField
-              label="Dog"
-              helperText={<HelperText>Help Me!</HelperText>}
-              onTrailingIconSelect={() => this.setState({ value: "" })}
-              trailingIcon={<MaterialIcon role="button" icon="delete" />}
+              label="Phone"
+              leadingIcon={<MaterialIcon icon="phone" />}
             >
               <Input
-                value={this.state.value}
-                onChange={e =>
-                  this.setState({ value: e.currentTarget.value })
-                }
+                value={this.state.phone}
+                name="phone"
+                onChange={this.handleInputChange}
+                required
               />
             </TextField>
+            <TextField label="Message">
+              <Input
+                value={this.state.message}
+                name="message"
+                onChange={this.handleInputChange}
+                required
+              />
+            </TextField>
+            <Button type="submit" raised onClick={() => console.log("clicked!")}>
+              send
+            </Button>
           </form>
         </section>
       </BlogLayout>
