@@ -52,6 +52,13 @@ a {
   background: var(--mdc-theme-primary);
 }
 
+.underlined__link {
+  text-decoration: underline;
+  color: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
 /* MDC Styles*/
 
 .mdc-card {
@@ -115,6 +122,21 @@ a {
 
 .page-main__section {
   min-height: 80vh;
+}
+
+/* CONTACT PAGE */
+
+.contact-page-main__section {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  align-items: center;
+  text-align: center;
+}
+
+.anoun-contact__form > .mdc-text-field {
+  margin: .5rem 0;
+  width: 100%;
 }
 
 // WORK CARD
