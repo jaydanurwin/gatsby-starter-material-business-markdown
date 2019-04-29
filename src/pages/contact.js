@@ -6,6 +6,7 @@ import BlogLayout from "../components/BlogLayout"
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 
+
 // Styles
 import "../styles/app.scss"
 
@@ -37,7 +38,41 @@ class About extends React.Component {
         <MetaLinks />
         <SEO title="Contact Us" />
         <h1>Contact Us</h1>
-        <section className="page-main__section about-page-main__section">
+
+        <section className="page-main__section contact-page-main__section">
+          <div className="anoun-contact-links__section">
+            <div>
+              <h3>Call/Text</h3>
+              <a
+                href="tel:+12088079333"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                (208) 807-9333
+              </a>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <a
+                href="mailto:hello@anoun.design"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                hello@anoun.design
+              </a>
+            </div>
+            <div>
+              <h3>Instagram</h3>
+              <a
+                href="https://www.instagram.com/anoun.design"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @anoun.design
+              </a>
+            </div>
+          </div>
+          <h3>or just shoot us an email here!</h3>
           <form
             action="https://submit-form.com/70c780b8-ef9a-4c36-ac70-bb4544542c1f"
             target="_self"
@@ -81,7 +116,11 @@ class About extends React.Component {
                 required
               />
             </TextField>
-            <Button type="submit" raised onClick={() => console.log("clicked!")}>
+            <Button
+              type="submit"
+              raised
+              onClick={() => console.log("clicked!")}
+            >
               send
             </Button>
           </form>
