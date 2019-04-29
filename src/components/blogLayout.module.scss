@@ -11,8 +11,8 @@
 .siteMain {
   min-height: 100%;
   margin: 0 auto;
-  // max-width: 860px;
-  // padding: 1rem;
+  max-width: 860px;
+  padding: 1rem;
 }
 
 .siteHeader {
@@ -44,4 +44,23 @@
   // .siteMain {
   //   max-width: 960px;
   // }
+}
+
+.siteFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5em;
+  margin: 3rem auto 0 auto;
+  background-color: var(--mdc-theme-primary);
+  color: var(--mdc-theme-on-primary);
+  text-align: center;
+}
+
+.siteFooter > a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+#igLogo {
+  vertical-align: middle;
 }
