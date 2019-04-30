@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://anoun-gatsby-website.firebaseapp.com">
-    <img alt="ANOUN" src="https://anoun.design/images/anoun-share-image.png" width="600" />
+    <img alt="ANOUN" src="https://anoun.company/images/anoun-share-image.png" width="600" />
   </a>
 </p>
 
