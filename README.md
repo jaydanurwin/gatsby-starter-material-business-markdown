@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ffce3bc9-ac15-404f-a9ba-b922b7bbd711/deploy-status)](https://app.netlify.com/sites/anoun-gatsby-website/deploys)
+
 <p align="center">
   <a href="https://anoun-gatsby-website.firebaseapp.com">
     <img alt="ANOUN" src="https://anoun.design/images/anoun-share-image.png" width="600" />
