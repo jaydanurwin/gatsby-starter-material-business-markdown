@@ -21,7 +21,7 @@ class IndexPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={siteTitle} />
+        <SEO />
         <MetaLinks />
         <section className="anoun-home--section1">
           <h1>
