@@ -16,12 +16,10 @@ import "../styles/app.scss"
 
 class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
     
     return (
       <Layout>
-        <SEO title={siteTitle}/>
+        <SEO title="Home"/>
         <MetaLinks />
         <section className="anoun-home--section1">
           <h1>
@@ -52,13 +50,3 @@ class IndexPage extends React.Component {
 }
 
 export default IndexPage
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
