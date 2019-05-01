@@ -76,8 +76,12 @@ class About extends React.Component {
           <form
             name="contact"
             method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
             className="anoun-contact__form"
-          netlify>
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
             <TextField
               label="Email"
               leadingIcon={<MaterialIcon icon="email" />}
