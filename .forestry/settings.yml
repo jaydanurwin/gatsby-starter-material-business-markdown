@@ -9,7 +9,7 @@ sections:
 - type: heading
   label: Blog
 - type: directory
-  path: content/blog
+  path: content/blo
   label: Posts
   create: all
   match: "**/*"
