@@ -1,47 +1,22 @@
 ---
-title: Hello World
-date: 2019-04-04T06:00:00+00:00
+title: No Perfect Timing
+date: 2018-05-21T06:00:00Z
 
 ---
-Hey! Welcome to our blog!
+Hey everyone. I’m so happy to be writing to you guys today. I have been racking my brain these past few weeks trying to figure out what my first post should be about. Then I realized that trying to come up with a great topic was a waste of time. I realized how much pressure I was putting on myself to write something sweet and interesting that you guys would just fall in love with. That I would say the right words and make it all look so good. The more I sat and tried to think of something, the more frustrated I became. Now all I’m thinking to myself is “Wow.”
 
-With this being our first post we really would like to do a couple things:
+So, here I am writing about something real. Something that was and still is sometimes, a struggle for me. Starting a blog has always been something I’ve dreamt of doing for as long as I can remember. It came apparent to me in my teenage years that I had a heart for sharing stories with people and hopefully be encouraging to them in some way. Especially after realizing in my own life just how hard and confusing life could be. First hand I would see people around me who felt stuck, who made a mistake and felt like they could never be anything more than that or maybe someone who had a dream but was too afraid to go for it.
 
-1. Introduce Ourselves
-2. Explain what kind of content we'll be posting
+It’s no secret between Jaydan and I that we both have so many dreams. Jaydan has a dream of starting his own business and I’ve always had a dream of starting my own blog. We both would just talk about it for so long. We’d talk about the things we want to do, the places we want to see and the people we want to meet. Honestly, we never really talked about them like they were too big to even say out loud. We declared them together. I would say “One day I will start a blog babe.” and he would say back to me “And I will start my own business.”
 
-## Norman Doors
+It is easy to say those things, right? To say we’re going to do something and not follow through? I’m speaking to myself here. Then we would contemplate for months saying things like “Well, where do we even start?” For a long time we felt stuck. We would try to come up with some kind of formula that we thought would magically work and end up being discouraged. Then we both realized… There isn’t one. There isn’t some big thing has to happen to get us to start following our dreams and living our life the best way we can.
 
-So first of all we're <span class="anoun-title">ANOUN</span>. We're a creative design and development agency based out of Boise, Idaho. We believe that design is in everything whether it's a person, place, thing, or idea. Some things are absolutely designed better than others and the funny thing is design _should_ be a thankless job. If you had to stop and think about how something is designed it's usually because it's getting in your way. For example, have you ever pulled on a door that you're supposed to push?
+For the longest time I thought I had to have all of the right tools and resources to be productive and if I was missing even one of them, I couldn't do it. I was focusing on all of the wrong things. It wasn't until after I moved away from home did I really understand what God has been trying to tell me for a long time. He showed me what true confidence in Him meant. That I don't have to be afraid and that when He gives you a heart for something, He is going to give you the resources. He gives me the confidence I need to share my story and my thoughts with people. He gives me the confidence I need to believe not only in myself but others. Even if people have let me down or have disappointed me. So, you may think to yourself, "How do I get to that point?"
 
-_Actually if you ever want to watch an interesting video on that check this out:_
+***
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yY96hTb8WgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## _"YOU JUST DECIDE ONE DAY THAT THIS IS WHAT YOU’RE GOING TO DO. AND YOU START FROM THERE."_
 
-> _In a nutshell that's our mission. We want to find problems like those doors and fix them so it makes sense without a user manual._
+***
 
-## No Fluff
-
-We don't really see our customers as customers honestly. We see them more as business partners. If they succeed we succeed. it's that simple. You'll see with a lot of agencies it's about having a cool website, an amazing portfolio full of big corporate clients, and they'll have these big huge office buildings full of employees and expensive furniture. We're not like that. Not to say that's not awesome for them but it's just not us. We don't feel the need to convince people we're cool and it's 2019...you can work anywhere there's wifi and coffee these days.
-
-## Our Blog
-
-Now for what to expect on our blog!
-
-We hope to be posting all sorts of content on here from tips and pointers on how to design a better looking website, how to increase traffic to your website, modern tools you should be using for your business, even FREE (yes free, no strings attached or email sign up required) web design and development resources. No matter what we end up posting here we just promitse it will follow these simple rules:
-
-1. We will favor quality over quantity. Don't expect a post 3x a day like some blogs 😉
-2. We **won't** require contact info for free content and tools
-3. We will not be putting Google ads on our website (no matter how tempting it might be to make an extra dime off your clicks)
-
-Also, at the bottom of every post will be a TLDR; or (too long didn't read). This will be a summary if you want to just cut to the chase and get the link or general idea of the article.
-
-## Questions?
-
-If you're in the market for a new web designer, new logo design, or just have some questions about who we are and think we might be able to help don't hesitate to reach out! Just hit the chat button in the bottom right or you can call, email, text, you know the drill!
-
-## TLDR;
-
-We are in the business of making products and experiences designed so perfectly and so intentionally that you never have to ask for a user manual. Our blog is going to be a place for high quality, useful, distraction free content.
-
-Thank you for your time and we hope you have a blessed day!
+You just decide one day that this is what you’re going to do. And you start from there. This applies to all aspects of our lives. You decide one day that you are going to forgive. That you are going to move on. That you are going to love. That you are going to go for that job you have been wanting. That you are going to go for that big dream or leave that place you think you’re trapped in. Because you know those people you see that you think have it all together? I’m going to let you in on a little secret. They don’t. No one does. We are all trying to figure life out. One step at at time.
