@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React, { Component } from "react"
 
-import styles from "./layout.module.scss"
+import styles from "./header.module.scss"
 
 class Header extends Component {
   render() {
