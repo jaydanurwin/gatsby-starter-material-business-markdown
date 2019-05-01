@@ -79,14 +79,6 @@ class About extends React.Component {
             data-netlify="true"
             className="anoun-contact__form"
           >
-            {/* <!-- Prevent spam without a captcha --> */}
-            <input
-              type="checkbox"
-              name="_honeypot"
-              style={{ display: `none` }}
-              tabindex="-1"
-              autocomplete="off"
-            />
             <TextField
               label="Email"
               leadingIcon={<MaterialIcon icon="email" />}
