@@ -14,6 +14,7 @@ class About extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      name: "",
       email: "",
       phone: "",
       message: "",
@@ -82,6 +83,17 @@ class About extends React.Component {
           >
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
+            <TextField
+              label="Full Name"
+              leadingIcon={<MaterialIcon icon="person" />}
+            >
+              <Input
+                value={this.state.name}
+                name="name"
+                onChange={this.handleInputChange}
+                required
+              />
+            </TextField>
             <TextField
               label="Email"
               leadingIcon={<MaterialIcon icon="email" />}
