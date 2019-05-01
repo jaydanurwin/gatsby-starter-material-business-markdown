@@ -15,31 +15,6 @@
   // padding: 1rem;
 }
 
-.siteHeader {
-  margin: 1rem auto;
-  font-weight: 900;
-}
-
-.siteHeader >  ul {
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.siteHeader > ul li {
-  display: inline;
-  margin-right: .5rem;
-  font-family: "Playfair Display";
-  &:hover {
-    border-bottom: 2px solid #000000;
-  }
-}
-
-.activeLink {
-  border-bottom: 2px solid #000000;
-}
-
 @media screen and (min-width: 1024px) {
   // .siteMain {
   //   max-width: 960px;
