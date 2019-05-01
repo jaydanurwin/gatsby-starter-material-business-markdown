@@ -76,9 +76,8 @@ class About extends React.Component {
           <form
             name="contact"
             method="POST"
-            data-netlify="true"
             className="anoun-contact__form"
-          >
+          netlify>
             <TextField
               label="Email"
               leadingIcon={<MaterialIcon icon="email" />}
