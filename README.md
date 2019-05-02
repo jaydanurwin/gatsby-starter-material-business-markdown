@@ -6,7 +6,7 @@
   </a>
 </p>
 
-# ANOUN Gatsby Starter #1 - Markdown
+# Gatsby Starter by ANOUN #1 - Forestry
 
 ### "That was easy" Buttons
 
