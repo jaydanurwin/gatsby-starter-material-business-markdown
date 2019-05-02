@@ -55,11 +55,11 @@ class About extends React.Component {
             <div>
               <h3>Email</h3>
               <a
-                href="mailto:hello@anoun.design"
+                href="mailto:hello@anoun.company"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                hello@anoun.design
+                hello@anoun.company
               </a>
             </div>
             <div>
