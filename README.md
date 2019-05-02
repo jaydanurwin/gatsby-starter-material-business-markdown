@@ -1,11 +1,7 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d55477c6-fd83-4569-9e61-340789e44e28/deploy-status)](https://app.netlify.com/sites/leanaurwin/deploys)
-
-<a href="https://app.forestry.io/quick-start?repo=jaydanurwin/leana-gatsby-website&engine=gatsby">
-    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
-</a>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ad7e589d-7716-4190-981f-3258aaa42d8c/deploy-status)](https://app.netlify.com/sites/anoun-gatsby-starter1-markdown/deploys)
 
 <p align="center">
-  <a href="https://anoun-gatsby-website.firebaseapp.com">
+  <a href="https://anoun.company">
     <img alt="ANOUN" src="https://anoun.company/images/anoun-share-image.png" width="600" />
   </a>
 </p>
@@ -26,6 +22,7 @@
 * Homepage Design w/ work cards
 * Markdown based Blog
 * Header Component
+* Forestry Config
 
 ### Coming Soon
 
@@ -46,6 +43,8 @@
 ```bash
 # if you don't have gatsby-cli already
 npm install -g gatsby-cli
+# change directory
+cd anoun-gatsby-starter1-markdown
 # install modules
 npm install
 ```
@@ -53,15 +52,16 @@ npm install
 ### Develop Locally
 
 ```bash
-npm run start
+npm run dev
 
 # or
 
 gatsby develop
 ```
 
-## Deploy
+## Deploy Options 
 
+### Firebase
 ```bash
 # if you don't have firebase-tools already
 npm install -g firebase-tools
@@ -75,6 +75,18 @@ npm run build
 # deploy to firebase hosting
 firebase deploy:hosting
 ```
+
+### Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/anoun-gatsby-starter1-markdown/)
+
+### CMS
+
+### [Forestry.io](https://forestry.io/)
+
+<a href="https://app.forestry.io/quick-start?repo=jaydanurwin/leana-gatsby-website&engine=gatsby">
+    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
+</a>
 
 ## Known Issues
 
