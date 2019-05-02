@@ -5,8 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Content
-- type: heading
   label: Blog
 - type: directory
   path: content/blog
