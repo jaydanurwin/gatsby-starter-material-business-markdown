@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ad7e589d-7716-4190-981f-3258aaa42d8c/deploy-status)](https://app.netlify.com/sites/anoun-gatsby-starter1-markdown/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ad7e589d-7716-4190-981f-3258aaa42d8c/deploy-status)](https://app.netlify.com/sites/gatsby-starter-anoun-forestry-1/deploys)
 
 <p align="center">
   <a href="https://anoun.company">
@@ -12,13 +12,13 @@
 
 ### Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/anoun-gatsby-starter1-markdown/)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-anoun-forestry-1/)
 
 ### CMS
 
 ### [Forestry.io](https://forestry.io/)
 
-<a href="https://app.forestry.io/quick-start?repo=anoun/anoun-gatsby-starter1-markdown&engine=gatsby">
+<a href="https://app.forestry.io/quick-start?repo=anoun/gatsby-starter-anoun-forestry-1&engine=gatsby">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
