@@ -6,7 +6,7 @@
   </a>
 </p>
 
-# ANOUN'S Gatsby Website
+# ANOUN Gatsby Starter #1 - Markdown
 
 ### Featureset
 
