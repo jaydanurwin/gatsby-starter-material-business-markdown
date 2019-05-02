@@ -14,7 +14,7 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/anoun-gatsby-starter1-markdown/)
 
-## CMS
+### CMS
 
 ### [Forestry.io](https://forestry.io/)
 
