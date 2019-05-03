@@ -87,11 +87,13 @@ a {
 /* Homepage */
 
 .anoun-home--section1 {
-  min-height: 90vh;
+  padding: .5rem;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .anoun-home--section1 > img {
@@ -212,6 +214,7 @@ a {
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
   .anoun-home--section1 {
+    min-height: 90vh;
       justify-content: flex-start;
   }
     .anoun-work__container {
