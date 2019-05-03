@@ -21,7 +21,7 @@ class Header extends Component {
     </Link> */}
         <ul>
           <ListLink to={`/`}>home</ListLink>
-          <ListLink to={`/about`}>about</ListLink>
+          <ListLink to={`/blog`}>blog</ListLink>
           <ListLink to={`/contact`}>contact</ListLink>
         </ul>
       </header>
