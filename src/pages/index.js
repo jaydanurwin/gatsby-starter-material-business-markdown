@@ -19,12 +19,13 @@ class IndexPage extends React.Component {
     
     return (
       <Layout>
-        <SEO title="Home"/>
+        <SEO title="Home" />
         <MetaLinks />
         <section className="anoun-home--section1">
-          <h1>
-            Hi, we're <span className="anoun-title">ANOUN</span>
-          </h1>
+          <h2>
+            Hi, welcome to Gatsby Starter #1 by{" "}
+            <span className="anoun-title">ANOUN</span>
+          </h2>
           <img src={heroImage} alt="anoun-hero" />
           <Link to="/contact">
             <MDCReactRoundButton classNames="anoun-hero__button">
