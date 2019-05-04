@@ -5,7 +5,7 @@ import SEO from "../components/meta/SEO"
 import Layout from "../components/Layout"
 import Button from "@material/react-button"
 
-
+import Button from "@material/react-button"
 import WorkCardGrid from "../components/work-card-grid"
 
 // import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
