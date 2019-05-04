@@ -4,9 +4,8 @@ import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 import Layout from "../components/Layout"
 
+import Button from "@material/react-button"
 import WorkCardGrid from "../components/work-card-grid"
-
-import MDCReactRoundButton from "../components/mdc-react/MDCReactRoundButton"
 
 // import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
 import heroImage from "../images/undraw-hero-image.svg"
@@ -27,9 +26,9 @@ class IndexPage extends React.Component {
           </h1>
           <img src={heroImage} alt="anoun-hero" />
           <Link to="/contact">
-            <MDCReactRoundButton classNames="anoun-hero__button">
+            <Button raised className="mdc-button--round">
               Contact Us
-            </MDCReactRoundButton>
+            </Button>
           </Link>
         </section>
         <section className="anoun-home--section2">

@@ -1,18 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/Layout"
+import BlogLayout from "../components/BlogLayout"
 
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 
-import MDCReactButton from "../components/mdc-react/MDCReactButton"
+import Button from "@material/react-button"
 
 // Styles
 import "../styles/app.scss"
 
 const NotFoundPage = () => (
-  <Layout>
+  <BlogLayout>
     <SEO title="404: Not Found" />
     <MetaLinks />
     <h1>Uh...this is awkward</h1>
@@ -25,9 +25,9 @@ const NotFoundPage = () => (
     </p>
     <Link to="/">
       {/* // TODO add back icon */}
-      <MDCReactButton>Go Back Home</MDCReactButton>
+      <Button raised>Go Back Home</Button>
     </Link>
-  </Layout>
+  </BlogLayout>
 )
 
 export default NotFoundPage
