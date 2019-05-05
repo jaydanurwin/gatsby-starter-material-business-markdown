@@ -5,7 +5,7 @@ import SEO from "../components/meta/SEO"
 import Layout from "../components/Layout"
 
 import Button from "@material/react-button"
-import WorkCardGrid from "../components/work-card-grid"
+import CardGrid from "../components/cardGrid"
 
 // import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
 import heroImage from "../images/undraw-hero-image.svg"
@@ -33,16 +33,17 @@ class IndexPage extends React.Component {
           </Link>
         </section>
         <section className="anoun-home--section2">
-          <h2>We like to call ourselves a business business</h2>
-          <h2>We don't just do web design</h2>
-          <h2>We don't just do marketing</h2>
+          <h2>This is the power statement section</h2>
+          <h2>Say something that stands out</h2>
+          <h2>Say something visitors will remember</h2>
           <h2>
-            We help <strong>build</strong> your business
+            Say something <strong>bold</strong> about your brand
           </h2>
         </section>
         <section className="anoun-home--section3">
-          <h2>Our Work</h2>
-          <WorkCardGrid />
+          <h2>A Grid of Cards</h2>
+          <p><em>use this for your work/projects</em></p>
+          <CardGrid />
         </section>
       </Layout>
     )
