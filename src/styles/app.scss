@@ -87,20 +87,24 @@ a {
 /* Homepage */
 
 .anoun-home--section1 {
-  padding: .5rem;
+  padding: 1rem;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
+.anoun-home--section1 > h3 {
+  margin: 0;
+}
 .anoun-home--section1 > img {
-  max-width: 300px;
+  max-width: 336px;
 }
 
-#___gatsby > div > div > div.layout-module--siteMain--3Ef8D > section.anoun-home--section1 > a > div > button {
+//hero button x path
+section.anoun-home--section1 > a > button {
   background: rgb(102,51,153);
   background: linear-gradient(90deg, rgba(102,51,153,1) 0%, rgba(27,199,151,1) 100%);
 }

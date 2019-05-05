@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 import Layout from "../components/Layout"
-import Button from "@material/react-button"
 
 import Button from "@material/react-button"
 import WorkCardGrid from "../components/work-card-grid"
@@ -16,16 +15,16 @@ import "../styles/app.scss"
 
 class IndexPage extends React.Component {
   render() {
-    
+
     return (
       <Layout>
         <SEO title="Home" />
         <MetaLinks />
         <section className="anoun-home--section1">
-          <h2>
-            Hi, welcome to Gatsby Starter #1 by{" "}
-            <span className="anoun-title">ANOUN</span>
-          </h2>
+          <h3>Hi, welcome to Gatsby Starter #1</h3>
+          <h3>
+            by <span className="anoun-title">ANOUN</span>
+          </h3>
           <img src={heroImage} alt="anoun-hero" />
           <Link to="/contact">
             <Button raised className="mdc-button--round">
