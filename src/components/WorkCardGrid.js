@@ -8,7 +8,7 @@ import tufImage from "../images/tufflooring.png"
 import Card from "@material/react-card"
 
 // Styles
-import "../styles/app.scss"
+import "./workCardGrid.scss"
 
 const WorkCardGrid = () => (
   <div class="anoun-work__container">
