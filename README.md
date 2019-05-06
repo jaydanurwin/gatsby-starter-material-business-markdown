@@ -12,19 +12,19 @@
 
 * MDC React Components
 * MDC Theming
-* Gitlab CI/CD
-* Firebase Hosting
-* Full dynamic SEO
-* Footer component
-* Layout component
-* Prettier config
+* Home Page
+* About Page
+* Contact Page
+* Contact Form
+* Blog
+* SEO
+* Prettier code formatting
 * CSS Fluid Typography
-* Homepage Design w/ work cards
-* Markdown based Blog
-* Header Component
+* Forestry.io config
 
 ### Coming Soon
 
+* Formspark contact form
 * About Page Photo
 * JSON LD Content
 * RSS Feed
