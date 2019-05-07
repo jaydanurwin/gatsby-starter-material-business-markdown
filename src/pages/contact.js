@@ -74,12 +74,9 @@ class About extends React.Component {
             </div>
           </div>
           <h3>or just shoot us an email here!</h3>
-          <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            className="anoun-contact__form"
-          >
+            <form action="https://submit-form.com/70c780b8-ef9a-4c36-ac70-bb4544542c1f" target="_self" className="anoun-contact__form">
+              <!-- Prevent spam without a captcha -->
+             <input type="checkbox" name="_honeypot" style="display: none" tabindex="-1" autocomplete="off">
             <TextField
               label="Full Name"
               leadingIcon={<MaterialIcon icon="person" />}
