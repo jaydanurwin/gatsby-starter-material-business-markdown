@@ -75,8 +75,8 @@ class About extends React.Component {
           </div>
           <h3>or just shoot us an email here!</h3>
             <form action="https://submit-form.com/70c780b8-ef9a-4c36-ac70-bb4544542c1f" target="_self" className="anoun-contact__form">
-              <!-- Prevent spam without a captcha -->
-             <input type="checkbox" name="_honeypot" style="display: none" tabindex="-1" autocomplete="off">
+              {/* <!-- Prevent spam without a captcha --> */}
+             <input type="checkbox" name="_honeypot" tabindex="-1" autocomplete="off" hidden></input>
             <TextField
               label="Full Name"
               leadingIcon={<MaterialIcon icon="person" />}
