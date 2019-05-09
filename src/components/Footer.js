@@ -11,14 +11,14 @@ class Footer extends Component {
   render() {
     return (
       <footer className={styles.siteFooter}>
-        <nav>
+        <nav className={styles.footerNav}>
           {/* LOGO */}
           <Link to="/">
             <img
               src={footerLogo}
               width="100px"
               alt="ANOUN-logo"
-              style={{ marginBottom: `8px` }}
+              className={styles.footerLogo}
             />
           </Link>
           <ul>
@@ -36,7 +36,7 @@ class Footer extends Component {
             </li>
           </ul>
         </nav>
-        <div>
+        <nav className={styles.footerNav2}>
           <a
             href="https://www.instagram.com/anoun.design"
             target="_blank"
@@ -63,7 +63,7 @@ class Footer extends Component {
             />{" "}
             YouTube
           </a>
-        </div>
+        </nav>
       </footer>
     )
   }
