@@ -22,33 +22,44 @@
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
-### Featureset
+### Features
 
 * MDC React Components
 * MDC Theming
-* Gitlab CI/CD
-* Firebase Hosting
-* Full dynamic SEO
-* Footer component
-* Layout component
-* Prettier config
+* Home Page
+* About Page
+* Contact Page
+* Contact Form
+* Blog
+* SEO
+* Prettier code formatting
 * CSS Fluid Typography
-* Homepage Design w/ work cards
-* Markdown based Blog
-* Header Component
-* Forestry Config
+* Forestry.io config
 
 ### Coming Soon
 
+* Formspark contact form
 * About Page Photo
 * JSON LD Content
 * RSS Feed
 * PWA Support (theme and manifest)
 * Instructions for Setup (Blog post and video)
 
-## Setup
+## Simple Setup
 
-### Clone
+#### Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jaydanurwin/anoun-gatsby-website/)
+
+#### CMS
+
+### [Forestry.io](https://forestry.io/)
+
+<a href="https://app.forestry.io/quick-start?repo=jaydanurwin/anoun-gatsby-website&engine=gatsby">
+    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
+</a>
+
+## Manual Setup
 
 `git clone https://github.com/jaydanurwin/anoun-gatsby-website.git`
 

@@ -176,7 +176,6 @@ button {
 
 /* TABLET LAYOUT STYLES */
 @media screen and (min-width: 768px) {
-
   .anoun-home--section1 > img {
     max-width: 670px;
   }
@@ -184,8 +183,5 @@ button {
 
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
-  .anoun-home--section1 {
-    min-height: 90vh;
-      justify-content: flex-start;
-  }
+  
 }
