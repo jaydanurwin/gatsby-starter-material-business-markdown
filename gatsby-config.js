@@ -63,5 +63,17 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `ANOUN | A Web Design Company in Boise, ID`,
+        short_name: `ANOUN`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#000000`,
+        display: `standalone`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }
