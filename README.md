@@ -29,7 +29,7 @@
 * Home Page
 * About Page
 * Contact Page
-* Contact Form
+* [Formspark](https://formspark.io/) contact form
 * Blog
 * SEO
 * Prettier code formatting
@@ -38,7 +38,6 @@
 
 ### Coming Soon
 
-* Formspark contact form
 * About Page Photo
 * JSON LD Content
 * RSS Feed
