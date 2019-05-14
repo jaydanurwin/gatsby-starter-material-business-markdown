@@ -68,22 +68,6 @@ npm run start
 gatsby develop
 ```
 
-## Deploy
-
-```bash
-# if you don't have firebase-tools already
-npm install -g firebase-tools
-
-# authenticate firebase
-firebase login
-
-# build gatsby site
-npm run build
-
-# deploy to firebase hosting
-firebase deploy:hosting
-```
-
 ## Known Issues
 
 - CSS Modules or Sass Modules (.module.scss) files were giving me a lot of troubles with MDC due to their BEM name styling so if anyone has found a work around for CSS in JS with hyphens in class names I'm open to suggestions!
