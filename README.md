@@ -17,10 +17,12 @@
 * Contact Page
 * Contact Form
 * Blog
+  * Featured images for blog posts
 * SEO
 * Prettier code formatting
 * CSS Fluid Typography
 * Forestry.io config
+
 
 ### Coming Soon
 
