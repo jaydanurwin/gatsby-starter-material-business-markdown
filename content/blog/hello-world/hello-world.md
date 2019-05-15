@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2019-04-04T06:00:00+00:00
-
+featuredImage: "./anoun-share-image.png"
 ---
 Hey! Welcome to our blog!
 
