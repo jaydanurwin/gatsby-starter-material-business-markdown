@@ -1,7 +1,6 @@
 ---
 title: Hello World
 date: 2019-04-04T06:00:00.000+00:00
-featuredImage: "./anoun-share-image.png"
 featured_image: "/content/assets/anoun-share-image.png"
 
 ---
