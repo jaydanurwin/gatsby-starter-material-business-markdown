@@ -25,7 +25,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+        <Img fluid={post.frontmatter.featured_image.childImageSharp.fluid} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
         <ul
@@ -82,7 +82,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        featuredImage {
+        featured_image {
           childImageSharp {
             fluid(maxWidth: 1200, quality: 92) {
               ...GatsbyImageSharpFluid_withWebp
