@@ -38,7 +38,7 @@ class Footer extends Component {
         </nav>
         <nav className={styles.footerNav2}>
           <a
-            href="https://www.instagram.com/anoun.design"
+            href="https://www.instagram.com/anoun.company"
             target="_blank"
             rel="noopener noreferrer"
           >
