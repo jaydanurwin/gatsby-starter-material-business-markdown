@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2019-04-04T06:00:00.000+00:00
-featured_image: "/anoun-share-image.png"
+featured_image: "/tyler-lastovich-453203-unsplash.jpg"
 
 ---
 Hey! Welcome to our blog!
