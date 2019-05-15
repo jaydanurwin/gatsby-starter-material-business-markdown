@@ -15,7 +15,7 @@
 * Home Page
 * About Page
 * Contact Page
-* Contact Form
+* [Formspark](https://formspark.io) Contact Form
 * Blog
   * Featured images for blog posts
 * SEO
@@ -26,7 +26,6 @@
 
 ### Coming Soon
 
-* Formspark contact form
 * About Page Photo
 * JSON LD Content
 * RSS Feed
