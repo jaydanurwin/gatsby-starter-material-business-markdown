@@ -14,3 +14,8 @@ fields:
   description: date published
   config:
     required: true
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
