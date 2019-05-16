@@ -87,6 +87,11 @@ a {
   border-radius: 25px;
 }
 
+.mdc-floating-label {
+  @include mdc-text-field-caret-color(rgba(0,0,0,.64));  
+  @include mdc-text-field-label-color(rgba(0,0,0,.64));
+}
+
 /* PAGE STYLES */
 
 .page-main__section {
