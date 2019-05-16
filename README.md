@@ -32,19 +32,10 @@
 * PWA Support (theme and manifest)
 * Instructions for Setup (Blog post and video)
 
-## Simple Setup
-
-#### Netlify
+#### Setup
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jaydanurwin/anoun-gatsby-website/)
 
-#### CMS
-
-### [Forestry.io](https://forestry.io/)
-
-<a href="https://app.forestry.io/quick-start?repo=jaydanurwin/anoun-gatsby-website&engine=gatsby">
-    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
-</a>
 
 ## Manual Setup
 
