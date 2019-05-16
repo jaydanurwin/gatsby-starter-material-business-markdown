@@ -32,16 +32,16 @@
 * PWA Support (theme and manifest)
 * Instructions for Setup (Blog post and video)
 
-#### Setup
+## Setup
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jaydanurwin/anoun-gatsby-website/)
 
 
-## Manual Setup
+### Manual Setup
 
 `git clone https://github.com/jaydanurwin/anoun-gatsby-website.git`
 
-### Install Node Modules & CLI's
+#### Install Node Modules & CLI's
 
 ```bash
 # if you don't have gatsby-cli already
@@ -50,7 +50,7 @@ npm install -g gatsby-cli
 npm install
 ```
 
-### Develop Locally
+#### Develop Locally
 
 ```bash
 npm run start
