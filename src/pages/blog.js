@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby"
 import BlogLayout from "../components/BlogLayout"
 import SEO from "../components/meta/SEO"
 
+import Card, { CardPrimaryContent }from "@material/react-card"
+
 class BlogPage extends React.Component {
   render() {
     const { data } = this.props
@@ -23,22 +25,21 @@ class BlogPage extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h2>
-                <Link
-                  style={{ textDecoration: `underline` }}
-                  to={node.fields.slug}
-                >
-                  {title}
-                </Link>
-              </h2>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
+            <Link to={node.fields.slug}>
+              <Card
+                className="mdc-card--clickable anoun-blog-card"
+                key={node.fields.slug}
+              >
+                <h2>{title}</h2>
+                <small>{node.frontmatter.date}</small>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      node.frontmatter.description || node.excerpt,
+                  }}
+                />
+              </Card>
+            </Link>
           )
         })}
         </section>
