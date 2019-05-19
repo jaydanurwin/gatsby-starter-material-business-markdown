@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import BlogLayout from "../components/BlogLayout"
 import SEO from "../components/meta/SEO"
 
-import Card, { CardPrimaryContent }from "@material/react-card"
+import Card from "@material/react-card"
 
 class BlogPage extends React.Component {
   render() {
