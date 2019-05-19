@@ -7,7 +7,7 @@ module.exports = {
     title: `ANOUN | A Web Design Company in Boise, ID`,
     author: `ANOUN`,
     description: `ANOUN is a design and development company based in Boise, Idaho. We design clean, efficient, modern customer experiences for websites and mobile apps. We aim to deliver the best design services in Boise, Meridian, and Nampa, Idaho. Contact us to learn more!`,
-    siteUrl: `https://anoun.design`,
+    siteUrl: `https://anoun.company`,
   },
   plugins: [
     {
