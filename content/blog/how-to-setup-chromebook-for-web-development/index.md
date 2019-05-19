@@ -52,14 +52,14 @@ git --version
 Output
 git version 2.x
 
-## How Install Node.js and NPM
+## How to Install Node.js and NPM
 
 Run
 Sudo apt update
 Finally follow the directions from the nodejs site
  
  
-### For nodejs version 10 (recommended)
+### For nodejs version 10 (recommended):
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
