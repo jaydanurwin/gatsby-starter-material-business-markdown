@@ -5,6 +5,9 @@ import Img from "gatsby-image"
 import BlogLayout from "../components/BlogLayout"
 import SEO from "../components/meta/SEO"
 
+// Styles
+import styles from "./blogPost.module.scss"
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -26,8 +29,7 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <Img fluid={post.frontmatter.featured_image.childImageSharp.fluid} />
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-
+        <div className={styles.blogPostContent} dangerouslySetInnerHTML={{ __html: post.html }} />
         <ul
           style={{
             display: `flex`,

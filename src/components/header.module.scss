@@ -19,6 +19,11 @@
   }
 }
 
+.siteHeader > ul li a {
+  text-decoration: none;
+}
+
 .activeLink {
   border-bottom: 2px solid var(--mdc-theme-on-background);
 }
+
