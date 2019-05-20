@@ -1,8 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import BlogLayout from "../components/BlogLayout"
 import SEO from "../components/meta/SEO"
+
 
 import Card from "@material/react-card"
 
@@ -30,14 +32,23 @@ class BlogPage extends React.Component {
                 className="mdc-card--clickable anoun-blog-card"
                 key={node.fields.slug}
               >
-                <h2>{title}</h2>
-                <small>{node.frontmatter.date}</small>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      node.frontmatter.description || node.excerpt,
-                  }}
+                <Img
+                  className="mdc-card__media"
+                  fluid={
+                    node.frontmatter.featured_image.childImageSharp
+                      .fluid
+                  }
                 />
+                <div className="anoun-blog-card-content__container">
+                  <h2>{title}</h2>
+                  <small>{node.frontmatter.date}</small>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html:
+                        node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </div>
               </Card>
             </Link>
           )
@@ -51,25 +62,34 @@ class BlogPage extends React.Component {
 export default BlogPage
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-          }
-        }
-      }
-    }
-  }
-`
+         query {
+           site {
+             siteMetadata {
+               title
+             }
+           }
+           allMarkdownRemark(
+             sort: { fields: [frontmatter___date], order: DESC }
+           ) {
+             edges {
+               node {
+                 excerpt
+                 fields {
+                   slug
+                 }
+                 frontmatter {
+                   date(formatString: "MMMM DD, YYYY")
+                   title
+                   featured_image {
+                     childImageSharp {
+                       fluid(maxWidth: 1200, quality: 92) {
+                         ...GatsbyImageSharpFluid_withWebp
+                       }
+                     }
+                   }
+                 }
+               }
+             }
+           }
+         }
+       `
