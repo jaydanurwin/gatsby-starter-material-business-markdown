@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format": "prettier --write src/**/*.{js,jsx,scss}",
     "dev": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
