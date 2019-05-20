@@ -158,6 +158,11 @@ a {
   width: 100%;
 }
 
+//ineligant solution for floating label color
+.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
+color: var(--mdc-theme-primary);
+}
+
 // Blog
 
 .anoun-blog-card {
