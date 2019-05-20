@@ -19,9 +19,13 @@ This post is definitely for the more tech savvy individual but I wanted to write
 
 ## How to Setup SSH for Crostini
 
+```bash
 ssh-keygen -t rsa
+```
 
+```bash
 cat ~/.ssh/id_rsa.pub
+```
 
 Copy the output and you now have an SSH Key you can add to Github or Gitlab!
 
@@ -41,33 +45,44 @@ Here are some of our favorite VSCode Extensions!
 
 First, use the apt package management tools to update your local package index. With the update complete, you can download and install Git:
 
+```bash
 sudo apt update
-
 sudo apt install git
+```
 
 You can confirm that you have installed Git correctly by running the following command:
 
+```bash
 git --version
+```
+Output should be
 
-Output
+```bash
 git version 2.x
+```
 
 ## How to Install Node.js and NPM
 
 Run
+```bash
 Sudo apt update
-Finally follow the directions from the nodejs site
- 
+```
  
 ### For nodejs version 10 (recommended):
+
+```bash
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
+```
 
 ### For nodejs version 8:
+
+```bash
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
+```
  
-> Ever wonder the difference between apt and apt-get?
+> Ever wondered the difference between apt and apt-get?
 > Check [this](https://itsfoss.com/>apt-vs-apt-get-difference/) article out!
