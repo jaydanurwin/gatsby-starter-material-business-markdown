@@ -86,4 +86,4 @@ sudo apt-get install -y nodejs
 ```
  
 > Ever wondered the difference between apt and apt-get?
-> Check [this](https://itsfoss.com/>apt-vs-apt-get-difference/) article out!
+> Check [this](https://itsfoss.com/apt-vs-apt-get-difference/) article out!
