@@ -10,10 +10,11 @@ This post is definitely for the more tech savvy individual but I wanted to write
 ## How to Enable Linux for Chrome OS A.K.A. Crostini
 
 1. At the bottom right, select the time. 
-2. Select Settings Settings.
-3. Under "Linux (Beta)," select Turn On.
-4. Follow the steps on the screen. Setup can take 10 minutes or more.
-5. A terminal window opens. You can run Linux commands, install more tools using the APT package manager, and customize your shell.
+2. Select Settings.
+3. Open the left hand menu.
+4. Under "Linux (Beta)," select Turn On.
+5. Follow the steps on the screen. Setup can take 10 minutes or more.
+6. A terminal window opens. You can run Linux commands, install more tools using the APT package manager, and customize your shell.
 
 [Learn more](https://support.google.com/chromebook/answer/9145439?hl=en) about Linux for Chrome OS
 
