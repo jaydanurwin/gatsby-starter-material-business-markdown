@@ -21,8 +21,6 @@
 * SEO
 * Prettier code formatting
 * CSS Fluid Typography
-* Forestry.io config
-
 
 ### Coming Soon
 
