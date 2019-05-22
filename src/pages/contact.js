@@ -1,7 +1,6 @@
 import React from "react"
 import BlogLayout from "../components/BlogLayout"
-import MetaLinks from "../components/meta/MetaLinks"
-import SEO from "../components/meta/SEO"
+import SEO from "../components/SEO/SEO"
 
 import ContactForm from "../components/ContactForm"
 
@@ -12,7 +11,6 @@ class About extends React.Component {
   render() {
     return (
       <BlogLayout>
-        <MetaLinks />
         <SEO title="Contact Us" />
         <h1>Contact Us</h1>
 

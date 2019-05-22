@@ -3,8 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import BlogLayout from "../components/BlogLayout"
-import SEO from "../components/meta/SEO"
-import MetaLinks from "../components/meta/MetaLinks"
+import SEO from "../components/SEO/SEO"
 
 // Styles
 import styles from "./blogPost.module.scss"
@@ -21,7 +20,6 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <MetaLinks />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -76,7 +74,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

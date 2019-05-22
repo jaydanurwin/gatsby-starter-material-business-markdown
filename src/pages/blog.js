@@ -3,8 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import BlogLayout from "../components/BlogLayout"
-import SEO from "../components/meta/SEO"
-import MetaLinks from "../components/meta/MetaLinks"
+import SEO from "../components/SEO/SEO"
 
 import Card from "@material/react-card"
 
@@ -20,7 +19,6 @@ class BlogPage extends React.Component {
           title="Blog"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <MetaLinks />
         <h1>
           Posts by <span className="anoun-title">ANOUN</span>
         </h1>
