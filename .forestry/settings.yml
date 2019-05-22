@@ -11,12 +11,13 @@ sections:
   label: Posts
   create: all
   match: "**/*"
+  templates:
+  - blog-post
 upload_dir: content/assets
-public_path: "/assets"
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_command: gatsby build
   publish_command: gatsby build

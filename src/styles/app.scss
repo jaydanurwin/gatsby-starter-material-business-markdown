@@ -3,7 +3,10 @@
 // # Table of Contents
 
 // - GLOBAL STYLES
-// - FOOTER
+// - MDC STYLES
+// - PAGE STYLES
+//   - HOME
+//   - CONTACT
 // - TINY PHONE STYLES
 // - WIDE LAYOUT STYLES (DESKTOP)
 @import "./reset.scss";
@@ -90,10 +93,20 @@ button {
   border-radius: 25px;
 }
 
-/* Homepage */
+.mdc-floating-label {
+  @include mdc-text-field-caret-color(rgba(0,0,0,.64));  
+  @include mdc-text-field-label-color(rgba(0,0,0,.64));
+}
+
+/* PAGE STYLES */
+
+.page-main__section {
+  min-height: 80vh;
+}
+
+// HOME
 
 .anoun-home--section1 {
-  padding: 1rem;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -131,17 +144,7 @@ button {
   margin-bottom: 2rem;
 }
 
-.anoun-home--section3 > h2, p {
-  margin: .5rem;
-}
-
-/* PAGES */
-
-.page-main__section {
-  min-height: 80vh;
-}
-
-// CONTACT PAGE
+// CONTACT
 
 .contact-page-main__section {
   display: flex;
@@ -167,7 +170,20 @@ button {
   width: 100%;
 }
 
+//ineligant solution for floating label color
+.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
+color: var(--mdc-theme-primary);
+}
 
+// Blog
+
+.anoun-blog-card {
+  margin-bottom: .75rem;
+}
+
+.anoun-blog-card-content__container {
+  padding: 1rem;
+}
 
 /* TINY PHONE STYLES */
 
@@ -179,6 +195,10 @@ button {
   .anoun-home--section1 > img {
     max-width: 670px;
   }
+
+  .anoun-home--section1 {
+  min-height: 90vh;
+}
 }
 
 /* WIDE LAYOUT STYLES */

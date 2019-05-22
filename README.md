@@ -31,10 +31,12 @@
 * Contact Page
 * [Formspark](https://formspark.io/) contact form
 * Blog
+  * Featured images for blog posts
 * SEO
 * Prettier code formatting
 * CSS Fluid Typography
 * Forestry.io config
+
 
 ### Coming Soon
 
@@ -44,25 +46,16 @@
 * PWA Support (theme and manifest)
 * Instructions for Setup (Blog post and video)
 
-## Simple Setup
-
-#### Netlify
+## Setup
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jaydanurwin/anoun-gatsby-website/)
 
-#### CMS
 
-### [Forestry.io](https://forestry.io/)
-
-<a href="https://app.forestry.io/quick-start?repo=jaydanurwin/anoun-gatsby-website&engine=gatsby">
-    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
-</a>
-
-## Manual Setup
+### Manual Setup
 
 `git clone https://github.com/jaydanurwin/anoun-gatsby-website.git`
 
-### Install Node Modules & CLI's
+#### Install Node Modules & CLI's
 
 ```bash
 # if you don't have gatsby-cli already
@@ -73,7 +66,7 @@ cd anoun-gatsby-starter1-markdown
 npm install
 ```
 
-### Develop Locally
+#### Develop Locally
 
 ```bash
 npm run dev

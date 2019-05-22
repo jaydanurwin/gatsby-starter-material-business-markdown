@@ -1,8 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import BlogLayout from "../components/BlogLayout"
 import SEO from "../components/meta/SEO"
+import MetaLinks from "../components/meta/MetaLinks"
+
+// Styles
+import styles from "./blogPost.module.scss"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -16,6 +21,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+        <MetaLinks />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -24,8 +30,8 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-
+        <Img fluid={post.frontmatter.featured_image.childImageSharp.fluid} />
+        <div className={styles.blogPostContent} dangerouslySetInnerHTML={{ __html: post.html }} />
         <ul
           style={{
             display: `flex`,
@@ -80,6 +86,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        featured_image {
+          childImageSharp {
+            fluid(maxWidth: 1200, quality: 92) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     }
   }
