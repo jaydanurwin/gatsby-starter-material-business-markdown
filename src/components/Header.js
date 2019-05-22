@@ -19,11 +19,13 @@ class Header extends Component {
         <span className="anoun-title">ANOUN</span>
       </h3>
     </Link> */}
-        <ul>
-          <ListLink to={`/`}>home</ListLink>
-          <ListLink to={`/about`}>about</ListLink>
-          <ListLink to={`/contact`}>contact</ListLink>
-        </ul>
+        <nav>
+          <ul>
+            <ListLink to={`/`}>home</ListLink>
+            <ListLink to={`/about`}>about</ListLink>
+            <ListLink to={`/contact`}>contact</ListLink>
+          </ul>
+        </nav>
       </header>
     )
   }
