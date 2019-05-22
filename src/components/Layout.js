@@ -1,8 +1,7 @@
 import React from "react"
 import Header from "./Header"
 import Footer from "./Footer"
-
-// import instagramIcon from "../images/icons/instagram-round-white-24px.svg"
+import MetaLinks from "./MetaLinks"
 
 import styles from "./layout.module.scss"
 
@@ -11,6 +10,7 @@ class Layout extends React.Component {
     const { children } = this.props
     return (
       <div className={styles.siteContainer}>
+        <MetaLinks />
         <Header />
         <div className={styles.siteMain}>{children}</div>
         <Footer />
