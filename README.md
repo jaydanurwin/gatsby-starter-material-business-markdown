@@ -8,19 +8,9 @@
 
 # Gatsby Starter by ANOUN #1 - Markdown
 
-### "That was easy" Buttons
-
 ### Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-anoun-1-forestry/)
-
-### CMS
-
-### [Forestry.io](https://forestry.io/)
-
-<a href="https://app.forestry.io/quick-start?repo=anoun/gatsby-starter-anoun-1-forestry&engine=gatsby">
-    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
-</a>
 
 ### Features
 
