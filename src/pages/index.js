@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import SEO from "../components/meta/SEO"
+import SEO from "../components/SEO/SEO"
 import Layout from "../components/Layout"
 
 import Button from "@material/react-button"
@@ -17,7 +17,7 @@ class IndexPage extends React.Component {
     
     return (
       <Layout>
-        <SEO title="Home"/>
+        <SEO />
         <section className="anoun-home--section1">
           <h1>
             Hi, we're <span className="anoun-title">ANOUN</span>

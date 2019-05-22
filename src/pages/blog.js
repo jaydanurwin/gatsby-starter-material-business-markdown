@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import BlogLayout from "../components/BlogLayout"
-import SEO from "../components/meta/SEO"
+import SEO from "../components/SEO/SEO"
 
 import Card from "@material/react-card"
 

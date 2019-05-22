@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import BlogLayout from "../components/BlogLayout"
 
-import SEO from "../components/meta/SEO"
+import SEO from "../components/SEO/SEO"
 
 import Button from "@material/react-button"
 

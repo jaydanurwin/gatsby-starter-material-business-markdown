@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import BlogLayout from "../components/BlogLayout"
-import SEO from "../components/meta/SEO"
+import SEO from "../components/SEO/SEO"
 
 // Styles
 import styles from "./blogPost.module.scss"
@@ -74,7 +74,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
