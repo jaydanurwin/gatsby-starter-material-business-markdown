@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import MetaLinks from "../components/meta/MetaLinks"
 import SEO from "../components/meta/SEO"
 import Layout from "../components/Layout"
 
@@ -19,7 +18,6 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home"/>
-        <MetaLinks />
         <section className="anoun-home--section1">
           <h1>
             Hi, we're <span className="anoun-title">ANOUN</span>
