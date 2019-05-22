@@ -3,14 +3,14 @@
   font-weight: 900;
 }
 
-.siteHeader >  ul {
+.siteHeader > nav ul {
   text-align: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.siteHeader > ul li {
+.siteHeader > nav ul li {
   display: inline;
   margin-right: .5rem;
   font-family: "Playfair Display";
@@ -19,7 +19,7 @@
   }
 }
 
-.siteHeader > ul li a {
+.siteHeader > nav ul li a {
   text-decoration: none;
 }
 
