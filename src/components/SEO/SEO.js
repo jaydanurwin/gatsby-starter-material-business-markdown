@@ -1,7 +1,7 @@
 import React from "react"
 import Helmet from "react-helmet"
 import PropTypes from "prop-types"
-import { StaticQuery } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Twitter from "./Twitter"
 import Facebook from "./Facebook"
 
@@ -20,7 +20,7 @@ const SEO = ({
             defaultTitle: title
             titleTemplate
             defaultDescription: description
-            siteUrl: url
+            siteUrl
             defaultImage: image
             twitterUsername
             facebookAppID
