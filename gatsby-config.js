@@ -2,15 +2,17 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+const website = require("./content/website") 
+
 module.exports = {
   siteMetadata: {
-    title: `ANOUN | A Web Design Company in Boise, ID`,
-    titleTemplate: '%s · ANOUN',
-    description: `ANOUN is a design and development company based in Boise, Idaho. We design clean, efficient, modern customer experiences for websites and mobile apps. We aim to deliver the best design services in Boise, Meridian, and Nampa, Idaho. Contact us to learn more!`,
-    siteUrl: 'https://anoun.company', // no trailing slash! (for sitemap.xml)
-    image: '/images/anoun-share-image.png',
-    owner: 'ANOUN',
-    twitterUsername: '@anouncompany',
+    title: website.title,
+    titleTemplate: website.titleTemplate,
+    description: website.description,
+    siteUrl: website.siteUrl,
+    image: website.image,
+    owner: website.owner,
+    twitterUsername: website.twitterUsername,
     facebookAppID: '',
   },
   plugins: [
@@ -70,13 +72,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ANOUN | A Web Design Company in Boise, ID`,
-        short_name: `ANOUN`,
+        name: website.title,
+        short_name: website.short_name,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#000000`,
+        background_color: website.background_color,
+        theme_color: website.theme_color,
         display: `standalone`,
-        icon: `src/favicon.png`
+        icon: website.icon
       },
     },
     `gatsby-plugin-offline`,
