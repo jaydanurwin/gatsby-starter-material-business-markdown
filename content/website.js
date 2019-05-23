@@ -19,7 +19,7 @@ module.exports = {
 
   twitterUsername: "@anouncompany", // Twitter Username
   // facebook: "gatsby-prismic", // Facebook Site Name
-  googleAnalyticsID: "UA-47519312-7",
+  googleAnalyticsID: "UA-122654359-2",
 
   // skipNavId: "reach-skip-nav", // ID for the "Skip to content" a11y feature
   // facebookAppID: "",
