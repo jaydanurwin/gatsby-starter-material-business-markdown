@@ -19,39 +19,39 @@ class BlogPage extends React.Component {
           title="Blog"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <h1>
-          Blog Posts
-        </h1>
+        <h1>Blog Posts</h1>
         <section className="page-main__section">
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <Link to={node.fields.slug}>
-              <Card
-                className="mdc-card--clickable anoun-blog-card"
-                key={node.fields.slug}
-              >
-                <Img
-                  className="mdc-card__media"
-                  fluid={
-                    node.frontmatter.featured_image.childImageSharp
-                      .fluid
-                  }
-                />
-                <div className="anoun-blog-card-content__container">
-                  <h2>{title}</h2>
-                  <small>{node.frontmatter.date}</small>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html:
-                        node.frontmatter.description || node.excerpt,
-                    }}
-                  />
-                </div>
-              </Card>
-            </Link>
-          )
-        })}
+          <div className="blog-posts__container">
+            {posts.map(({ node }) => {
+              const title = node.frontmatter.title || node.fields.slug
+              return (
+                <Link to={node.fields.slug}>
+                  <Card
+                    className="mdc-card--clickable anoun-blog-card"
+                    key={node.fields.slug}
+                  >
+                    <Img
+                      className="mdc-card__media"
+                      fluid={
+                        node.frontmatter.featured_image.childImageSharp
+                          .fluid
+                      }
+                    />
+                    <div className="anoun-blog-card-content__container">
+                      <h2>{title}</h2>
+                      <small>{node.frontmatter.date}</small>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html:
+                            node.frontmatter.description || node.excerpt,
+                        }}
+                      />
+                    </div>
+                  </Card>
+                </Link>
+              )
+            })}
+          </div>
         </section>
       </BlogLayout>
     )
