@@ -1,5 +1,5 @@
 ---
-title: How to Setup a Chromebook for Web Development
+title: How to Set Up a Chromebook for Web Development
 date: 2019-05-18T06:00:00.000+00:00
 featured_image: "./anoun-share-image.png"
 ---
