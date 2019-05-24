@@ -14,7 +14,7 @@
 
 ### Features
 
-* MDC React Components
+* [MDC React Components](https://github.com/material-components/material-components-web-react)
 * MDC Theming
 * Home Page
 * About Page
