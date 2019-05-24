@@ -14,15 +14,10 @@ class Header extends Component {
     )
     return (
       <header className={styles.siteHeader}>
-        {/* <Link to={`/`}>
-      <h3>
-        <span className="anoun-title">ANOUN</span>
-      </h3>
-    </Link> */}
         <nav>
           <ul>
             <ListLink to={`/`}>home</ListLink>
-            <ListLink to={`/about`}>about</ListLink>
+            <ListLink to={`/blog`}>blog</ListLink>
             <ListLink to={`/contact`}>contact</ListLink>
           </ul>
         </nav>
