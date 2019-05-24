@@ -13,7 +13,7 @@
 @import "./theme.scss";
 @import "./typography.scss";
 
-@import '@material/react-material-icon/index.scss';
+@import "@material/react-material-icon/index.scss";
 @import "@material/react-card/index.scss";
 @import "@material/react-button/index.scss";
 @import "@material/react-text-field/index.scss";
@@ -63,8 +63,13 @@ a {
 
 // fun button gradient
 button {
-  background: rgb(102,51,153);
-  background: linear-gradient(90deg, rgba(102,51,153,1) 0%, rgba(27,199,151,1) 100%);
+  background: rgb(102, 51, 153);
+  background: linear-gradient(
+    130deg,
+    rgba(102, 51, 153, 1) 0%,
+    rgba(164, 110, 218, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 /* MDC Styles*/
@@ -94,8 +99,8 @@ button {
 }
 
 .mdc-floating-label {
-  @include mdc-text-field-caret-color(rgba(0,0,0,.64));  
-  @include mdc-text-field-label-color(rgba(0,0,0,.64));
+  @include mdc-text-field-caret-color(rgba(0, 0, 0, 0.64));
+  @include mdc-text-field-label-color(rgba(0, 0, 0, 0.64));
 }
 
 /* PAGE STYLES */
@@ -121,8 +126,6 @@ button {
 .anoun-home--section1 > img {
   max-width: 336px;
 }
-
-
 
 .anoun-home--section2 {
   width: 100%;
@@ -162,23 +165,23 @@ button {
 }
 
 .anoun-contact-links__section > div > h3 {
-  margin: .24rem 0;
+  margin: 0.24rem 0;
 }
 
 .anoun-contact__form > .mdc-text-field {
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   width: 100%;
 }
 
 //ineligant solution for floating label color
 .mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
-color: var(--mdc-theme-primary);
+  color: var(--mdc-theme-primary);
 }
 
 // Blog
 
 .anoun-blog-card {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .anoun-blog-card-content__container {
@@ -197,11 +200,10 @@ color: var(--mdc-theme-primary);
   }
 
   .anoun-home--section1 {
-  min-height: 90vh;
-}
+    min-height: 90vh;
+  }
 }
 
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
-  
 }
