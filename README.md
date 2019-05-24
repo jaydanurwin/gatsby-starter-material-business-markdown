@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad7e589d-7716-4190-981f-3258aaa42d8c/deploy-status)](https://app.netlify.com/sites/gatsby-starter-anoun-1-markdown/deploys)
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-anoun-1-forestry/)
+
 <p align="center">
   <a href="https://anoun.company">
     <img alt="ANOUN" src="https://anoun.company/images/anoun-share-image.png" width="600" />
@@ -7,10 +9,6 @@
 </p>
 
 # Gatsby Starter by ANOUN #1 - Markdown
-
-### Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-anoun-1-forestry/)
 
 ### Features
 
