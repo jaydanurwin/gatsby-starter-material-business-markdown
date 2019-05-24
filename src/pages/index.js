@@ -4,7 +4,6 @@ import SEO from "../components/SEO/SEO"
 import Layout from "../components/Layout"
 
 import Button from "@material/react-button"
-import CardGrid from "../components/cardGrid"
 
 // import idahoOutlineLightTheme from "../images/icons/idaho-outline--lightTheme.svg"
 import heroImage from "../images/undraw-hero-image.svg"
@@ -39,9 +38,7 @@ class IndexPage extends React.Component {
           </h2>
         </section>
         <section className="anoun-home--section3">
-          <h2>A Grid of Cards</h2>
-          <p><em>use this for your work/projects</em></p>
-          <CardGrid />
+          <h2>Blog Posts</h2>
         </section>
       </Layout>
     )
