@@ -132,7 +132,8 @@ button {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  background-color: var(--mdc-theme-on-background);
+  background: rgb(102,51,153);
+  background: linear-gradient(130deg, rgba(102,51,153,1) 0%, rgba(164,110,218,1) 100%, rgba(255,255,255,1) 100%);
   color: var(--mdc-theme-on-primary);
   padding: 1rem;
   justify-content: center;
