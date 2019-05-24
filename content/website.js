@@ -10,7 +10,7 @@ module.exports = {
   icon: "src/favicon.png", // Used for manifest favicon generation
   short_name: "ANOUN", // shortname for manifest. MUST be shorter than 12 characters
   owner: "ANOUN", // Author for schemaORGJSONLD
-  theme_color: "#000000",
+  theme_color: "#663399",
   background_color: "#ffffff",
 
   // Social and Analytics
