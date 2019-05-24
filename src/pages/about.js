@@ -1,14 +1,12 @@
 import React from "react"
 import BlogLayout from "../components/BlogLayout"
-import MetaLinks from "../components/meta/MetaLinks"
-import SEO from "../components/meta/SEO"
+import SEO from "../components/SEO/SEO"
 
 // Styles
 import "../styles/app.scss"
 
 const About = () => (
   <BlogLayout>
-    <MetaLinks />
     <SEO title="About" />
     <h1>About Us</h1>
     <h3>
