@@ -132,8 +132,13 @@ button {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  background: rgb(102,51,153);
-  background: linear-gradient(130deg, rgba(102,51,153,1) 0%, rgba(164,110,218,1) 100%, rgba(255,255,255,1) 100%);
+  background: rgb(102, 51, 153);
+  background: linear-gradient(
+    130deg,
+    rgba(102, 51, 153, 1) 0%,
+    rgba(164, 110, 218, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
   color: var(--mdc-theme-on-primary);
   padding: 1rem;
   justify-content: center;
@@ -141,7 +146,7 @@ button {
 
 .anoun-home--section3 {
   width: 100%;
-  text-align: center;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,6 +186,12 @@ button {
 
 // Blog
 
+.blog-posts__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 2em;
+}
+
 .anoun-blog-card {
   margin-bottom: 0.75rem;
 }
@@ -188,7 +199,6 @@ button {
 .anoun-blog-card-content__container {
   padding: 1rem;
 }
-
 /* TINY PHONE STYLES */
 
 @media screen and (max-width: 320px) {
@@ -207,4 +217,11 @@ button {
 
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
+  .anoun-home--section3 {
+    width: 60%;
+  }
+
+  .blog-posts__container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
