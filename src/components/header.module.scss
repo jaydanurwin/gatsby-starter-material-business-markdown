@@ -15,7 +15,7 @@
   margin-right: .5rem;
   font-family: "Playfair Display";
   &:hover {
-    border-bottom: 2px solid var(--mdc-theme-on-background);
+    border-bottom: 2px solid var(--mdc-theme-primary);
   }
 }
 
@@ -24,6 +24,6 @@
 }
 
 .activeLink {
-  border-bottom: 2px solid var(--mdc-theme-on-background);
+  border-bottom: 2px solid var(--mdc-theme-primary);
 }
 
