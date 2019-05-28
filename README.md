@@ -3,8 +3,8 @@
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-anoun-1-forestry/)
 
 <p align="center">
-  <a href="https://anoun.company">
-    <img alt="ANOUN" src="https://anoun.company/images/anoun-share-image.png" width="600" />
+  <a href="https://gatsby-starter-anoun-1-markdown.netlify.com/">
+    <img alt="ANOUN" src="./content/assets/gatsby-starter-anoun-1-markdown.netlify.com_.png" width="1200" />
   </a>
 </p>
 
