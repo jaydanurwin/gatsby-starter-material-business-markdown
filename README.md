@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://gatsby-starter-anoun-1-markdown.netlify.com/" target="_blank">
-    <img alt="ANOUN" src="./content/assets/gatsby-starter-anoun-1-markdown.netlify.com_.png" width="1200" />
+    <img alt="ANOUN" src="./content/assets/gatsby-starter-anoun-1-markdown.netlify.com_.png" />
   </a>
 </p>
 
