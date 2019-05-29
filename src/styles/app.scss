@@ -79,6 +79,10 @@ button {
   @include mdc-elevation(1);
 }
 
+.mdc-card__media {
+  max-height: 256px;
+}
+
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
   .mdc-card--clickable {
@@ -194,10 +198,15 @@ button {
 
 .anoun-blog-card {
   margin-bottom: 0.75rem;
+  max-height: 550px;
 }
 
 .anoun-blog-card-content__container {
   padding: 1rem;
+}
+
+.anoun-blog-card-content__container h2 {
+  margin: 0;
 }
 /* TINY PHONE STYLES */
 
@@ -218,7 +227,7 @@ button {
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
   .anoun-home--section3 {
-    width: 60%;
+    width: 80%;
   }
 
   .blog-posts__container {
