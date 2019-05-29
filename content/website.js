@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/", // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+  // SEO
   title: "Gatsby Starter #1 | ANOUN | Markdown", // Navigation and Site Title
   titleTemplate: "%s · Gatsby Starter #1",
   description: "This is Gatsby Starter #1 by ANOUN with content sourcing from Markdown files. Don't be shy, clone it on Github if you'd like!",
