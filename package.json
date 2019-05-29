@@ -30,6 +30,7 @@
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.32",
     "gatsby-plugin-sitemap": "^2.0.5",
+    "gatsby-plugin-typography": "^2.2.13",
     "gatsby-remark-copy-linked-files": "^2.0.11",
     "gatsby-remark-images": "^3.0.10",
     "gatsby-remark-prismjs": "^3.2.6",
@@ -43,7 +44,9 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-helmet": "^5.2.0",
-    "typescript": "^3.4.1"
+    "react-typography": "^0.16.19",
+    "typescript": "^3.4.1",
+    "typography": "^0.16.19"
   },
   "repository": {
     "type": "git",

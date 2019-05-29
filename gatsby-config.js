@@ -13,7 +13,7 @@ module.exports = {
     image: website.image,
     owner: website.owner,
     twitterUsername: website.twitterUsername,
-    facebookAppID: '',
+    facebookAppID: "",
   },
   plugins: [
     {
@@ -61,9 +61,15 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: "config/typography.js",
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: website.googleAnalyticsID
+        trackingId: website.googleAnalyticsID,
       },
     },
     `gatsby-plugin-sitemap`,
@@ -78,7 +84,7 @@ module.exports = {
         background_color: website.background_color,
         theme_color: website.theme_color,
         display: `standalone`,
-        icon: website.icon
+        icon: website.icon,
       },
     },
     `gatsby-plugin-offline`,
