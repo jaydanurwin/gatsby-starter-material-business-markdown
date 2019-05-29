@@ -91,5 +91,6 @@ Edit `src/styles/theme.scss`
 ## Credits
 
 Designed by [ANOUN](https://anoun.company)
+
 Made in Idaho
 
