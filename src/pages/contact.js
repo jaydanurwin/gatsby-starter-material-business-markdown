@@ -38,11 +38,11 @@ class About extends React.Component {
             <div>
               <h3>Instagram</h3>
               <a
-                href="https://www.instagram.com/anoun.design"
+                href="https://www.instagram.com/anoun.company"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @anoun.design
+                @anoun.company
               </a>
             </div>
           </div>
