@@ -36,6 +36,11 @@ body {
   position: relative;
   background-color: var(--mdc-theme-background);
   color: var(--mdc-theme-on-background);
+  line-height: 1.5rem;
+}
+
+p {
+  margin: 1rem auto;
 }
 
 a {
@@ -123,6 +128,10 @@ a {
   justify-content: center;
 }
 
+.anoun-home--section2 h2 {
+  margin: 2rem;
+}
+
 .anoun-home--section3 {
   width: 100%;
   text-align: center;
@@ -132,11 +141,20 @@ a {
   margin-bottom: 2rem;
 }
 
+.anoun-home--section3 h2:first-of-type {
+  margin: 2rem;
+}
+
 // CONTACT
 
 .contact-page-main__section {
   display: flex;
   flex-direction: column;
+  text-align: left;
+}
+
+.contact-page-main__section h3 {
+  margin: 2rem 0;
 }
 
 .anoun-contact-links__section {
@@ -145,12 +163,16 @@ a {
   flex-wrap: wrap;
 }
 
-.anoun-contact-links__section > div {
+.anoun-contact-links__section div {
   margin-right: 1rem;
 }
 
-.anoun-contact-links__section > div > h3 {
-  margin: .24rem 0;
+.anoun-contact-links__section div h3 {
+  margin: 1rem 0 0 0;
+}
+
+.anoun-contact-links__section a {
+  border-bottom: 1px solid var(--mdc-theme-on-background);
 }
 
 .anoun-contact__form > .mdc-text-field {
@@ -171,6 +193,10 @@ color: var(--mdc-theme-primary);
 
 .anoun-blog-card-content__container {
   padding: 1rem;
+}
+
+.anoun-blog-card-content__container h2 {
+  margin-bottom: 0;
 }
 
 /* TINY PHONE STYLES */
