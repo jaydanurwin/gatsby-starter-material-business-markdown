@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import SEO from "../components/SEO/SEO"
-import Layout from "../components/Layout"
+import Layout from "../components/Layout/Layout"
 
 import Button from "@material/react-button"
 import WorkCardGrid from "../components/WorkCardGrid"
