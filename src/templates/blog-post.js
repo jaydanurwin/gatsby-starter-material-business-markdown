@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import BlogLayout from "../components/BlogLayout"
+import BlogLayout from "../components/BlogLayout/BlogLayout"
 import SEO from "../components/SEO/SEO"
 
 // Styles
