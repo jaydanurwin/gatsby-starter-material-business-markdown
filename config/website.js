@@ -1,9 +1,10 @@
 module.exports = {
   // SEO
-  title: "Gatsby Starter #1 | ANOUN | Markdown", // Navigation and Site Title
-  titleTemplate: "%s · Gatsby Starter #1", // Template for Page Titles
-  description: "This is Gatsby Starter #1 by ANOUN with content sourcing from Markdown files. Don't be shy, clone it on Github if you'd like!",
-  siteUrl: "https://gatsby-starter-anoun-1-markdown.netlify.com", // Domain of your site. No trailing slash!
+  title: "Gatsby Starter by ANOUN", // Navigation and Site Title
+  titleTemplate: "%s · Material Business - Markdown", // Template for Page Titles
+  description:
+    "A Gatsby Starter by ANOUN with content sourcing from Markdown files. It uses the Material Design language and components for styling.",
+  siteUrl: "https://gatsby-starter-material-business-markdown.netlify.com", // Domain of your site. No trailing slash!
   image: "/images/anoun-share-image.png", // Used for SEO Share Image
 
   // Manifest
