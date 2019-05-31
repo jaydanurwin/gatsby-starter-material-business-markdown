@@ -6,7 +6,7 @@
   </a>
 </p>
 
-# Gatsby Starter by ANOUN #1 - Markdown
+# Gatsby Starter by ANOUN | Material Business - Markdown
 
 ## Features
 
