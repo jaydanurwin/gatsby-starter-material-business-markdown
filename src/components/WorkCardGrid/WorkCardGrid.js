@@ -1,9 +1,9 @@
 import React from "react"
 
-import leanaImage from "../images/leanaurwin.png"
-import mcfatesImage from "../images/mcfatesheatingandcooling.png"
-import motooneImage from "../images/motoonektm.png"
-import tufImage from "../images/tufflooring.png"
+import leanaImage from "../../images/leanaurwin.png"
+import mcfatesImage from "../../images/mcfatesheatingandcooling.png"
+import motooneImage from "../../images/motoonektm.png"
+import tufImage from "../../images/tufflooring.png"
 
 import Card from "@material/react-card"
 
