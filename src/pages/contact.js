@@ -2,7 +2,7 @@ import React from "react"
 import BlogLayout from "../components/BlogLayout/BlogLayout"
 import SEO from "../components/SEO/SEO"
 
-import ContactForm from "../components/ContactForm"
+import ContactForm from "../components/ContactForm/ContactForm"
 
 // Styles
 import "../styles/app.scss"
