@@ -8,7 +8,7 @@ const typography = new Typography({
   baseFontSize: "18px",
   baseLineHeight: 1.666,
   headerFontFamily: [
-    "Playfair Display",
+    "Lora",
     "-apple-system",
     "BlinkMacSystemFont",
     "Segoe UI",
