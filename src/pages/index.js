@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import SEO from "../components/SEO/SEO"
-import Layout from "../components/Layout"
+import Layout from "../components/Layout/Layout"
 
 import Button from "@material/react-button"
 import Card from "@material/react-card"
