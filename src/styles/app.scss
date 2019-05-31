@@ -130,7 +130,8 @@ button {
 }
 
 .anoun-home--section1 > h3 {
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 .anoun-home--section1 > img {
   max-width: 336px;
@@ -153,8 +154,8 @@ button {
   justify-content: center;
 }
 
-.anoun-home--section2 h2 {
-  margin: 2rem;
+.anoun-home--section2 h3 {
+  margin: 1.75rem;
 }
 
 .anoun-home--section3 {
@@ -166,7 +167,7 @@ button {
   margin-bottom: 2rem;
 }
 
-.anoun-home--section3 h2:first-of-type {
+.anoun-home--section3  > h2:first-of-type {
   margin: 2rem;
 }
 
@@ -228,7 +229,7 @@ button {
 }
 
 .anoun-blog-card-content__container h2 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 /* TINY PHONE STYLES */
