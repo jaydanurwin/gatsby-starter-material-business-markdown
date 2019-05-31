@@ -1,9 +1,9 @@
 import { Link } from "gatsby"
 import React, { Component } from "react"
-import instagramIcon from "../images/icons/instagram-round-white-24px.svg"
-import youtubeIcon from "../images/icons/youtube-icon-24px.svg"
+import instagramIcon from "../../images/icons/instagram-round-white-24px.svg"
+import youtubeIcon from "../../images/icons/youtube-icon-24px.svg"
 
-import footerLogo from "../images/ANOUN-footer-logo.png"
+import footerLogo from "../../images/ANOUN-footer-logo.png"
 
 import styles from "./footer.module.scss"
 
