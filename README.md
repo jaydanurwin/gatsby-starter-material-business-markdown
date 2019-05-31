@@ -1,7 +1,7 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ad7e589d-7716-4190-981f-3258aaa42d8c/deploy-status)](https://app.netlify.com/sites/gatsby-starter-anoun-1-markdown/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ad7e589d-7716-4190-981f-3258aaa42d8c/deploy-status)](https://app.netlify.com/sites/gatsby-starter-material-business-markdown/deploys)
 
 <p align="center">
-  <a href="https://gatsby-starter-anoun-1-markdown.netlify.com/" target="_blank">
+  <a href="https://gatsby-starter-material-business-markdown.netlify.com" target="_blank">
     <img alt="ANOUN" src="./content/assets/gatsby-starter-anoun-1-markdown.netlify.com_.png" />
   </a>
 </p>
@@ -38,11 +38,11 @@
 
 ## Performance Test
 
-[View Lighthouse Test Results](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://gatsby-starter-anoun-1-markdown.netlify.com/)
+[View Lighthouse Test Results](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://gatsby-starter-material-business-markdown.netlify.com)
 
 ## Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-anoun-1-forestry/)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-material-business-markdown)
 
 ## Customization
 
