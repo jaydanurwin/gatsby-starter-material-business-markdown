@@ -48,7 +48,7 @@
 
 ### Website Data
 
-Edit `content/website.js`
+Edit `config/website.js`
 
 ```
 module.exports = {
@@ -86,6 +86,55 @@ Edit `src/styles/theme.scss`
     --mdc-theme-background: #ffffff;
     --mdc-theme-on-background: #000000;
 }
+```
+
+### Typography
+
+Edit `config/typography.js`
+
+```
+import Typography from "typography"
+
+const typography = new Typography({
+  title: "Gatsby Starter Material Business",
+  baseFontSize: "18px",
+  baseLineHeight: 1.666,
+  headerFontFamily: [
+    "Lora",
+    "-apple-system",
+    "BlinkMacSystemFont",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica",
+    "Arial",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+  ],
+  bodyFontFamily: [
+    "Lato",
+    "-apple-system",
+    "BlinkMacSystemFont",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica",
+    "Arial",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+  ],
+  scaleRatio: 3.157,
+  headerWeight: 400,
+  overrideStyles: () => ({
+    img: {
+      marginBottom: 0,
+    },
+  }),
+})
+
+export default typography
 ```
 
 ## Credits
