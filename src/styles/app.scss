@@ -49,6 +49,12 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.underlined__link {
+  text-decoration: underline;
+  color: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 ::-moz-selection {
   /* Code for Firefox */
   color: var(--mdc-theme-on-primary);
@@ -60,10 +66,25 @@ a {
   background: var(--mdc-theme-primary);
 }
 
-.underlined__link {
-  text-decoration: underline;
-  color: inherit;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+pre {
+    background-color: var(--mdc-theme-primary);
+    color: var(--mdc-theme-on-primary);
+    border-radius: 4px;
+    font-size: 85%;
+    line-height: 1.45;
+    overflow: auto;
+    padding: 16px;
+}
+
+// pre::-moz-selection {
+//   /* Code for Firefox */
+//   color: var(--mdc-theme-primary);
+//   background: var(--mdc-theme-on-primary);
+// }
+
+pre::selection, code::selection, code span::selection {
+  color: var(--mdc-theme-background);
+  background: var(--mdc-theme-background);
 }
 
 /* MDC STYLES */
