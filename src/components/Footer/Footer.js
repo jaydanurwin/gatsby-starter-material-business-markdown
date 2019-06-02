@@ -63,7 +63,7 @@ class Footer extends Component {
             />
           </a>
           <a
-            href="https://www.youtube.com/channel/UCr6HXKDblu-_gxDxCZMbRoQ?view_as=subscriber"
+            href="https://github.com/anoun"
             target="_blank"
             rel="noopener noreferrer"
           >
