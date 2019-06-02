@@ -22,9 +22,7 @@ This post is definitely for the more tech savvy individual but I wanted to write
 
 ```bash
 ssh-keygen -t rsa
-```
 
-```bash
 cat ~/.ssh/id_rsa.pub
 ```
 
