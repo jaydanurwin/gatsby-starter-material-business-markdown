@@ -7,7 +7,7 @@ featured_image: "./anoun-share-image.png"
 This post is definitely for the more tech savvy individual but I wanted to write it in a way that a beginner wouldn't miss steps and someone with more experience could get what they need quickly.
 
 
-## How to Enable Linux for Chrome OS A.K.A. Crostini
+## Enable Linux for Chrome OS A.K.A. Crostini
 
 1. At the bottom right, select the time. 
 2. Select Settings.
@@ -18,7 +18,7 @@ This post is definitely for the more tech savvy individual but I wanted to write
 
 [Learn more](https://support.google.com/chromebook/answer/9145439?hl=en) about Linux for Chrome OS
 
-## How to Setup SSH for Crostini
+## Setup SSH for Crostini
 
 ```bash
 ssh-keygen -t rsa
@@ -28,7 +28,7 @@ cat ~/.ssh/id_rsa.pub
 
 Copy the output and you now have an SSH Key you can add to Github or Gitlab!
 
-## How to Install Visual Studio Code
+## Install Visual Studio Code
 
 Here are some of our favorite VSCode Extensions!
 
@@ -40,7 +40,7 @@ Here are some of our favorite VSCode Extensions!
 * Dart
 
 
-## How to Install Git
+## Install Git
 
 First, use the apt package management tools to update your local package index. With the update complete, you can download and install Git:
 
@@ -60,11 +60,11 @@ Output should be
 git version 2.x
 ```
 
-## How to Install Node.js and NPM
+## Install Node.js and NPM
 
 Run
 ```bash
-Sudo apt update
+sudo apt update
 ```
  
 ### For nodejs version 10 (recommended):
@@ -82,6 +82,3 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
 ```
- 
-> Ever wondered the difference between apt and apt-get?
-> Check [this](https://itsfoss.com/apt-vs-apt-get-difference/) article out!
