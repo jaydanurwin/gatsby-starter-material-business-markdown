@@ -4,6 +4,11 @@ date: 2019-04-04T06:00:00.000+00:00
 featured_image: ./tyler-lastovich-453203-unsplash.jpg
 
 ---
+
+> _### TLDR;
+
+> We are in the business of making products and experiences designed so perfectly and so intentionally that you never have to ask for a > user manual. Our blog is going to be a place for high quality, useful, distraction free content._
+
 Hey! Welcome to our blog!
 
 With this being our first post we really would like to do a couple things:
@@ -35,14 +40,10 @@ We hope to be posting all sorts of content on here from tips and pointers on how
 2. We **won't** require contact info for free content and tools
 3. We will not be putting Google ads on our website (no matter how tempting it might be to make an extra dime off your clicks)
 
-Also, at the bottom of every post will be a TLDR; or (too long didn't read). This will be a summary if you want to just cut to the chase and get the link or general idea of the article.
+Also, at the top of every post will be a TLDR; or (too long didn't read). This will be a summary if you want to just cut to the chase and get the link or general idea of the article.
 
 ## Questions?
 
 If you're in the market for a new web designer, new logo design, or just have some questions about who we are and think we might be able to help don't hesitate to reach out! Just hit the chat button in the bottom right or you can call, email, text, you know the drill!
-
-## TLDR;
-
-We are in the business of making products and experiences designed so perfectly and so intentionally that you never have to ask for a user manual. Our blog is going to be a place for high quality, useful, distraction free content.
 
 Thank you for your time and we hope you have a blessed day!
