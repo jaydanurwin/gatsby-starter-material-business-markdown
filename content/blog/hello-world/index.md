@@ -5,9 +5,9 @@ featured_image: ./tyler-lastovich-453203-unsplash.jpg
 
 ---
 
-> _### TLDR;
+> ### TLDR;
 
-> We are in the business of making products and experiences designed so perfectly and so intentionally that you never have to ask for a > user manual. Our blog is going to be a place for high quality, useful, distraction free content._
+> We are in the business of making products and experiences designed so perfectly and so intentionally that you never have to ask for a > user manual. Our blog is going to be a place for high quality, useful, distraction free content.
 
 Hey! Welcome to our blog!
 
