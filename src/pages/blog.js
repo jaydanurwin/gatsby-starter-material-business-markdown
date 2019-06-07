@@ -68,6 +68,7 @@ export const pageQuery = graphql`
              }
            }
            allMarkdownRemark(
+             filter: { fileAbsolutePath: { regex: "\/posts/" } }
              sort: { fields: [frontmatter___date], order: DESC }
            ) {
              edges {

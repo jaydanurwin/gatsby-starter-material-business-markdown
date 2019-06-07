@@ -76,7 +76,7 @@ class ContactForm extends React.Component {
             required
           />
         </TextField>
-        <Button type="submit" raised onClick={() => console.log("clicked!")}>
+        <Button type="submit" raised trailingIcon={<MaterialIcon icon="send" />} onClick={() => console.log("clicked!")}>
           send
         </Button>
       </form>

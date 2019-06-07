@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React, { Component } from "react"
 import instagramIcon from "../../images/icons/instagram-round-white-24px.svg"
 import youtubeIcon from "../../images/icons/youtube-icon-24px.svg"
+import githubIcon from "../../images/icons/github-icon-24px.svg"
 
 import footerLogo from "../../images/ANOUN-footer-logo.png"
 
@@ -46,9 +47,8 @@ class Footer extends Component {
               src={instagramIcon}
               className={styles.footerIcon}
               width="18px"
-              alt="instagram-logo-vector-svg"
-            />{" "}
-            Instagram
+              alt="instagram-social-link"
+            />
           </a>
           <a
             href="https://www.youtube.com/channel/UCr6HXKDblu-_gxDxCZMbRoQ?view_as=subscriber"
@@ -58,10 +58,21 @@ class Footer extends Component {
             <img
               src={youtubeIcon}
               className={styles.footerIcon}
-              width="18px"
-              alt="instagram-logo-vector-svg"
-            />{" "}
-            YouTube
+              width="24px"
+              alt="youtube-social-link"
+            />
+          </a>
+          <a
+            href="https://github.com/anoun"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={githubIcon}
+              className={styles.footerIcon}
+              width="24px"
+              alt="github-social-link"
+            />
           </a>
         </nav>
       </footer>
