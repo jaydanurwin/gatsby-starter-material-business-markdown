@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/posts`,
+        name: `posts`,
       },
     },
     {
@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/markdown-pages`,
-        name: `markdown-pages`,
+        path: `${__dirname}/content/pages`,
+        name: `pages`,
       },
     },
     {
