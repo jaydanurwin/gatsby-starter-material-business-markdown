@@ -29,7 +29,7 @@ class ContactForm extends React.Component {
   render() {
     return (
       <form
-        action="https://submit-form.com/70c780b8-ef9a-4c36-ac70-bb4544542c1f"
+        action="https://submit-form.com/Ef-rBn5SOH9VcX_ynAt4F"
         target="_self"
         className="anoun-contact__form"
       >
@@ -52,7 +52,10 @@ class ContactForm extends React.Component {
             required
           />
         </TextField>
-        <TextField label="Email" leadingIcon={<MaterialIcon icon="email" />}>
+        <TextField
+          label="Email"
+          leadingIcon={<MaterialIcon icon="email" />}
+        >
           <Input
             value={this.state.email}
             name="email"
@@ -60,7 +63,10 @@ class ContactForm extends React.Component {
             required
           />
         </TextField>
-        <TextField label="Phone" leadingIcon={<MaterialIcon icon="phone" />}>
+        <TextField
+          label="Phone"
+          leadingIcon={<MaterialIcon icon="phone" />}
+        >
           <Input
             value={this.state.phone}
             name="phone"
@@ -76,7 +82,12 @@ class ContactForm extends React.Component {
             required
           />
         </TextField>
-        <Button type="submit" raised trailingIcon={<MaterialIcon icon="send" />} onClick={() => console.log("clicked!")}>
+        <Button
+          type="submit"
+          raised
+          trailingIcon={<MaterialIcon icon="send" />}
+          onClick={() => console.log("clicked!")}
+        >
           send
         </Button>
       </form>
