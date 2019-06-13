@@ -27,7 +27,10 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <Img fluid={post.frontmatter.featured_image.childImageSharp.fluid} />
-        <div className={styles.blogPostContent} dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          className={styles.blogPostContent}
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
         <ul
           style={{
             display: `flex`,

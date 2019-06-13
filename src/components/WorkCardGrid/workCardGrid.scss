@@ -37,8 +37,6 @@
   }
 }
 
-
-
 /* TINY PHONE STYLES */
 
 @media screen and (max-width: 320px) {
@@ -55,8 +53,7 @@
 
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
-
-    .anoun-work__container {
+  .anoun-work__container {
     grid-template-columns: 1fr 1fr;
   }
 }

@@ -23,9 +23,9 @@ class About extends React.Component {
 export default About
 
 export const pageQuery = graphql`
-         query {
-           markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
-             html
-           }
-         }
-       `
+  query {
+    markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
+      html
+    }
+  }
+`

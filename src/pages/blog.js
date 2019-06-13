@@ -28,35 +28,35 @@ class BlogPage extends React.Component {
 export default BlogPage
 
 export const pageQuery = graphql`
-         query {
-           site {
-             siteMetadata {
-               title
-             }
-           }
-           allMarkdownRemark(
-             filter: { fileAbsolutePath: { regex: "\/posts/" } }
-             sort: { fields: [frontmatter___date], order: DESC }
-           ) {
-             edges {
-               node {
-                 excerpt
-                 fields {
-                   slug
-                 }
-                 frontmatter {
-                   date(formatString: "MMMM DD, YYYY")
-                   title
-                   featured_image {
-                     childImageSharp {
-                       fluid(maxWidth: 1200, quality: 92) {
-                         ...GatsbyImageSharpFluid_withWebp
-                       }
-                     }
-                   }
-                 }
-               }
-             }
-           }
-         }
-       `
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/posts/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            featured_image {
+              childImageSharp {
+                fluid(maxWidth: 1200, quality: 92) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`

@@ -47,7 +47,7 @@ class About extends React.Component {
             </div>
           </div>
           <h3>or just shoot us an email here!</h3>
-          <ContactForm/> 
+          <ContactForm />
         </section>
       </BlogLayout>
     )

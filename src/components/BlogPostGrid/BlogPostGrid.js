@@ -25,8 +25,8 @@ function BlogPostGrid() {
                         <Img
                           className="mdc-card__media"
                           fluid={
-                            node.frontmatter.featured_image
-                              .childImageSharp.fluid
+                            node.frontmatter.featured_image.childImageSharp
+                              .fluid
                           }
                         />
                         <div className="anoun-blog-card-content__container">
@@ -35,8 +35,7 @@ function BlogPostGrid() {
                           <p
                             dangerouslySetInnerHTML={{
                               __html:
-                                node.frontmatter.description ||
-                                node.excerpt,
+                                node.frontmatter.description || node.excerpt,
                             }}
                           />
                         </div>

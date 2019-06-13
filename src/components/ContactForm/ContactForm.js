@@ -3,7 +3,6 @@ import TextField, { Input } from "@material/react-text-field"
 import MaterialIcon from "@material/react-material-icon"
 import Button from "@material/react-button"
 
-
 class ContactForm extends React.Component {
   constructor(props) {
     super(props)
@@ -52,10 +51,7 @@ class ContactForm extends React.Component {
             required
           />
         </TextField>
-        <TextField
-          label="Email"
-          leadingIcon={<MaterialIcon icon="email" />}
-        >
+        <TextField label="Email" leadingIcon={<MaterialIcon icon="email" />}>
           <Input
             value={this.state.email}
             name="email"
@@ -63,10 +59,7 @@ class ContactForm extends React.Component {
             required
           />
         </TextField>
-        <TextField
-          label="Phone"
-          leadingIcon={<MaterialIcon icon="phone" />}
-        >
+        <TextField label="Phone" leadingIcon={<MaterialIcon icon="phone" />}>
           <Input
             value={this.state.phone}
             name="phone"
@@ -96,4 +89,3 @@ class ContactForm extends React.Component {
 }
 
 export default ContactForm
-

@@ -13,7 +13,7 @@
 @import "./theme.scss";
 @import "./typography.scss";
 
-@import '@material/react-material-icon/index.scss';
+@import "@material/react-material-icon/index.scss";
 @import "@material/react-card/index.scss";
 @import "@material/react-button/index.scss";
 @import "@material/react-text-field/index.scss";
@@ -67,13 +67,13 @@ a {
 }
 
 pre {
-    background-color: var(--mdc-theme-primary);
-    color: var(--mdc-theme-on-primary);
-    border-radius: 4px;
-    font-size: 85%;
-    line-height: 1.45;
-    overflow: auto;
-    padding: 16px;
+  background-color: var(--mdc-theme-primary);
+  color: var(--mdc-theme-on-primary);
+  border-radius: 4px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
 }
 
 // pre::-moz-selection {
@@ -82,7 +82,9 @@ pre {
 //   background: var(--mdc-theme-on-primary);
 // }
 
-pre::selection, code::selection, code span::selection {
+pre::selection,
+code::selection,
+code span::selection {
   color: var(--mdc-theme-background);
   background: var(--mdc-theme-background);
 }
@@ -116,8 +118,8 @@ pre::selection, code::selection, code span::selection {
 }
 
 .mdc-floating-label {
-  @include mdc-text-field-caret-color(rgba(0,0,0,.64));  
-  @include mdc-text-field-label-color(rgba(0,0,0,.64));
+  @include mdc-text-field-caret-color(rgba(0, 0, 0, 0.64));
+  @include mdc-text-field-label-color(rgba(0, 0, 0, 0.64));
 }
 
 /* PAGE STYLES */
@@ -199,13 +201,13 @@ pre::selection, code::selection, code span::selection {
 }
 
 .anoun-contact__form > .mdc-text-field {
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   width: 100%;
 }
 
 //ineligant solution for floating label color
 .mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
-color: var(--mdc-theme-primary);
+  color: var(--mdc-theme-primary);
 }
 
 // Blog
@@ -217,7 +219,7 @@ color: var(--mdc-theme-primary);
 }
 
 .anoun-blog-card {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 .anoun-blog-card-content__container {
@@ -240,16 +242,16 @@ color: var(--mdc-theme-primary);
   }
 
   .anoun-home--section1 {
-  min-height: 90vh;
-}
+    min-height: 90vh;
+  }
 }
 
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
-.blog-posts__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 2em;
-  grid-auto-rows: 500px;
-}
+  .blog-posts__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2em;
+    grid-auto-rows: 500px;
+  }
 }

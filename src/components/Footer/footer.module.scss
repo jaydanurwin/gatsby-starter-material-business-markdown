@@ -43,21 +43,20 @@
 }
 
 @media screen and (min-width: 650px) {
-.siteFooter {
-  flex-direction: row;
-}
+  .siteFooter {
+    flex-direction: row;
+  }
 
   .footerNav ul li {
     display: inline;
     margin: 0 12px;
   }
 
-.footerLogo {
-  margin: 0 12px;
-}
+  .footerLogo {
+    margin: 0 12px;
+  }
 
-.footerNav2 {
-  text-align: right;
-}
-
+  .footerNav2 {
+    text-align: right;
+  }
 }

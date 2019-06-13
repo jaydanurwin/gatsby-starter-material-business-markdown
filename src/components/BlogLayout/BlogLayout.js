@@ -10,7 +10,7 @@ class BlogLayout extends React.Component {
     const { children } = this.props
     return (
       <div className={styles.siteContainer}>
-        <MetaLinks/>
+        <MetaLinks />
         <Header />
         <div className={styles.siteMain}>{children}</div>
         <Footer />

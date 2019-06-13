@@ -14,7 +14,6 @@ import "../styles/app.scss"
 
 class IndexPage extends React.Component {
   render() {
-    
     return (
       <Layout>
         <SEO />

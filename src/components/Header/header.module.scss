@@ -12,7 +12,7 @@
 
 .siteHeader > nav ul li {
   display: inline;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   font-family: "Playfair Display";
   &:hover {
     border-bottom: 2px solid var(--mdc-theme-on-background);
@@ -26,4 +26,3 @@
 .activeLink {
   border-bottom: 2px solid var(--mdc-theme-on-background);
 }
-
