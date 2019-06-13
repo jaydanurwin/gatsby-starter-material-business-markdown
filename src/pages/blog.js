@@ -1,18 +1,15 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
 import BlogLayout from "../components/BlogLayout/BlogLayout"
 import SEO from "../components/SEO/SEO"
 
-import Card from "@material/react-card"
+import BlogPostGrid from "../components/BlogPostGrid/BlogPostGrid"
 
 class BlogPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
-
     return (
       <BlogLayout location={this.props.location} title={siteTitle}>
         <SEO
@@ -22,37 +19,7 @@ class BlogPage extends React.Component {
         <h1>
           Posts by <span className="anoun-title">ANOUN</span>
         </h1>
-        <section className="page-main__section">
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <Link to={node.fields.slug}>
-              <Card
-                className="mdc-card--clickable anoun-blog-card"
-                key={node.fields.slug}
-              >
-                <Img
-                  className="mdc-card__media"
-                  fluid={
-                    node.frontmatter.featured_image.childImageSharp
-                      .fluid
-                  }
-                />
-                <div className="anoun-blog-card-content__container">
-                  <h2>{title}</h2>
-                  <small>{node.frontmatter.date}</small>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html:
-                        node.frontmatter.description || node.excerpt,
-                    }}
-                  />
-                </div>
-              </Card>
-            </Link>
-          )
-        })}
-        </section>
+        <BlogPostGrid />
       </BlogLayout>
     )
   }

@@ -208,6 +208,12 @@ color: var(--mdc-theme-primary);
 
 // Blog
 
+.blog-posts__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 2em;
+}
+
 .anoun-blog-card {
   margin-bottom: .75rem;
 }
@@ -238,5 +244,7 @@ color: var(--mdc-theme-primary);
 
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
-  
+  .blog-posts__container {
+  grid-template-columns: 1fr 1fr;
+}
 }
