@@ -2,7 +2,7 @@ import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import Card, { CardPrimaryContent } from "@material/react-card"
+import Card from "@material/react-card"
 
 function BlogPostGrid() {
   return (
@@ -21,7 +21,6 @@ function BlogPostGrid() {
                       className="mdc-card--clickable anoun-blog-card"
                       key={node.fields.slug}
                     >
-                      <CardPrimaryContent>
                         <Img
                           className="mdc-card__media"
                           fluid={
@@ -39,7 +38,6 @@ function BlogPostGrid() {
                             }}
                           />
                         </div>
-                      </CardPrimaryContent>
                     </Card>
                   </Link>
                 )
