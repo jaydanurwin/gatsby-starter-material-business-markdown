@@ -92,6 +92,8 @@ pre::selection, code::selection, code span::selection {
 .mdc-card {
   @include mdc-card-shape-radius(8px);
   @include mdc-elevation(1);
+  width: 100%;
+  height: 100%;
 }
 
 /* WIDE LAYOUT STYLES */
@@ -222,7 +224,7 @@ color: var(--mdc-theme-primary);
   padding: 1rem;
 }
 
-.anoun-blog-card-content__container h2 {
+.anoun-blog-card-content__container h3 {
   margin-bottom: 0;
 }
 
@@ -244,7 +246,10 @@ color: var(--mdc-theme-primary);
 
 /* WIDE LAYOUT STYLES */
 @media screen and (min-width: 1024px) {
-  .blog-posts__container {
-  grid-template-columns: 1fr 1fr;
+.blog-posts__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2em;
+  grid-auto-rows: 500px;
 }
 }
