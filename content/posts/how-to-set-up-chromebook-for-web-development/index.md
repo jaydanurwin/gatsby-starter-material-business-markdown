@@ -37,7 +37,15 @@ Copy the output and you now have an SSH Key you can add to Github or Gitlab!
 
 ## Install Visual Studio Code
 
-Here are some of our favorite VSCode Extensions!
+1. Go to the website for [Visual Studio Code](https://code.visualstudio.com/)
+2. Download the .deb package
+3. Open your downloads folder
+4. Right Click on the .deb package
+5. Install with Linux(Beta)
+
+It should install and you'll see a Visual Studio Icon in your apps drawer! 🙌🏼
+
+Here are some of my favorite VSCode Extensions!
 
 * [Material Theme](https://store.google.com/us/product/pixel_slate?hl=en-US)
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
