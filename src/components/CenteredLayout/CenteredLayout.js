@@ -3,7 +3,7 @@ import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 import MetaLinks from "../MetaLinks/MetaLinks"
 
-import styles from "./CenteredLayout.module.scss"
+import styles from "./centeredLayout.module.scss"
 
 class CenteredLayout extends React.Component {
   render() {
