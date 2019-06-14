@@ -1,7 +1,7 @@
 ---
 title: How to Set Up a Chromebook for Web Development
 date: 2019-05-18T06:00:00.000+00:00
-featured_image: "./chrome-os-web-dev-logos.jpg"
+featured_image: ./chrome-os-web-dev-logos.jpg
 ---
 
 I don't know if you've heard this yet but Chromebooks are awesome now! You might already know they have Android support but just within the last year Google has added full Linux support to a  majority of Chromebooks out there. [According to ZDNet](https://www.zdnet.com/article/all-chromebooks-will-also-be-linux-laptops-going-forward/), they've also announced that all chromebooks released from May 2019 forward will support it. I've used Macbooks as my personal computers for as long as I can remember but since I jumped over to #teampixel back in 2016 I've always wanted to get a Chromebook. So once I heard Linux support was officially coming I decided it was time to jump the Apple ship and give Chrome OS a chance.
