@@ -19,8 +19,6 @@ class About extends React.Component {
               <h3>Call/Text</h3>
               <a
                 href="tel:+12088079333"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 (208) 807-9333
               </a>
@@ -29,8 +27,6 @@ class About extends React.Component {
               <h3>Email</h3>
               <a
                 href="mailto:hello@anoun.company"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 hello@anoun.company
               </a>
@@ -39,8 +35,6 @@ class About extends React.Component {
               <h3>Instagram</h3>
               <a
                 href="https://www.instagram.com/anoun.company"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 @anoun.company
               </a>
