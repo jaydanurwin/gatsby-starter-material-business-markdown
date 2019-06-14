@@ -1,7 +1,7 @@
 ---
 title: How to Set Up a Chromebook for Web Development
 date: 2019-05-18T06:00:00.000+00:00
-featured_image: "./chrome-web-dev-logos.jpg"
+featured_image: "./chrome-os-web-dev-logos.jpg"
 ---
 
 This post is definitely for the more tech savvy individual but I wanted to write it in a way that a beginner wouldn't miss steps and someone with more experience could get what they need quickly.
