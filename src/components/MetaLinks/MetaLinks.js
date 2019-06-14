@@ -8,8 +8,6 @@ const MetaLinks = () => {
         <html lang="en" />
         {/* added refresh meta suggested by Lighthouse */}
         <meta http-equiv="refresh" />
-        {/* Performance tip: hint to the browser to start the handshake for the fonts site */}
-        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
