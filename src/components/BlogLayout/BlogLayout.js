@@ -3,9 +3,9 @@ import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 import MetaLinks from "../MetaLinks/MetaLinks"
 
-import styles from "./blogLayout.module.scss"
+import styles from "./CenteredLayout.module.scss"
 
-class BlogLayout extends React.Component {
+class CenteredLayout extends React.Component {
   render() {
     const { children } = this.props
     return (
@@ -19,4 +19,4 @@ class BlogLayout extends React.Component {
   }
 }
 
-export default BlogLayout
+export default CenteredLayout

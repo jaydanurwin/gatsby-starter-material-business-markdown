@@ -1,5 +1,5 @@
 import React from "react"
-import BlogLayout from "../components/BlogLayout/BlogLayout"
+import CenteredLayout from "../components/CenteredLayout/CenteredLayout"
 import SEO from "../components/SEO/SEO"
 
 import ContactForm from "../components/ContactForm/ContactForm"
@@ -10,7 +10,7 @@ import "../styles/app.scss"
 class About extends React.Component {
   render() {
     return (
-      <BlogLayout>
+      <CenteredLayout>
         <SEO title="Contact Us" />
         <h1>Contact Us</h1>
         <section className="page-main__section contact-page-main__section">
@@ -43,7 +43,7 @@ class About extends React.Component {
           <h3>or just shoot us an email here!</h3>
           <ContactForm />
         </section>
-      </BlogLayout>
+      </CenteredLayout>
     )
   }
 }

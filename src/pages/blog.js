@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import BlogLayout from "../components/BlogLayout/BlogLayout"
+import CenteredLayout from "../components/CenteredLayout/CenteredLayout"
 import SEO from "../components/SEO/SEO"
 
 import BlogPostGrid from "../components/BlogPostGrid/BlogPostGrid"
@@ -11,7 +11,7 @@ class BlogPage extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     return (
-      <BlogLayout location={this.props.location} title={siteTitle}>
+      <CenteredLayout location={this.props.location} title={siteTitle}>
         <SEO
           title="Blog"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
@@ -20,7 +20,7 @@ class BlogPage extends React.Component {
           Posts by <span className="anoun-title">ANOUN</span>
         </h1>
         <BlogPostGrid />
-      </BlogLayout>
+      </CenteredLayout>
     )
   }
 }

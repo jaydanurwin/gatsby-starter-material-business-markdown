@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import BlogLayout from "../components/BlogLayout/BlogLayout"
+import CenteredLayout from "../components/CenteredLayout/CenteredLayout"
 import SEO from "../components/SEO/SEO"
 
 // Styles
@@ -13,7 +13,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const { previous, next } = this.props.pageContext
     return (
-      <BlogLayout location={this.props.location}>
+      <CenteredLayout location={this.props.location}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
@@ -63,7 +63,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-      </BlogLayout>
+      </CenteredLayout>
     )
   }
 }
