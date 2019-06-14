@@ -43,7 +43,7 @@ Copy the output and you now have an SSH Key you can add to Github or Gitlab!
 4. Right Click on the .deb package
 5. Install with Linux(Beta)
 
-It should install and you'll see a Visual Studio Icon in your apps drawer! 🙌🏼
+It should install and you'll see a Visual Studio Code icon in your app drawer! 🙌🏼
 
 Here are some of my favorite VSCode Extensions!
 
