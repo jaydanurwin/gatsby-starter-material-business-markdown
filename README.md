@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://gatsby-starter-material-business-markdown.netlify.com" target="_blank">
-    <img alt="ANOUN" src="./content/assets/readme-screencap.png" />
+    <img alt="ANOUN" src="./content/assets/Screenshot 2019-06-14 at 2.09.00 PM.png" />
   </a>
 </p>
 
