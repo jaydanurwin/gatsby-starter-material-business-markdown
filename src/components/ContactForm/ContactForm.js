@@ -25,13 +25,19 @@ class ContactForm extends React.Component {
       [name]: value,
     })
   }
+
+  onClickSendButton = () => {
+    this.setState({
+      text: "Sent!",
+    })
+  }
   render() {
     return (
       <form
         action="https://submit-form.com/Ef-rBn5SOH9VcX_ynAt4F"
-        target="_self"
         className="anoun-contact__form"
       >
+        <input type="hidden" name="_redirect" value="false" />
         {/* <!-- Prevent spam without a captcha --> */}
         <input
           type="checkbox"
@@ -79,7 +85,7 @@ class ContactForm extends React.Component {
           type="submit"
           raised
           trailingIcon={<MaterialIcon icon="send" />}
-          onClick={() => console.log("clicked!")}
+          onClick={this.onClickSendButton}
         >
           send
         </Button>
