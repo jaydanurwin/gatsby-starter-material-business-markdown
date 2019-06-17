@@ -37,7 +37,6 @@ class ContactForm extends React.Component {
         action="https://submit-form.com/Ef-rBn5SOH9VcX_ynAt4F"
         className="anoun-contact__form"
       >
-        <input type="hidden" name="_redirect" value="false" />
         {/* <!-- Prevent spam without a captcha --> */}
         <input
           type="checkbox"
