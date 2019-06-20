@@ -22,7 +22,7 @@ class IndexPage extends React.Component {
             Hi, we're <span className="anoun-title">ANOUN</span>
           </h1>
           <img src={heroImage} alt="anoun-hero" />
-          <Link to="/contact">
+          <Link to="/contact/">
             <Button raised className="mdc-button--round">
               Contact Us
             </Button>
