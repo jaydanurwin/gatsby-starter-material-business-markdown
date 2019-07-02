@@ -57,7 +57,7 @@ class IndexPage extends React.Component {
                       }
                     />
                     <div className="anoun-blog-card-content__container">
-                      <h2>{title}</h2>
+                      <h3>{title}</h3>
                       <small>{node.frontmatter.date}</small>
                       <p
                         dangerouslySetInnerHTML={{
