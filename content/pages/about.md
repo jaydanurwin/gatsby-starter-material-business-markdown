@@ -1,50 +1,32 @@
-# About Us
+# About
 
-### Why <span class="anoun-title">ANOUN</span>?
+Welcome to the Material Business Starter by <span class="anoun-title">ANOUN</span>! This is the first in our series of Gatsby Starters inspired by Google's [Material Design](https://material.io). The Material Business starter features all the basics for a typical business' website such as a home page, about page, contact page with an email form, and a fully featured blog. This one is sourced from Markdown but we'll have others that use a headless CMS (stay tuned). So don't be shy, feel free to clone the [Github Repo](https://github.com/ANOUN/gatsby-starter-material-business-markdown) and get started!
 
-We believe that design is in everything whether it's a person, place,
-thing, or idea. Some things are absolutely designed better than others and
-the funny thing is if you notice the design of something it's probably not
-designed that well. Have you ever pulled on a door that you're supposed to
-push? We are in the business of making bold products and experiences that
-are designed so perfectly and so intentionally that you never have to ask
-for a user manual.
+# Heading 1
 
-### Who are you?
+# Heading 2
 
-My name is Jaydan Urwin and no I didn't spell it wrong that's really how
-you spell my name. I'm a born and raised Idahoan. I am married to the
-beautiful, one and only Leana Urwin. Over the last 6 years I have learned
-brand design, web design, UI design, and graphic design and I've been
-freelancing out these skills for some time which I've really enjoyed. But
-I've always had this feeling that Boise and the Treasure Valley needs a
-really great design and content creation agency. So here we are!
+### Heading 3
 
-### What do you do?
+#### Heading 4
 
-It's funny to answer this question because there's not really a concrete
-answer since design is in everything. Our hope is eventually to help
-businesses design the perfect solution to any question they are facing.
-The best answer is that right now our services include:
+##### Heading 5
 
-- Web Design
-- Client Side Web Development
-- Android App Design
-- iOS App Design
+```html
+<p>Here is an example code block</p>
+```
 
-### Where are you?
+### Bulleted List
 
-We're wherever you need us to be, that's the joy of living in the year
-2018! Although I currently call Nampa, Idaho home I can meet anywhere in
-Boise or Meridian (as long as the coffee is good). If none of those places
-are near you no problem! Shoot me a text, email, or message me on
-Instagram and we'll set up a time for a video call!
+* Gatsby
+* Netlify
+* Github
+* ANOUN
 
-### Are you hiring?
+### Body Text
 
-Currently we are a one man show but the plan is that it won't stay that
-way forever so if you yourself are interested or you know someone who
-would be drop us a line!
-<br />
-<br />
-"Nothing great was ever accomplished alone."
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus quis varius quam quisque id diam vel quam elementum. Proin fermentum leo vel orci. Risus sed vulputate odio ut enim blandit volutpat. Enim tortor at auctor urna nunc id cursus metus. Dictum at tempor commodo ullamcorper a lacus vestibulum. Ut sem nulla pharetra diam sit amet. Molestie nunc non blandit massa enim. Id diam maecenas ultricies mi eget mauris. Sagittis vitae et leo duis ut diam quam nulla. Venenatis tellus in metus vulputate eu [inline link](https://anoun.company). Diam phasellus vestibulum lorem sed. In dictum non consectetur a erat. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Habitasse platea dictumst quisque sagittis purus sit. Nibh venenatis cras sed felis eget velit aliquet. Massa sed elementum tempus egestas sed sed risus pretium quam. Viverra suspendisse potenti nullam ac tortor vitae purus.
+
+Non curabitur gravida arcu ac tortor dignissim convallis. Lacus sed viverra tellus in. Egestas tellus rutrum tellus pellentesque eu tincidunt. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Sit amet cursus sit amet dictum sit amet justo donec. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. In vitae turpis massa sed elementum tempus. Donec et odio pellentesque diam volutpat commodo. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Ultrices gravida dictum fusce ut placerat orci. Tempus egestas sed sed risus pretium quam vulputate. Nulla aliquet enim tortor at auctor urna. Donec pretium vulputate sapien nec sagittis aliquam. Aliquet sagittis id consectetur purus ut faucibus pulvinar. Eu non diam phasellus vestibulum lorem sed risus. Scelerisque in dictum non consectetur a. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Elementum nibh tellus molestie nunc non blandit massa enim.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ANOUN/gatsby-starter-material-business-markdown)
