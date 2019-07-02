@@ -15,7 +15,7 @@ import "../styles/app.scss"
 
 class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
+  const { data } = this.props
     const posts = data.allMarkdownRemark.edges
     return (
       <Layout>
@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
           <h3>Gatsby Starter by <span className="anoun-title">ANOUN</span></h3>
           <h4>Material Business</h4>
           <img src={heroImage} alt="anoun-hero" />
-          <Link to="/contact">
+          <Link to="/contact/">
             <Button raised className="mdc-button--round">
               Contact Us
             </Button>

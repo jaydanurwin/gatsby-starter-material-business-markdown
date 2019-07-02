@@ -69,15 +69,17 @@
 
 /* fallback */
 @font-face {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
-  src: local('Material Icons Regular'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  src: local("Material Icons Regular"), local("MaterialIcons-Regular"),
+    url(https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+      format("woff2");
   font-display: swap;
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -88,16 +90,15 @@
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: 'liga';
+  -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
 }
-
 
 // html {
 //     @include fluid-type($min_width, $max_width, $min_font, $max_font);
 // }
 
 .anoun-title {
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
 }

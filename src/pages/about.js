@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import BlogLayout from "../components/BlogLayout/BlogLayout"
+import CenteredLayout from "../components/CenteredLayout/CenteredLayout"
 import SEO from "../components/SEO/SEO"
 
 // Styles
@@ -12,10 +12,10 @@ class About extends React.Component {
     const { markdownRemark } = data // data.markdownRemark holds our post data
     const { html } = markdownRemark
     return (
-      <BlogLayout location={this.props.location}>
+      <CenteredLayout location={this.props.location}>
         <SEO title="About" />
         <div dangerouslySetInnerHTML={{ __html: html }} />
-      </BlogLayout>
+      </CenteredLayout>
     )
   }
 }
@@ -23,9 +23,9 @@ class About extends React.Component {
 export default About
 
 export const pageQuery = graphql`
-         query {
-           markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
-             html
-           }
-         }
-       `
+  query {
+    markdownRemark(fileAbsolutePath: { regex: "/about.md/" }) {
+      html
+    }
+  }
+`

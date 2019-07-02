@@ -3,7 +3,6 @@ import TextField, { Input } from "@material/react-text-field"
 import MaterialIcon from "@material/react-material-icon"
 import Button from "@material/react-button"
 
-
 class ContactForm extends React.Component {
   constructor(props) {
     super(props)
@@ -26,11 +25,16 @@ class ContactForm extends React.Component {
       [name]: value,
     })
   }
+
+  onClickSendButton = () => {
+    this.setState({
+      text: "Sent!",
+    })
+  }
   render() {
     return (
       <form
-        action="https://submit-form.com/70c780b8-ef9a-4c36-ac70-bb4544542c1f"
-        target="_self"
+        action="https://submit-form.com/Ef-rBn5SOH9VcX_ynAt4F"
         className="anoun-contact__form"
       >
         {/* <!-- Prevent spam without a captcha --> */}
@@ -76,7 +80,12 @@ class ContactForm extends React.Component {
             required
           />
         </TextField>
-        <Button type="submit" raised trailingIcon={<MaterialIcon icon="send" />} onClick={() => console.log("clicked!")}>
+        <Button
+          type="submit"
+          raised
+          trailingIcon={<MaterialIcon icon="send" />}
+          onClick={this.onClickSendButton}
+        >
           send
         </Button>
       </form>
@@ -85,4 +94,3 @@ class ContactForm extends React.Component {
 }
 
 export default ContactForm
-

@@ -1,7 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import BlogLayout from "../components/BlogLayout/BlogLayout"
+import CenteredLayout from "../components/CenteredLayout/CenteredLayout"
+import awkwardKidGif from "../images/awkward-kid.gif"
 
 import SEO from "../components/SEO/SEO"
 
@@ -11,8 +12,9 @@ import Button from "@material/react-button"
 import "../styles/app.scss"
 
 const NotFoundPage = () => (
-  <BlogLayout>
+  <CenteredLayout>
     <SEO title="404: Not Found" />
+    <img src={awkwardKidGif} width="300px" alt="awkward kid gif" />
     <h1>Uh...this is awkward</h1>
     <p>
       Uh oh! It looks like the place you were looking for is no longer here or
@@ -25,7 +27,7 @@ const NotFoundPage = () => (
       {/* // TODO add back icon */}
       <Button raised>Go Back Home</Button>
     </Link>
-  </BlogLayout>
+  </CenteredLayout>
 )
 
 export default NotFoundPage
