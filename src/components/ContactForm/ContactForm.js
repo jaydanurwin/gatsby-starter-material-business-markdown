@@ -1,7 +1,8 @@
 import React from "react"
-import TextField, { Input } from "@material/react-text-field"
+import TextField, {Input} from "@material/react-text-field"
 import MaterialIcon from "@material/react-material-icon"
 import Button from "@material/react-button"
+import {Snackbar} from '@material/react-snackbar'
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -11,30 +12,49 @@ class ContactForm extends React.Component {
       email: "",
       phone: "",
       message: "",
+      open:true
     }
-
-    this.handleInputChange = this.handleInputChange.bind(this)
   }
 
-  handleInputChange(event) {
+  handleInputChange = event => {
     const target = event.target
     const value = target.value
     const name = target.name
-
     this.setState({
       [name]: value,
     })
   }
 
-  onClickSendButton = () => {
+  handleSubmit = event => {
+    event.preventDefault()
+    fetch('https://submit-form.com/JOkjn0y8YzUohXij-0wMg', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json'
+      },
+      body: JSON.stringify(this.state)
+    })
+      .then(this.handleSuccess)
+      .catch(function(error) {
+        console.error(error)
+      })
+  }
+
+  handleSuccess = () => {
     this.setState({
-      text: "Sent!",
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+      open:true
     })
   }
   render() {
     return (
+      
       <form
-        action="https://submit-form.com/Ef-rBn5SOH9VcX_ynAt4F"
+        onSubmit={this.handleSubmit}
         className="anoun-contact__form"
       >
         {/* <!-- Prevent spam without a captcha --> */}
@@ -88,6 +108,7 @@ class ContactForm extends React.Component {
         >
           send
         </Button>
+        <Snackbar open={this.state.open} message="Sent! We'll get back to you ASAP 😊" actionText="dismiss" />
       </form>
     )
   }

@@ -17,6 +17,8 @@
 @import "@material/react-card/index.scss";
 @import "@material/react-button/index.scss";
 @import "@material/react-text-field/index.scss";
+@import '@material/react-snackbar/index.scss';
+
 
 /* GLOBAL STYLES */
 
@@ -124,6 +126,10 @@ code span::selection {
 .mdc-floating-label {
   @include mdc-text-field-caret-color(rgba(0, 0, 0, 0.64));
   @include mdc-text-field-label-color(rgba(0, 0, 0, 0.64));
+}
+
+.mdc-snackbar__action {
+  @include mdc-button-ink-color(#ffffff);
 }
 
 /* PAGE STYLES */
