@@ -12,7 +12,7 @@ class ContactForm extends React.Component {
       email: "",
       phone: "",
       message: "",
-      open:true
+      open:false
     }
   }
 
