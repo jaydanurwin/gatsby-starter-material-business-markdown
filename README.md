@@ -150,6 +150,31 @@ Welcome to the Material Business Starter by <span class="anoun-title">[ANOUN](ht
 
 ```
 
+### Contact Form
+
+Edit `src/components/ContactForm/ContactForm.js`
+
+```
+...
+
+  handleSubmit = event => {
+    event.preventDefault()
+    fetch('https://submit-form.com/your-form-id-from-formspark', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json'
+      },
+      body: JSON.stringify(this.state)
+    })
+      .then(this.handleSuccess)
+      .catch(function(error) {
+        console.error(error)
+      })
+  }
+...
+```
+
 ## Credits
 
 Designed by [ANOUN](https://anoun.company)
