@@ -17,7 +17,7 @@ class BlogPage extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <h1>
-          Posts by <span className="anoun-title">ANOUN</span>
+          Blog Posts
         </h1>
         <BlogPostGrid />
       </CenteredLayout>
