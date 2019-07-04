@@ -152,6 +152,8 @@ Welcome to the Material Business Starter by <span class="anoun-title">[ANOUN](ht
 
 ### Contact Form
 
+Create a form at [Formspark.io](https://formspark.io)
+
 Edit `src/components/ContactForm/ContactForm.js`
 
 ```
@@ -159,7 +161,7 @@ Edit `src/components/ContactForm/ContactForm.js`
 
   handleSubmit = event => {
     event.preventDefault()
-    fetch('https://submit-form.com/your-form-id-from-formspark', {
+    fetch('https://submit-form.com/YOUR-FORM-ID', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
