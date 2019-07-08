@@ -29,13 +29,6 @@
 * PWA Support
 * Google Analytics Support
 
-## Coming Soon
-
-* JSON LD Content
-* Even easier customization (Typography.js, custom logo support, email, phone, social links across the site, etc.)
-* Instructions for Setup (Blog post and a YouTube Tutorial)
-* Pagination
-
 ## Performance Test
 
 [View Lighthouse Test Results](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://gatsby-starter-material-business-markdown.netlify.com)
