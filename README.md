@@ -154,7 +154,7 @@ Welcome to the Material Business Starter by <span class="anoun-title">[ANOUN](ht
 
 Create a form at [Formspark.io](https://formspark.io)
 
-Edit `src/components/ContactForm/ContactForm.js`
+Replace "YOUR-FORM-ID" with your formspark form's ID in `src/components/ContactForm/ContactForm.js`
 
 ```
 ...
