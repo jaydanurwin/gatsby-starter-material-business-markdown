@@ -172,7 +172,7 @@ Replace "YOUR-FORM-ID" with your formspark form's ID in `src/components/ContactF
 
 ## Credits
 
-Designed by [ANOUN](https://anoun.company)
+Designed by [Jaydan Urwin](https://jaydanurwin.com)
 
 Made in Idaho
 
